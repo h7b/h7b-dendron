@@ -1,0 +1,40 @@
+# Schema for my reading notes
+# It wil match 
+#     root.notes.reading
+#     root.notes.reading.note1
+#     root.notes.reading.note2
+# It will not match
+#     root.notes.reading.note1.highlight
+# Schema for my market research notes (removed 2022-07-31)
+# It wil match 
+#     root.notes.p-fin.r
+#     root.notes.p-fin.r.note1
+#     root.notes.p-fin.r.note2
+# It will not match
+#     root.notes.p-fin.r.note1.highlight
+# Schema for my daily notes (added 2022-07-31)
+# It wil match 
+#     root.notes.daily
+#     root.notes.daily.note1
+#     root.notes.daily.note2
+# It will not match
+#     root.notes.daily.note1.highlight 
+
+version: 1
+imports: []
+schemas:
+  - id: notes
+    title: notes
+    parent: root
+    children:
+      - pattern: reading
+        namespace: true
+        template: templates.notes-reading
+#      - pattern: p-fin
+#        children:
+#        - pattern: r
+#          namespace: true
+#          template: templates.notes-market-research
+      - pattern: daily
+        namespace: true
+        template: templates.notes-daily

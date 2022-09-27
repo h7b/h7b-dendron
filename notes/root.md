@@ -1,20 +1,20 @@
 ---
-id: shhcplwnot1b4w8z7blg1mw
-title: Root
+id: bK2oWh3nbKjoUhY34x9dy
+title: Welcome
 desc: ''
-updated: 1664282401861
-created: 1664282401861
+updated: 1662247424943
+created: 1625408489834
 ---
-# Welcome to Dendron
+# Hey 👋
 
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
+Welcome to my [digital garden](https://maggieappleton.com/garden-history).
 
-## Lookup
+I use this as a frictionless way to
+- communicate my thoughts via blog post
+- quickly reference my notes.
 
-This section contains useful links to related resources.
+If you've got any questions or interesting technical problems, please reach out to
+- email: `h(at)kool(dot)casa` 
+- or start a [discussion in GitHub](https://github.com/h7b/h7b-dendron-netlify/discussions/1).
 
-- [Getting Started Guide](https://link.dendron.so/6b25)
-- [Discord](https://link.dendron.so/6b23)
-- [Home Page](https://wiki.dendron.so/)
-- [Github](https://link.dendron.so/6b24)
-- [Developer Docs](https://docs.dendron.so/)
+Huy (he/him)
