@@ -2,7 +2,7 @@
 id: n5Fr9vDFUxyDSxF6l4oEr
 title: Edit Dendron vault on iOS
 desc: ''
-updated: 1664274573070
+updated: 1664320834785
 created: 1642180076564
 ---
 # My current workflow to edit Dendron vault on iOS
@@ -50,4 +50,4 @@ Now my workflow will be:
 
 ## Thoughts
 
-Update 2022-09-27: since the size of the dendron-based vault becomes quite large (1k files with temporary files from nodejs), Obsidian on iOS needs 5s to startup and loading files, which makes me feel unusable. So I moved the Dendron out of Obsidian vault on iOS.
+Update 2022-09-27: since the size of the dendron-based vault becomes quite large (20k files with temporary files from nodejs), Obsidian on iOS needs 5s to startup and loading files, which makes me feel unusable. So I moved the Dendron out of Obsidian vault on iOS.

@@ -2,7 +2,7 @@
 id: uN2WNYUHoWGRK1evOO9Vo
 title: Dendron CLI
 desc: ''
-updated: 1640063900175
+updated: 1664320798826
 created: 1637765564126
 ---
 # Dendron Command Line Interface (CLI)
@@ -16,6 +16,10 @@ npm install -g @dendronhq/dendron-cli
 Upgrade  
 ```bash
 npm install -g @dendronhq/dendron-cli@latest
+```
+OR
+```bash
+yarn add @dendronhq/dendron-cli@latest
 ```
 Show version number
 ```bash

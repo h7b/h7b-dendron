@@ -2,7 +2,7 @@
 id: 82gGgw5zpqWI2jl8iVWbD
 title: Publish Render
 desc: ''
-updated: 1642549159551
+updated: 1664321369754
 created: 1641257083979
 ---
 # Publish my Dendron vault using Render
@@ -36,6 +36,10 @@ Why Render when [[Netlify workflow|notes.tutorial.dendron.publish-netlify]] is a
     Build Command: 
     ```shell 
     rm -rf .next; rm -rf docs; rm -rf node_modules; npm install @dendronhq/dendron-cli@latest; npx dendron publish init; npx dendron publish export; mv .next/out docs
+    ```
+    OR update 2022-09-28
+    ```bash
+    rm -rf docs; (test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init); yarn dendron publish export; mv .next/out docs
     ```
     Publish directory:
     ```shell
