@@ -108,5 +108,5 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
-    logoPath: vault/assets/logo.png
-    siteFaviconPath: vault/assets/favicon.ico
+    logoPath: notes/assets/logo.png
+    siteFaviconPath: notes/assets/favicon.ico
