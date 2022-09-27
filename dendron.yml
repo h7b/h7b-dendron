@@ -67,7 +67,7 @@ workspace:
     enableRemoteVaultInit: true
     enableUserTags: true
     enableHashTags: true
-    workspaceVaultSyncMode: noCommit
+    workspaceVaultSyncMode: sync
     enableAutoFoldFrontmatter: false
     enableEditorDecorations: true
     maxPreviewsCached: 10
