@@ -26,6 +26,7 @@ workspace:
             fsPath: .
             selfContained: true
             name: h7b-dendron
+            sync: sync
     journal:
         dailyDomain: daily
         name: journal
@@ -93,8 +94,8 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron
-        description: Personal Knowledge Space
+        title: Kool Casa
+        description: h7b blog and notes
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
@@ -106,3 +107,5 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
+    logoPath: vault/assets/logo.png
+    siteFaviconPath: vault/assets/favicon.ico
