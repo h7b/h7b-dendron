@@ -93,6 +93,7 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    siteUrl: https://kool.casa/
     seo:
         title: Kool Casa
         description: h7b blog and notes
