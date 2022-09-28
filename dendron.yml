@@ -74,7 +74,7 @@ workspace:
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
 preview:
-    enableFMTitle: true
+    enableFMTitle: false
     enableNoteTitleForLink: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
@@ -83,7 +83,7 @@ preview:
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
-    enableFMTitle: true
+    enableFMTitle: false
     enableNoteTitleForLink: true
     enableMermaid: true
     enablePrettyRefs: true

@@ -1,8 +1,8 @@
 ---
 id: Lsm95lGehMUBfI0JCRiOA
-title: Discussion 20220211
+title: Experience 20220211
 desc: ''
-updated: 1644591561051
+updated: 1664323553912
 created: 1644591347393
 ---
 # Thread discussing the readability of a url in Dendron
