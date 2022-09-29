@@ -1,16 +1,23 @@
 ---
 id: yrx5ic5g0xjxt8o7cixwh74
-title: Invest Vn
-desc: ''
-updated: 1664147823886
+title: Investment fund in Vietnam
+desc: 'Investment fund for individual in Vietnam'
+updated: 1664417058282
 created: 1663748243722
 tags: topic.investment
 ---
-# Investment fund for personal finance in Vietnam
+# Investment fund for individual in Vietnam
+
+## Methodology
+
+- compare the performance of each financial instrument with respect to their fee
+    - the performance is defined by the return ratio of NAV/fund certificate
+- compare the basis stats like P/E, P/B, ROE
+- establish the correlation between these financial instrument based on the holdings in their portfolio. This correlation matrix is expected to match the benchmark index of each investment fund
 
 ## Data model
 
-I collected info manually then put into [this spreadsheet](https://docs.google.com/spreadsheets/d/1qsWWEUE87dsR_4MmEfBID_6d20Oz1e5JYLP8NiEPngo/edit?usp=sharing), which has an ER diagram as follows.
+I collected the information and the historical price data manually then put into [this spreadsheet](https://docs.google.com/spreadsheets/d/1qsWWEUE87dsR_4MmEfBID_6d20Oz1e5JYLP8NiEPngo/edit?usp=sharing), which has an ER diagram as follows.
 
 ```mermaid
 erDiagram
