@@ -2,7 +2,7 @@
 id: hwxvcubx65z2njtfyugzj50
 title: VFMVN30 ETF (E1VFVN30)
 desc: VFMVN30 ETF (E1VFVN30)
-updated: 1664148631627
+updated: 1664499472166
 created: 1653958168354
 tags: topic.investment
 ---
