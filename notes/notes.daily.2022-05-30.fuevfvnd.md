@@ -1,12 +1,12 @@
 ---
 id: 7wy6692idj9ruya5pqk83vp
-title: VFMVN DIAMOND ETF (FUEVFVND)
-desc: VFMVN DIAMOND ETF (FUEVFVND)
-updated: 1664148639681
+title: DCVFMVN DIAMOND ETF (FUEVFVND)
+desc: DCVFMVN DIAMOND ETF (FUEVFVND)
+updated: 1664584559301
 created: 1653933814490
 tags: topic.investment
 ---
-# [VFMVN DIAMOND ETF (FUEVFVND)](https://dragoncapital.com.vn/en/vfmvn-diamond-etf-fund-fuevfdmd/overview/)
+# [DCVFMVN DIAMOND ETF (FUEVFVND)](https://dragoncapital.com.vn/en/vfmvn-diamond-etf-fund-fuevfdmd/overview/)
 
 ## Overview
 
@@ -20,7 +20,7 @@ tags: topic.investment
 - Fees:
     - Management fee: 0.8% annually
     - Subscription fee: 0%
-    - Redemption fee: 0% - 0.15%
+    - Redemption fee: 0.15%
 
 ## Fund's documents
 

@@ -1,12 +1,12 @@
 ---
 id: mq2k3f5csx6pmq3y1i6pjxo
-title: VINACAPITAL-VEOF
-desc: 'VINACAPITAL-VEOF'
-updated: 1664500908773
+title: 'VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)'
+desc: 'VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)'
+updated: 1664581593249
 created: 1664499435355
 tags: topic.investment
 ---
-# VINACAPITAL-VEOF
+# VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)
 
 [VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF) | Quỹ Đầu tư Cổ phiếu Hưng Thịnh VinaCapital](https://vinacapital.com/investment-solutions/onshore-funds/veof/)
 

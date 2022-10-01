@@ -1,12 +1,12 @@
 ---
 id: hwxvcubx65z2njtfyugzj50
-title: VFMVN30 ETF (E1VFVN30)
-desc: VFMVN30 ETF (E1VFVN30)
-updated: 1664499472166
+title: DCVFMVN30 ETF (E1VFVN30)
+desc: DCVFMVN30 ETF (E1VFVN30)
+updated: 1664584569551
 created: 1653958168354
 tags: topic.investment
 ---
-# [VFMVN30 ETF (E1VFVN30)](https://dragoncapital.com.vn/en/etf-vfmvn30-fund-e1vfvn30/etf-overview/)
+# [DCVFMVN30 ETF (E1VFVN30)](https://dragoncapital.com.vn/en/etf-vfmvn30-fund-e1vfvn30/etf-overview/)
 
 ## Overview
 
@@ -18,7 +18,7 @@ tags: topic.investment
 - Fees:
     - Management fee: 0.65% annually
     - Subscription fee: 0%
-    - Redemption fee: 0% - 0.15%
+    - Redemption fee: 0.15%
 
 ## Fund's documents
 

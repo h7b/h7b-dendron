@@ -1,12 +1,12 @@
 ---
 id: krwn6zmmxkdos9o8gq8azr2
-title: SSI-SCA
-desc: 'SSI-SCA'
-updated: 1664503927637
+title: 'SSI Sustainable Competitive Advantage Fund (SSI-SCA)'
+desc: 'SSI Sustainable Competitive Advantage Fund (SSI-SCA)'
+updated: 1664581548608
 created: 1664502325861
 tags: topic.investment
 ---
-# SSI-SCA
+# SSI Sustainable Competitive Advantage Fund (SSI-SCA)
 
 [SSI Sustainable Competitive Advantage Fund | Quỹ Đầu Tư Lợi Thế Cạnh Tranh Bền Vững SSI](https://www.ssi.com.vn/en/ssiam/fund-information-ssi-sca)
 

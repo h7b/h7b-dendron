@@ -1,14 +1,14 @@
 ---
 id: 8k4o7w26krc8qf4j8fefgd5
-title: VLGF
-desc: 'VLGF'
-updated: 1664504589488
+title: 'Vietnam Long Term Growth Fund (VLGF)'
+desc: 'Vietnam Long Term Growth Fund (VLGF)'
+updated: 1664581671483
 created: 1664503882559
 tags: topic.investment
 ---
-# VLGF
+# Vietnam Long Term Growth Fund (VLGF)
 
-[Vietnam Long Term Growth Fund | Quỹ đầu tư tăng trưởng dài hạn Việt Nam](https://www.ssi.com.vn/en/ssiam/fund-information-vlgf)
+[Vietnam Long Term Growth Fund (VLGF) | Quỹ đầu tư tăng trưởng dài hạn Việt Nam](https://www.ssi.com.vn/en/ssiam/fund-information-vlgf)
 
 ## Overview
 

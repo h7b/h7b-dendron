@@ -1,12 +1,12 @@
 ---
 id: 3fl1mu31spudjf97nv4pkq8
-title: VINACAPITAL-VESAF
-desc: 'VINACAPITAL-VESAF'
-updated: 1664500973222
+title: 'VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)'
+desc: 'VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)'
+updated: 1664581616560
 created: 1664500554892
 tags: topic.investment
 ---
-# VINACAPITAL-VESAF
+# VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)
 
 [VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF) | Quỹ Đầu tư Cổ phiếu Tiếp Cận Thị Trường VinaCapital](https://vinacapital.com/investment-solutions/onshore-funds/vesaf/)
 

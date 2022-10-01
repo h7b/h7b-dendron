@@ -1,19 +1,19 @@
 ---
 id: zlhsi2hxl3aqkk5n3d8vnrj
-title: SSIBF
-desc: 'SSIBF'
-updated: 1664504903140
+title: 'SSI Bond Fund (SSIBF)'
+desc: 'SSI Bond Fund (SSIBF)'
+updated: 1664582814107
 created: 1664504569498
 tags: topic.investment
 ---
-# SSI Bond Fund
+# SSI Bond Fund (SSIBF)
 
 [SSI Bond Fund (SSIBF) | Quỹ đầu tư trái phiếu SSI](https://www.ssi.com.vn/ssiam/thong-tin-chung-quy-ssi-bf)
 
 ## Overview
 
 - Expense ratio: N/A
-- Benchmark index: VN-Index
+- Benchmark index: Average 12-month VND denominated deposit rate by four "state-owned commercial banks" (SOCBs), namely VietinBank, Agribank, BIDV, and Vietcombank
 - Inception: 2017-08-30
 - Issuer: [Công ty Cổ phần Chứng khoán SSI](https://www.ssi.com.vn/)
 - [Fund Performance](https://www.ssi.com.vn/en/ssiam/performance-ssibf)
