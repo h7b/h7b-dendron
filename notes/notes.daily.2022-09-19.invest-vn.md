@@ -2,7 +2,7 @@
 id: yrx5ic5g0xjxt8o7cixwh74
 title: Investment options in Vietnam
 desc: Investment options for individual in Vietnam
-updated: 1664942094426
+updated: 1665007574966
 created: 1663748243722
 tags: topic.investment
 ---
@@ -10,13 +10,13 @@ tags: topic.investment
 
 ## Objectives
 
-Find the investment option for Vietnamese individuals with most affordable price/performance ratio.
+Find a simple investment vehicle for Vietnamese individual with the most affordable price/performance ratio.
 
 ## Methodology
 
 - compare the performance of each financial instrument with respect to their fee
     - the performance is defined by the return ratio of NAV/fund certificate
-- compare the fundamental stats like P/E, P/B, ROE
+- compare the fund's fundamental stats (e.g. P/E, P/B, ROE, ...) vs their benchmark
 - establish the correlation between these financial instrument based on the holdings in their portfolio. This correlation matrix is expected to match the benchmark index of each financial instrument.
 
 ### List of financial fund
