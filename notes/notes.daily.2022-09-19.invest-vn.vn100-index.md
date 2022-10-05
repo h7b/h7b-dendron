@@ -2,7 +2,7 @@
 id: j7oqzte5ft75slf4lh9nic9
 title: VN100 Index
 desc: VN100 Index
-updated: 1664149890485
+updated: 1664937419545
 created: 1664148732507
 ---
 # VN100 Index
@@ -11,7 +11,9 @@ ref: [finhay](https://www.finhay.com.vn/vn100)
 
 ## Overview
 
-VN100 được sở giao dịch chứng khoán thành phố Hồ Chí Minh (HoSE) lựa chọn dựa theo thông lệ quốc tế FTSE 100 của vương quốc Anh. Bộ chỉ số VN100 gồm 100 cổ phiếu lớn nhất trong bộ của 2 chỉ số VN30 và VNMidcap, được gọi là bộ VNALLShare (70 cổ phiếu VNMIdcap và 30 cổ phiếu VN30).
+Danh sách 100 cổ phiếu trong rổ VN100: [hsx | Rổ cổ phiếu VN100](https://www.hsx.vn/Modules/Listed/Web/StockIndexView/188803177)
+
+VN100 được sở giao dịch chứng khoán thành phố Hồ Chí Minh (HoSE) lựa chọn dựa theo thông lệ quốc tế FTSE 100 của vương quốc Anh. Bộ chỉ số VN100 gồm 100 cổ phiếu lớn nhất trong bộ của 2 chỉ số [[VN30|notes.daily.2022-09-19.invest-vn.vn30-index]] và [[VNMidcap|notes.daily.2022-09-19.invest-vn.vnmidcap-index]], được gọi là bộ VNALLShare (70 cổ phiếu VNMIdcap và 30 cổ phiếu VN30).
 
 ## Details
 
@@ -22,8 +24,6 @@ Hệ thống sàn HoSE đã đưa ra 4 tiêu chí để sàng lọc được dan
 - Giới hạn tỷ trọng vốn hóa của cổ phiếu đó đạt 10%.
 
 Sau khi có được danh sách các cổ phiếu đủ tiêu chuẩn, hệ thống tiến hành lọc chọn lấy 30 cổ phiếu tốt nhất trong danh sách của rổ VN30 và 70 cổ phiếu của VNMidcap.
-
-Danh sách các cổ phiếu chi tiết trong rổ VN100: [hsx | Rổ cổ phiếu VN100](https://www.hsx.vn/Modules/Listed/Web/StockIndexView/188803177)
 
 Ý nghĩa chỉ số VN100 là gì?
 - Chỉ số VN100 phản ánh diễn biến giá cả của 100 mã với giá trị vốn hóa chiếm đến 90% thị trường, đại diện hơn 80% giá trị giao dịch hiện tại. Từ đó, hạn chế sự chi phối của các cổ phiếu lớn, so với sử dụng chỉ số VNIndex.

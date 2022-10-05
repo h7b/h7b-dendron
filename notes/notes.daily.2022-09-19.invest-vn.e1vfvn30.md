@@ -11,7 +11,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: 0.8%
-- Index tracked: [[notes.daily.2022-05-30.vn30-index]]
+- Index tracked: [[notes.daily.2022-09-19.invest-vn.vn30-index]]
 - Inception: 2014-10-06
 - Issuer: [Dragon Capital Vietfund Management (DCVFM)](https://dragoncapital.com.vn/en/our-company/introduction/)
 - [Fund Performance](https://dragoncapital.com.vn/en/etf-vfmvn30-fund-e1vfvn30/etf-performance/)

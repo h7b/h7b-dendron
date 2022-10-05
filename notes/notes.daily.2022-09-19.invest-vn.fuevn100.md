@@ -1,7 +1,7 @@
 ---
 id: izivndymtpxbljeohfyor9a
-title: 'VinaCapital VN100 ETF (FUEVN100)'
-desc: 'VinaCapital VN100 ETF (FUEVN100)'
+title: VinaCapital VN100 ETF (FUEVN100)
+desc: VinaCapital VN100 ETF (FUEVN100)
 updated: 1664584795044
 created: 1664582579473
 tags: topic.investment
@@ -13,7 +13,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: N/A
-- Benchmark index: [[notes.daily.2022-05-30.vn100-index]]
+- Benchmark index: [[notes.daily.2022-09-19.invest-vn.vn100-index]]
 - Inception: 2020-06-16
 - Issuer: [VinaCapital](https://vinacapital.com/)
 - [Fund Performance](https://vinacapital.com/investment-solutions/onshore-funds/vinacapital-vn100-etf/)

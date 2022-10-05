@@ -11,7 +11,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: 0.6%
-- Index tracked: [[notes.daily.2022-05-30.vn30-index]]
+- Index tracked: [[notes.daily.2022-09-19.invest-vn.vn30-index]]
 - Inception: 2020-06-22
 - Issuer: [SSI Asset Management (SSIAM)](https://www.ssi.com.vn/en/ssiam/who-we-are)
 - [Fund Performance](https://www.ssi.com.vn/en/ssiam/performance-vn30)

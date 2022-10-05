@@ -11,7 +11,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: 0.6%
-- Index tracked: [[notes.daily.2022-05-30.vn30-index]]
+- Index tracked: [[notes.daily.2022-09-19.invest-vn.vn30-index]]
 - Inception: 2020-08-04
 - Issuer: [Mirae Asset (Viet Nam) Fund Management Co., Ltd](https://www.masvn.com/en/about/mirae-asset-vietnam)
 - Fees:

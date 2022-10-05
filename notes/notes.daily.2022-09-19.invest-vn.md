@@ -1,8 +1,8 @@
 ---
 id: yrx5ic5g0xjxt8o7cixwh74
 title: Investment options in Vietnam
-desc: 'Investment options for individual in Vietnam'
-updated: 1664585541353
+desc: Investment options for individual in Vietnam
+updated: 1664942094426
 created: 1663748243722
 tags: topic.investment
 ---
@@ -23,10 +23,10 @@ Find the investment option for Vietnamese individuals with most affordable price
 
 Here is the list of financial options issued in Vietnam, in which that I have interest.
 - ETF
-    - [[notes.daily.2022-05-30.fuevfvnd]]
-    - [[notes.daily.2022-05-30.e1vfvn30]]
-    - [[notes.daily.2022-05-30.fuessv30]]
-    - [[notes.daily.2022-05-30.fuemav30]]
+    - [[notes.daily.2022-09-19.invest-vn.fuevfvnd]]
+    - [[notes.daily.2022-09-19.invest-vn.e1vfvn30]]
+    - [[notes.daily.2022-09-19.invest-vn.fuessv30]]
+    - [[notes.daily.2022-09-19.invest-vn.fuemav30]]
     - [[notes.daily.2022-09-19.invest-vn.fuevn100]]
     - [[notes.daily.2022-09-19.invest-vn.fuedcmid]]
     - [[notes.daily.2022-09-19.invest-vn.fuessvfl]]
@@ -40,6 +40,9 @@ Here is the list of financial options issued in Vietnam, in which that I have in
     - [[notes.daily.2022-09-19.invest-vn.ssi-vlgf]]
     - [[notes.daily.2022-09-19.invest-vn.ssi-sca]]
     - [[notes.daily.2022-09-19.invest-vn.ssibf]]
+    - [[notes.daily.2022-09-19.invest-vn.vcbf-bcf]]
+    - [[notes.daily.2022-09-19.invest-vn.vcbf-mgf]]
+    - [[notes.daily.2022-09-19.invest-vn.vcbf-fif]]
 
 ## Data model
 
@@ -49,3 +52,4 @@ Here is the list of financial options issued in Vietnam, in which that I have in
 
 - [stag | Danh sách các quỹ mở trên thị trường Việt Nam](https://stag.vn/mutual-funds)
 - [haxj | Performance dashboard of open-ended funds in Vietnam](https://haxj.github.io/posts/vietnam-funds/)
+- [[notes.daily.2022-09-19.etf-vn]]
