@@ -2,7 +2,7 @@
 id: yrx5ic5g0xjxt8o7cixwh74
 title: Investment options in Vietnam
 desc: Investment options for individual in Vietnam
-updated: 1665007574966
+updated: 1665346959164
 created: 1663748243722
 tags: topic.investment
 ---
@@ -43,6 +43,13 @@ Here is the list of financial options issued in Vietnam, in which that I have in
     - [[notes.daily.2022-09-19.invest-vn.vcbf-bcf]]
     - [[notes.daily.2022-09-19.invest-vn.vcbf-mgf]]
     - [[notes.daily.2022-09-19.invest-vn.vcbf-fif]]
+
+## Current issues
+
+- historical end-of-day (EOD) price data is hard to be collected
+    - the excel files of NAV change are collected via web scraping the website of each fund  
+    - then extract the NAV value at the end of each day 
+- historical (EOD) price data of ETF and index are downloaded manually via [investing.com](https://www.investing.com/) 
 
 ## Data model
 
