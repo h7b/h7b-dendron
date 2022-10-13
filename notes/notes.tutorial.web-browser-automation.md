@@ -1,8 +1,8 @@
 ---
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
-desc: ''
-updated: 1659771841008
+desc: 'Web Browser Automation'
+updated: 1665698173802
 created: 1653787126743
 ---
 # Web browser automation tools
@@ -115,4 +115,11 @@ created: 1653787126743
 - [ScrapFly | Parsing HTML with Xpath](https://scrapfly.io/blog/parsing-html-with-xpath/)
 - [ScrapFly | Parsing HTML with CSS Selectors](https://scrapfly.io/blog/parsing-html-with-css/)
 - [ScrapingBee | Web Scraping with Python: Everything you need to know (2022)](https://www.scrapingbee.com/blog/web-scraping-101-with-python/)
+- [ScrapingBee | Web Scraping using Selenium and Python](https://www.scrapingbee.com/blog/selenium-python/)
+- [ScrapingBee | Using Parsel to Extract Text from HTML in Python](https://www.scrapingbee.com/blog/parsel-python/)
+    - While libraries like Beautiful Soup, Scrapy, and Selenium might be overkill, Parsel is a great option for simple web scraping. Parsel’s simple methods and Selectors provide all of the functionality required for basic scraping scripts, whereas other libraries contain a slew of features that you’ll never use in a simple scraping script—such as browser automation, telnet console, logging, and emails, which aren’t required when all you want to do is extract content from a static website.
+- [ScrapingBee | Easy web scraping with Scrapy](https://www.scrapingbee.com/blog/web-scraping-with-scrapy/)
 - [Python BeautifulSoup Tutorial: Web Scraping In 20 Lines Of Code](https://www.kashifaziz.me/web-scraping-python-beautifulsoup.html/)
+- [Batch Downloading With Python](https://thesoloadmin.com/batch-downloading-with-python/)
+- [enable clicking on the "show more" button on medium blog site via selenium](https://shantoroy.com/webscrapping/click-button-show-more-on-medium-dot-com-via-selenium/)
+- [Dataquest [YouTube] | Web Scraping Beginner Tutorial: BeautifulSoup, Playwright, And Python](https://www.youtube.com/watch?v=SJ7xnhSLwi0)

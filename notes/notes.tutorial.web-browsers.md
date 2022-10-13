@@ -1,8 +1,8 @@
 ---
 id: 0eIzRYJpCANhKEHPnHldc
 title: Web Browsers
-desc: ''
-updated: 1659820343445
+desc: 'List of Web Browsers'
+updated: 1665698310307
 created: 1639704630401
 ---
 # List of Web Browsers
@@ -50,13 +50,13 @@ created: 1639704630401
 - Thoughts: Pricing plan starts at USD 8.4/month, with free tier. Can open multiple accounts (eg. gmail) in one instance.
 
 [Webcatalog](https://webcatalog.io/webcatalog/)
-- Thoughts: it has the same use case as [Stack](https://stackbrowser.com/)
+- Thoughts: same feature (multiple account in one instance) as [Stack](https://stackbrowser.com/)
 
 [Tor](https://www.torproject.org/download/)
 - Thoughts: against tracking, surveillance, and censorship. I use it to search for academic articles on Sci-Hub, [Library Genesis](http://libgen.li/), [Z Library](https://z-lib.org/)
 
 [Bonsai](https://bonsaibrowser.com/)
-- Thougths: still cannot understand what's the use case of this app. Uninstalled.
+- Thoughts: still cannot understand what's the use case of this app. Uninstalled.
 
 [Orion Browser by Kagi](https://browser.kagi.com/)
 - Orion is an alternative browser for Apple users, open to the web and all its standards and protocols

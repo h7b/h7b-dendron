@@ -108,4 +108,4 @@ publishing:
     enablePrettyLinks: true
     logoPath: notes/assets/logo.png
     siteFaviconPath: notes/assets/favicon.ico
-    searchMode: lookup
+    searchMode: search

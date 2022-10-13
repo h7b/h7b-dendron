@@ -1,8 +1,8 @@
 ---
 id: yrx5ic5g0xjxt8o7cixwh74
-title: Investment options in Vietnam
+title: Investment options for individual in Vietnam
 desc: Investment options for individual in Vietnam
-updated: 1665346959164
+updated: 1665697112956
 created: 1663748243722
 tags: topic.investment
 ---
@@ -14,12 +14,12 @@ Find a simple investment vehicle for Vietnamese individual with the most afforda
 
 ## Methodology
 
-- compare the performance of each financial instrument with respect to their fee
-    - the performance is defined by the return ratio of NAV/fund certificate
+- compare the performance of each financial instrument
+    - the performance is defined by the return ratio of NAV/fund certificate with respect to their fee
 - compare the fund's fundamental stats (e.g. P/E, P/B, ROE, ...) vs their benchmark
 - establish the correlation between these financial instrument based on the holdings in their portfolio. This correlation matrix is expected to match the benchmark index of each financial instrument.
 
-### List of financial fund
+### List of investment vehicles
 
 Here is the list of financial options issued in Vietnam, in which that I have interest.
 - ETF
@@ -46,10 +46,11 @@ Here is the list of financial options issued in Vietnam, in which that I have in
 
 ## Current issues
 
-- historical end-of-day (EOD) price data is hard to be collected
-    - the excel files of NAV change are collected via web scraping the website of each fund  
+- historical end-of-day (EOD) price data of open-end fund are hard to be collected
+    - the `.xls`/`.pdf` files of NAV change are published only on the website of each fund. They need to be web-scraped  
     - then extract the NAV value at the end of each day 
-- historical (EOD) price data of ETF and index are downloaded manually via [investing.com](https://www.investing.com/) 
+- historical EOD price data of ETF and index are downloaded manually via [investing.com](https://www.investing.com/)
+    - enhance: use [investiny](https://github.com/alvarobartt/investiny) package instead of download manually
 
 ## Data model
 
