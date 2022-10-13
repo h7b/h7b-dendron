@@ -78,14 +78,12 @@ preview:
     enableNoteTitleForLink: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
     enableFMTitle: false
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
@@ -110,3 +108,4 @@ publishing:
     enablePrettyLinks: true
     logoPath: notes/assets/logo.png
     siteFaviconPath: notes/assets/favicon.ico
+    searchMode: lookup
