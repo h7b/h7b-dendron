@@ -2,7 +2,7 @@
 id: CroxQVfNqCIcpUBNCgLaW
 title: Calculation in Text Editor
 desc: Calculation in Text Editor
-updated: 1663892716156
+updated: 1667410588088
 created: 1635893931967
 ---
 # Implement inline calculations in text editor
@@ -52,7 +52,7 @@ created: 1635893931967
     - [Hacker News](https://news.ycombinator.com/item?id=32905802)
 - [Numbr](https://numbr.dev/)
     - web version only
-    - can share working note
+    - no need to signup, can write and share working note immediately
 - [NoteCalc](https://bbodi.github.io/notecalc3/)
     - web only
 - [dedo](https://dedo.io/)
@@ -60,6 +60,8 @@ created: 1635893931967
 - [Notepad Calculator](https://notepadcalculator.com/)
     - web only
 - [reactivepad](https://reactivepad.com/)
+    - web only
+    - 2022-11-02, currently in beta. Cannot share document for other to view or to edit (collaborative editing). Don't have intellisense support in formula editor. Lack of documentation.
 - [Math Notepad](https://mathnotepad.com/)
 - [Blockpad](https://blockpad.net/)
 - [Livedocs](https://livedocs.com/)
