@@ -1,7 +1,7 @@
 ---
 id: lxr10ppqkx32t9dwukdeoxx
-title: 'SSIAM VNFIN LEAD ETF (FUESSVFL)'
-desc: 'SSIAM VNFIN LEAD ETF (FUESSVFL)'
+title: SSIAM VNFIN LEAD ETF (FUESSVFL)
+desc: SSIAM VNFIN LEAD ETF (FUESSVFL)
 updated: 1664585347739
 created: 1664584673213
 tags: topic.investment

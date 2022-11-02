@@ -1,7 +1,7 @@
 ---
 id: qwtr2ztt3uzm6g3zf6ufzr1
-title: 'DC Dynamic Securities Fund (DCDS)'
-desc: 'DC Dynamic Securities Fund (DCDS)'
+title: DC Dynamic Securities Fund (DCDS)
+desc: DC Dynamic Securities Fund (DCDS)
 updated: 1664582190128
 created: 1664579736921
 tags: topic.investment

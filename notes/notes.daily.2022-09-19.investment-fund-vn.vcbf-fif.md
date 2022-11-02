@@ -1,7 +1,7 @@
 ---
 id: d7am4mchj8y7fsgutllokez
 title: VCBF Fixed Income Fund (VCBF-FIF)
-desc: 'VCBF Fixed Income Fund (VCBF-FIF)'
+desc: VCBF Fixed Income Fund (VCBF-FIF)
 updated: 1664936393097
 created: 1664935944599
 tags: topic.investment

@@ -11,16 +11,16 @@ excerpt: 'vn diamond index, vn30, vn100, and related ETFs'
 
 ## [VFMVN DIAMOND ETF (FUEVFVND)](https://dragoncapital.com.vn/en/vfmvn-diamond-etf-fund-fuevfdmd/overview/)
 
-![[notes.daily.2022-09-19.invest-vn.fuevfvnd#overview,1:#*]]
+![[notes.daily.2022-09-19.investment-fund-vn.fuevfvnd#overview,1:#*]]
 
 ## [VFMVN30 ETF (E1VFVN30)](https://dragoncapital.com.vn/en/etf-vfmvn30-fund-e1vfvn30/etf-overview/)
 
-![[notes.daily.2022-09-19.invest-vn.e1vfvn30#overview,1:#*]]
+![[notes.daily.2022-09-19.investment-fund-vn.e1vfvn30#overview,1:#*]]
 
 ## [SSIAM VN30 ETF (FUESSV30)](https://www.ssi.com.vn/en/ssiam/fund-information-ssiam-vn30)
 
-![[notes.daily.2022-09-19.invest-vn.fuessv30#overview,1:#*]]
+![[notes.daily.2022-09-19.investment-fund-vn.fuessv30#overview,1:#*]]
 
 ## [MAFM VN30 ETF (FUEMAV30)](https://www.masvn.com/en/cate/general-information-1561)
 
-![[notes.daily.2022-09-19.invest-vn.fuemav30#overview,1:#*]]
+![[notes.daily.2022-09-19.investment-fund-vn.fuemav30#overview,1:#*]]

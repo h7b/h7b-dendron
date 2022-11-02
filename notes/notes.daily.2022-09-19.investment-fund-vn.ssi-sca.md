@@ -1,7 +1,7 @@
 ---
 id: krwn6zmmxkdos9o8gq8azr2
-title: 'SSI Sustainable Competitive Advantage Fund (SSI-SCA)'
-desc: 'SSI Sustainable Competitive Advantage Fund (SSI-SCA)'
+title: SSI Sustainable Competitive Advantage Fund (SSI-SCA)
+desc: SSI Sustainable Competitive Advantage Fund (SSI-SCA)
 updated: 1664581548608
 created: 1664502325861
 tags: topic.investment

@@ -1,7 +1,7 @@
 ---
 id: ecn81n66hdovulrrtjotipa
 title: VCBF Blue Chip Fund (VCBF-BCF)
-desc: 'VCBF Blue Chip Fund (VCBF-BCF)'
+desc: VCBF Blue Chip Fund (VCBF-BCF)
 updated: 1664935562025
 created: 1664934520018
 tags: topic.investment

@@ -1,7 +1,7 @@
 ---
 id: ak00ts3wgnhjekydny9ltoc
-title: 'DCVFMVNMIDCAP ETF (FUEDCMID)'
-desc: 'DCVFMVNMIDCAP ETF (FUEDCMID)'
+title: DCVFMVNMIDCAP ETF (FUEDCMID)
+desc: DCVFMVNMIDCAP ETF (FUEDCMID)
 updated: 1664584768199
 created: 1664583439493
 tags: topic.investment

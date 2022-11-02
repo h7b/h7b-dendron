@@ -1,7 +1,7 @@
 ---
 id: mq2k3f5csx6pmq3y1i6pjxo
-title: 'VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)'
-desc: 'VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)'
+title: VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)
+desc: VinaCapital Equity Opportunity Fund (VINACAPITAL-VEOF)
 updated: 1664581593249
 created: 1664499435355
 tags: topic.investment

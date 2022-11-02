@@ -13,7 +13,7 @@ ref: [finhay](https://www.finhay.com.vn/vn100)
 
 Danh sách 100 cổ phiếu trong rổ VN100: [hsx | Rổ cổ phiếu VN100](https://www.hsx.vn/Modules/Listed/Web/StockIndexView/188803177)
 
-VN100 được sở giao dịch chứng khoán thành phố Hồ Chí Minh (HoSE) lựa chọn dựa theo thông lệ quốc tế FTSE 100 của vương quốc Anh. Bộ chỉ số VN100 gồm 100 cổ phiếu lớn nhất trong bộ của 2 chỉ số [[VN30|notes.daily.2022-09-19.invest-vn.vn30-index]] và [[VNMidcap|notes.daily.2022-09-19.invest-vn.vnmidcap-index]], được gọi là bộ VNALLShare (70 cổ phiếu VNMIdcap và 30 cổ phiếu VN30).
+VN100 được sở giao dịch chứng khoán thành phố Hồ Chí Minh (HoSE) lựa chọn dựa theo thông lệ quốc tế FTSE 100 của vương quốc Anh. Bộ chỉ số VN100 gồm 100 cổ phiếu lớn nhất trong bộ của 2 chỉ số [[VN30|notes.daily.2022-09-19.investment-fund-vn.vn30-index]] và [[VNMidcap|notes.daily.2022-09-19.investment-fund-vn.vnmidcap-index]], được gọi là bộ VNALLShare (70 cổ phiếu VNMIdcap và 30 cổ phiếu VN30).
 
 ## Details
 

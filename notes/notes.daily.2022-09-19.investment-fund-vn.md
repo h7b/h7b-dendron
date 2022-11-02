@@ -1,8 +1,8 @@
 ---
 id: yrx5ic5g0xjxt8o7cixwh74
-title: Investment options for individual in Vietnam
-desc: Investment options for individual in Vietnam
-updated: 1665697112956
+title: Investment funds for individual in Vietnam
+desc: Investment funds for individual in Vietnam
+updated: 1667340929134
 created: 1663748243722
 tags: topic.investment
 ---
@@ -23,26 +23,26 @@ Find a simple investment vehicle for Vietnamese individual with the most afforda
 
 Here is the list of financial options issued in Vietnam, in which that I have interest.
 - ETF
-    - [[notes.daily.2022-09-19.invest-vn.fuevfvnd]]
-    - [[notes.daily.2022-09-19.invest-vn.e1vfvn30]]
-    - [[notes.daily.2022-09-19.invest-vn.fuessv30]]
-    - [[notes.daily.2022-09-19.invest-vn.fuemav30]]
-    - [[notes.daily.2022-09-19.invest-vn.fuevn100]]
-    - [[notes.daily.2022-09-19.invest-vn.fuedcmid]]
-    - [[notes.daily.2022-09-19.invest-vn.fuessvfl]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuevfvnd]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.e1vfvn30]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuessv30]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuemav30]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuevn100]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuedcmid]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.fuessvfl]]
 - Open-end fund
-    - [[notes.daily.2022-09-19.invest-vn.veof]]
-    - [[notes.daily.2022-09-19.invest-vn.vesaf]]
-    - [[notes.daily.2022-09-19.invest-vn.vff]]
-    - [[notes.daily.2022-09-19.invest-vn.dcbc]]
-    - [[notes.daily.2022-09-19.invest-vn.dcds]]
-    - [[notes.daily.2022-09-19.invest-vn.dcbf]]
-    - [[notes.daily.2022-09-19.invest-vn.ssi-vlgf]]
-    - [[notes.daily.2022-09-19.invest-vn.ssi-sca]]
-    - [[notes.daily.2022-09-19.invest-vn.ssibf]]
-    - [[notes.daily.2022-09-19.invest-vn.vcbf-bcf]]
-    - [[notes.daily.2022-09-19.invest-vn.vcbf-mgf]]
-    - [[notes.daily.2022-09-19.invest-vn.vcbf-fif]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.veof]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.vesaf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.vff]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.dcbc]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.dcds]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.dcbf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.ssi-vlgf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.ssi-sca]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.ssibf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.vcbf-bcf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.vcbf-mgf]]
+    - [[notes.daily.2022-09-19.investment-fund-vn.vcbf-fif]]
 
 ## Current issues
 
@@ -54,7 +54,7 @@ Here is the list of financial options issued in Vietnam, in which that I have in
 
 ## Data model
 
-![[notes.daily.2022-09-19.invest-vn.data-model#overview]]
+![[notes.daily.2022-09-19.investment-fund-vn.data-model#overview]]
 
 ## Related
 

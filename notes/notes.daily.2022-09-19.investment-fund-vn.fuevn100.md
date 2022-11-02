@@ -13,7 +13,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: N/A
-- Benchmark index: [[notes.daily.2022-09-19.invest-vn.vn100-index]]
+- Benchmark index: [[notes.daily.2022-09-19.investment-fund-vn.vn100-index]]
 - Inception: 2020-06-16
 - Issuer: [VinaCapital](https://vinacapital.com/)
 - [Fund Performance](https://vinacapital.com/investment-solutions/onshore-funds/vinacapital-vn100-etf/)

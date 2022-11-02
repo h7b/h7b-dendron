@@ -1,7 +1,7 @@
 ---
 id: f4yksjsdevuyrrn0ve3dmg9
-title: 'DC Bond Fund (DCBF)'
-desc: 'DC Bond Fund (DCBF)'
+title: DC Bond Fund (DCBF)
+desc: DC Bond Fund (DCBF)
 updated: 1664582832518
 created: 1664579748425
 tags: topic.investment

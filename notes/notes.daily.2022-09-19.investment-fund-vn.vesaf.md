@@ -1,7 +1,7 @@
 ---
 id: 3fl1mu31spudjf97nv4pkq8
-title: 'VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)'
-desc: 'VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)'
+title: VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)
+desc: VinaCapital Equity Special Access Fund (VINACAPITAL-VESAF)
 updated: 1664581616560
 created: 1664500554892
 tags: topic.investment

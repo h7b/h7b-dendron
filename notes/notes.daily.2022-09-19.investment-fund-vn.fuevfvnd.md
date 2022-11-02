@@ -11,7 +11,7 @@ tags: topic.investment
 ## Overview
 
 - Expense ratio: 1.1%
-- Index tracked: [[notes.daily.2022-09-19.invest-vn.vn-diamond-index]]
+- Index tracked: [[notes.daily.2022-09-19.investment-fund-vn.vn-diamond-index]]
 - Inception: 2020-02-27
 - Issuer: [Dragon Capital Vietfund Management (DCVFM)](https://dragoncapital.com.vn/en/our-company/introduction/)
 - Fund portfolio (as of 2022-04-30):

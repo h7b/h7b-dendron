@@ -1,7 +1,7 @@
 ---
 id: 0lgag0ik6c408hflo8aahvh
-title: 'DC Blue-chips Fund (DCBC)'
-desc: 'DC Blue-chips Fund (DCBC)'
+title: DC Blue-chips Fund (DCBC)
+desc: DC Blue-chips Fund (DCBC)
 updated: 1664582423240
 created: 1664579728999
 tags: topic.investment

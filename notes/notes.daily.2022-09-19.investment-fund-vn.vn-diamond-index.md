@@ -34,7 +34,7 @@ Việc xây dựng VN Diamond là một trong những phương án giúp thu hú
 ## My thoughts
 
 Notes on 2022-06-20
-- VN DIAMOND index consists of 18 companies, in which 10 of them are also part of the [[notes.daily.2022-09-19.invest-vn.vn30-index]]. Check my [spreadsheet](https://docs.google.com/spreadsheets/d/1sz8XlAl_-7Y4xiE-J-aO4FpzBkg3QKsYD5g6_IK-DWQ/edit?usp=sharing) for details.
+- VN DIAMOND index consists of 18 companies, in which 10 of them are also part of the [[notes.daily.2022-09-19.investment-fund-vn.vn30-index]]. Check my [spreadsheet](https://docs.google.com/spreadsheets/d/1sz8XlAl_-7Y4xiE-J-aO4FpzBkg3QKsYD5g6_IK-DWQ/edit?usp=sharing) for details.
 
 ## Related
 

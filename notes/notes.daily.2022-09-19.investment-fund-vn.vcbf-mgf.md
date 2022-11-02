@@ -1,7 +1,7 @@
 ---
 id: 28x8z2ohfyl46huf1pt3huc
 title: VCBF Midcap Growth Fund (VCBF-MGF)
-desc: 'VCBF Midcap Growth Fund (VCBF-MGF)'
+desc: VCBF Midcap Growth Fund (VCBF-MGF)
 updated: 1664936380957
 created: 1664935541510
 tags: topic.investment

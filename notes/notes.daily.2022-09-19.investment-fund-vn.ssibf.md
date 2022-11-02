@@ -1,7 +1,7 @@
 ---
 id: zlhsi2hxl3aqkk5n3d8vnrj
-title: 'SSI Bond Fund (SSIBF)'
-desc: 'SSI Bond Fund (SSIBF)'
+title: SSI Bond Fund (SSIBF)
+desc: SSI Bond Fund (SSIBF)
 updated: 1664582814107
 created: 1664504569498
 tags: topic.investment

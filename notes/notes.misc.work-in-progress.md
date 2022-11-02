@@ -13,6 +13,6 @@ created: 1643760497810
 
 [[notes.daily.2021-07-17.collect-finance-market-data]]
 
-[[notes.daily.2022-09-19.invest-vn]]
+[[notes.daily.2022-09-19.investment-fund-vn]]
 
 [[notes.daily.2022-09-19.credit-card-vn]]

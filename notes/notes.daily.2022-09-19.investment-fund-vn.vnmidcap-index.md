@@ -1,7 +1,7 @@
 ---
 id: qolp6fa4offz4lcx5wlyk5q
 title: VNMidcap Index
-desc: 'VNMidcap Index'
+desc: VNMidcap Index
 updated: 1664937455469
 created: 1664936806226
 tags: topic.investment
@@ -14,7 +14,7 @@ ref: [finhay](https://www.finhay.com.vn/chi-so-vnmidcap)
 
 Danh sách 70 cổ phiếu trong rổ VNMidcap: [hsx | Rổ cổ phiếu VNMidcap](https://www.hsx.vn/Modules/Listed/Web/StockIndexView/699240157)
 
-VNMidcap là chỉ số đo lường biến động giá của khoảng 70 cổ phiếu dạng vừa, sắp xếp theo thứ tự tính thanh khoản và vốn hóa. Nếu chỉ số VNindex hay [[VN30|notes.daily.2022-09-19.invest-vn.vn30-index]] dùng đánh giá các cổ phiếu có vốn hóa lớn, tính thanh khoản cao thì VNMidcap sẽ giúp nhà đầu tư có cái nhìn rõ hơn về các mã cổ phiếu hạng trung (hạng 2).
+VNMidcap là chỉ số đo lường biến động giá của khoảng 70 cổ phiếu dạng vừa, sắp xếp theo thứ tự tính thanh khoản và vốn hóa. Nếu chỉ số VNindex hay [[VN30|notes.daily.2022-09-19.investment-fund-vn.vn30-index]] dùng đánh giá các cổ phiếu có vốn hóa lớn, tính thanh khoản cao thì VNMidcap sẽ giúp nhà đầu tư có cái nhìn rõ hơn về các mã cổ phiếu hạng trung (hạng 2).
 
 ## Details
 

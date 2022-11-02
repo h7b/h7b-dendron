@@ -1,7 +1,7 @@
 ---
 id: 0oe2rq4r14yc9jqd9l6sv1o
 title: VNAllShare Index
-desc: 'VNAllShare Index'
+desc: VNAllShare Index
 updated: 1664941053325
 created: 1664938814603
 ---
@@ -22,12 +22,12 @@ VNAllShare là chỉ số vốn hóa bao gồm các mã cổ phiếu được ni
 
 ## Details
 
-Xuất phát từ những hạn chế của phương pháp tính bộ chỉ số thị trường chung [[VN-Index|notes.daily.2022-09-19.invest-vn.vn-index]] thì VN-Index chỉ đơn giản là Tổng Giá trị Vốn hóa Thị trường của tất cả các Cổ phiếu đang niêm yết trên sàn HOSE. Tuy nhiên trong thực tế vận hành chỉ số Tổng nói trên thì đã xuất hiện một số hạn chế:
+Xuất phát từ những hạn chế của phương pháp tính bộ chỉ số thị trường chung [[VN-Index|notes.daily.2022-09-19.investment-fund-vn.vn-index]] thì VN-Index chỉ đơn giản là Tổng Giá trị Vốn hóa Thị trường của tất cả các Cổ phiếu đang niêm yết trên sàn HOSE. Tuy nhiên trong thực tế vận hành chỉ số Tổng nói trên thì đã xuất hiện một số hạn chế:
 - Không hạn chế tỷ lệ vốn hoá của cổ phiếu lớn hoặc tỷ lệ free-float ở mức thấp => Chỉ số VN-INDEX bị chi phối bới một số cổ phiếu vốn hoá lớn (như VIC, VRE, VHM chiếm hơn 20% giá trị vốn hoá tính vào chỉ số)
 - Một số cp mặc dù không có thanh khoản nhưng biến động giá lớn dẫn đến chi phối điểm số VN-INDEX (Như SAB, MSN…)
 Dẫn đến chỉ số bị bóp méo bới một số cổ phiếu lớn, không phản ánh đúng diễn biến của thị trường. Để khắc phục nhược điểm trên => ra đời bộ chỉ số VNAllShare.
 
-Các cổ phiếu thỏa Tiêu chí về niêm yết, Tiêu chí về free float và Tiêu chí về thanh khoản sẽ là những cổ phiếu ở trong rổ VNAllshare Index. Từ cổ phiếu thành phần của rổ này nếu chia theo quy mô, chúng ta có nhóm chỉ số tham chiếu [[VN30-Index|notes.daily.2022-05-30.vn30-index]], [[VN100-Index|notes.daily.2022-09-19.invest-vn.vn100-index]]. Nếu chia theo nhóm đầu tư thì có [[notes.daily.2022-09-19.invest-vn.vn-diamond-index]] và Vietnam Leading Financial Index.
+Các cổ phiếu thỏa Tiêu chí về niêm yết, Tiêu chí về free float và Tiêu chí về thanh khoản sẽ là những cổ phiếu ở trong rổ VNAllshare Index. Từ cổ phiếu thành phần của rổ này nếu chia theo quy mô, chúng ta có nhóm chỉ số tham chiếu [[VN30-Index|notes.daily.2022-05-30.vn30-index]], [[VN100-Index|notes.daily.2022-09-19.investment-fund-vn.vn100-index]]. Nếu chia theo nhóm đầu tư thì có [[notes.daily.2022-09-19.investment-fund-vn.vn-diamond-index]] và Vietnam Leading Financial Index.
 ![vnallshare](https://image.vietstock.vn/2020/08/08/vnx-etf-ky-3-2.png){max-width: 300px, display: block, margin: 0 auto}
 
 Nhóm các chỉ số được xây dựng bởi HOSE: Bộ chỉ số HOSE-Index

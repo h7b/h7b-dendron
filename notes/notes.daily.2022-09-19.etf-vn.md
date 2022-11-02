@@ -51,7 +51,7 @@ Có 3 nhóm chỉ số chính:
     - Thành phần là các cổ phiếu niêm yết trên sở giao dịch thành phố Hồ Chí Minh, HOSE. Do quy mô HOSE lớn gấp 14 lần HNX nên các chỉ số do HOSE xây dựng thường được sử dụng là chỉ số tham chiếu cho các quỹ ETF nội.
     - ![index-by-hose](https://image.vietstock.vn/2020/07/18/etf-la-gi-ky-2-05.png){max-width: 300px, display: block, margin: 0 auto}
 
-Ban đầu các cổ phiếu trên HOSE sẽ được lọc theo các tiêu chí về thanh khoản, điều kiện niêm yết, vốn hóa và free float. Để được nhóm các cổ phiếu đủ điều kiện, nhóm này gọi là [[VNAllshare|notes.daily.2022-09-19.invest-vn.vnallshare-index]]. Từ danh sách cổ phiếu trong VNAllshare tùy vào mục đích sẽ có những cách xây dựng các bộ chỉ số khác nhau như:
+Ban đầu các cổ phiếu trên HOSE sẽ được lọc theo các tiêu chí về thanh khoản, điều kiện niêm yết, vốn hóa và free float. Để được nhóm các cổ phiếu đủ điều kiện, nhóm này gọi là [[VNAllshare|notes.daily.2022-09-19.investment-fund-vn.vnallshare-index]]. Từ danh sách cổ phiếu trong VNAllshare tùy vào mục đích sẽ có những cách xây dựng các bộ chỉ số khác nhau như:
 - Phân theo quy mô sẽ có được nhóm chỉ số VN30-Index (30 cổ phiếu có vốn hóa lớn nhất trong VNAllshare), VN100-Index (100 cổ phiếu có vốn hóa lớn nhất trong VNAllshare).
 - Các chỉ số đặc thù: 
     - Vietnam Leading Financial Index (nhóm cổ phiếu ngành tài chính trong VNAllshare được lọc thêm yếu tố thanh khoảng và lợi nhuận) hướng đến nhóm cổ phiếu ngành tài chính, 

@@ -1,7 +1,7 @@
 ---
 id: 4hpraj7xhv5w6lgzao23g60
 title: VNIndex
-desc: 'VNIndex'
+desc: VNIndex
 updated: 1664938539253
 created: 1664937493900
 tags: topic.investment

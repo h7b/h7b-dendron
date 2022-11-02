@@ -1,7 +1,7 @@
 ---
 id: 4vgktuodrzdpdomv9a4kmon
-title: 'VinaCapital Enhanced Fixed Income Fund (VINACAPITAL-VFF)'
-desc: 'VinaCapital Enhanced Fixed Income Fund (VINACAPITAL-VFF)'
+title: VinaCapital Enhanced Fixed Income Fund (VINACAPITAL-VFF)
+desc: VinaCapital Enhanced Fixed Income Fund (VINACAPITAL-VFF)
 updated: 1664581635246
 created: 1664501389714
 tags: topic.investment
