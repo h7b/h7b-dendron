@@ -2,7 +2,7 @@
 id: Ianw2EU0MRFDo35bLj3Nk
 title: Tax Basics for Investors in Vietnam
 desc: ''
-updated: 1647564425349
+updated: 1667605216237
 created: 1626043266714
 ---
 # Reading 2021-07-12
@@ -56,3 +56,10 @@ Công ty quản lý Quỹ có nghĩa vụ khấu trừ, kê khai thuế đối v
 Mức thuế áp dụng là **0.1%** trên giá trị chuyển nhượng.
 
 Công ty quản lý Quỹ sẽ không khấu trừ thuế đối với các giao dịch mua lại chứng chỉ quỹ từ nhà đầu tư là tổ chức trong nước. Các nhà đầu tư này phải chịu trách nhiệm tự kê khai và nộp thuế đối với phần thu nhập phát sinh từ giao dịch hoán đổi lại này.
+
+## Related
+
+- [tcbs | Cách tính thuế TNCN từ Cổ tức là Cổ phiếu thưởng](https://www.tcbs.com.vn/vi_VN/ho-tro/chi-tiet?chuyen-muc=5&url=cach-tinh-thue-khi-ban-co-phieu-la-co-tuc)
+- [timo | Các loại thuế và phí khi giao dịch chứng khoán bạn cần biết khi đầu tư](https://timo.vn/blogs/cac-loai-thue-va-phi-khi-giao-dich-chung-khoan/)
+- [tinlaw | Cách tính thuế thu nhập cá nhân từ chứng khoán](https://tinlaw.vn/tin-tuc/ke-toan-thue/cach-tinh-thue-thu-nhap-ca-nhan-tu-chung-khoan)
+- [dnse | Các loại thuế giao dịch chứng khoán mà bạn cần biết trước khi đầu tư](https://www.dnse.com.vn/hoc/cac-loai-thue-giao-dich-chung-khoan)
