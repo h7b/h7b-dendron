@@ -2,11 +2,13 @@
 id: pjud206af01es3xy9x7iqxi
 title: Tools to research Vietnam stock market
 desc: Tools to research Vietnam stock market for retail investor
-updated: 1667343288115
+updated: 1667615611310
 created: 1667341011449
 tags: topic.investment
 ---
 # Tools to research Vietnam stock market for retail investor
+
+## Market research
 
 [Simplize](https://simplize.vn/)
 - stock analysis platform for Vietnam market only
@@ -49,3 +51,21 @@ tags: topic.investment
 - [WiFeed](https://www.wigroup.vn/wifeed)
     - api data feed for Vietnam market only
     - [pricing](https://wifeed.vn/packages) starts at VND 12M/month
+
+## Brokerage services
+
+[Entrade X](https://www.dnse.com.vn/entrade-x)
+- [pricing](https://www.dnse.com.vn/bieu-phi): miễn phí giao dịch
+
+[Pinetree](https://pinetree.vn/)
+- miễn phí giao dịch
+
+[SSI](https://www.ssi.com.vn/)
+- [pricing](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san)
+    - giao dịch có Môi giới tư vấn: 0.25%
+    - Khách hàng chủ động giao dịch: 0.15%	
+
+[VnDirect](https://www.vndirect.com.vn/)
+- [pricing](https://www.vndirect.com.vn/bieu-phi-tai-khoan-da/)
+    - Giao dịch trực tuyến chứng khoán cơ sở: 0.15%
+    - Phí giao dịch có môi giới: 0.15 – 0.35%

@@ -1,8 +1,8 @@
 ---
 id: Ianw2EU0MRFDo35bLj3Nk
 title: Tax Basics for Investors in Vietnam
-desc: ''
-updated: 1667605216237
+desc: 'Tax Basics for Investors in Vietnam'
+updated: 1667616998608
 created: 1626043266714
 ---
 # Reading 2021-07-12
