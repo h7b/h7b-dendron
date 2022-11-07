@@ -2,13 +2,14 @@
 id: gnk4r1391ohd8eta7zbkhdi
 title: Notion-like Tables
 desc: ''
-updated: 1662224421579
+updated: 1667796484972
 created: 1652340208564
 ---
 # Notion-like Tables
 
 - GitHub: https://github.com/trey-wallis/obsidian-notion-like-tables
 - Thoughts:
+    - Status: abandoned by developer
     - This plugin render markdown table as a Notion-similar UI
     - I considered this as a way to create a *simple table* in Obsidian (similar to the concept of *simple table* in Notion)
 - demo 

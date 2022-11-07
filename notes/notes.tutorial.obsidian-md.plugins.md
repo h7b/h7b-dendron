@@ -1,24 +1,16 @@
 ---
 id: 32lz4yofxgfxejl8ek6gh8t
 title: Plugins
-desc: ''
-updated: 1652998348331
+desc: 'Plugins for Obsidian'
+updated: 1667794070508
 created: 1652338567506
 ---
 # Plugins
 
-List of plugins in which I have interest.
+Typical plugins that I use frequently are listed below. The extended interesting plugins are in child nodes of this note.
 
-![[notes.tutorial.obsidian-md.plugins.dataview#dataview-plugin,1:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.database-folder#database-folder,1:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.notion-like-tables#notion-like-tables,1:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.digital-garden#obsidian-digital-garden,1:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.remotely-save#remotely-save,1:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.waypoint:#*]]
-
-![[notes.tutorial.obsidian-md.plugins.folder-note#folder-note,1:#*]]
+- [[notes.tutorial.obsidian-md.plugins.dataview]]
+- [[notes.tutorial.obsidian-md.plugins.database-folder]]
+- [[notes.tutorial.obsidian-md.plugins.remotely-save]]
+- [[notes.tutorial.obsidian-md.plugins.waypoint]]
+- [[notes.tutorial.obsidian-md.plugins.folder-note]]

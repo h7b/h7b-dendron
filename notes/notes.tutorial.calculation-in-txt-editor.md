@@ -2,7 +2,7 @@
 id: CroxQVfNqCIcpUBNCgLaW
 title: Calculation in Text Editor
 desc: Calculation in Text Editor
-updated: 1667410588088
+updated: 1667793899078
 created: 1635893931967
 ---
 # Implement inline calculations in text editor
@@ -20,7 +20,9 @@ created: 1635893931967
     - results of calculations are written in the markdown file
 
 ## Obsidian plugin
-- Meld Calc ![[notes.tutorial.obsidian-md.plugins.meld-calc#obsidian-calculator-aka-meld-calc,1:#*]]
+- [[notes.tutorial.obsidian-md.plugins.obsidian-calculator]]
+- [[notes.tutorial.obsidian-md.plugins.numerals]]
+- [[notes.tutorial.obsidian-md.plugins.mathpad]]
 
 ## Coda
 - In [coda](https://coda.io/), you can 
@@ -51,7 +53,7 @@ created: 1635893931967
     - has desktop and web version
     - [Hacker News](https://news.ycombinator.com/item?id=32905802)
 - [Numbr](https://numbr.dev/)
-    - web version only
+    - web version only with good mobile web layout
     - no need to signup, can write and share working note immediately
 - [NoteCalc](https://bbodi.github.io/notecalc3/)
     - web only

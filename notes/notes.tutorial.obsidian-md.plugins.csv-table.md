@@ -2,7 +2,7 @@
 id: hxhflq8g2o2e3yfywybz4b0
 title: CSV Table
 desc: ''
-updated: 1663884315272
+updated: 1667797238355
 created: 1663884149000
 ---
 # CSV Table in Obsidian

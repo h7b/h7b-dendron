@@ -2,7 +2,7 @@
 id: to258qn57l6aexl3qrdr2gu
 title: Metadata Menu
 desc: Metadata Menu
-updated: 1662233413821
+updated: 1667795608178
 created: 1662232468930
 ---
 # Metadata Menu
@@ -16,3 +16,4 @@ created: 1662232468930
 - Demo on 
     - basic features, settings and field types. [Youtube](https://www.youtube.com/watch?v=7bvIAkJf0OE)
     - autocompletion and "inline fields" commands. [Youtube](https://www.youtube.com/watch?v=gU-StGyDciY)
+    - supertags, similar to Tana (read more on supertags at [here](https://simontheak.medium.com/first-impressions-of-tana-the-app-thats-looking-to-replace-roam-obsidian-and-notion-9d6cc5024964)). [Youtube](https://www.youtube.com/watch?v=7o9j7WJfhi0&t)
