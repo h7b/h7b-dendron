@@ -24,12 +24,21 @@ From [the summary video by The Swedish Investor](https://www.youtube.com/watch?v
 
 [10:10](https://youtu.be/fzig7KJFuNU?t=610): ![10:10](https://ik.imagekit.io/casa/h7b-dendron/the_little_book_that_beat_time_610_vF6EQT-uI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667798456756){max-width: 300px, display: block, margin: 0 auto}
 
-[11:40](https://youtu.be/fzig7KJFuNU?t=700): ![11:40](https://ik.imagekit.io/casa/h7b-dendron/the_little_book_that_beat_time_700_ExxDeGDA_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667798456557){max-width: 300px, display: block, margin: 0 auto}
-
-Summary:
+Strategy:
 - Define your investing universe (list of companies that you have interest in). For example 10 companies in VN30
 - Rank them by 2 conditions 
     - `low PE` (1 for lowest PE, 10 for highest) and 
     - `high ROA` (1 for highest ROA, 10 for lowest)
 - Sort their scores by ASC order since you want the total score as low as possible
 - then invest in the top 5 companies of this sorted list.
+
+[11:40](https://youtu.be/fzig7KJFuNU?t=700): ![11:40](https://ik.imagekit.io/casa/h7b-dendron/the_little_book_that_beat_time_700_ExxDeGDA_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667798456557){max-width: 300px, display: block, margin: 0 auto}
+
+## Thoughts
+
+The pros of this investing framework:
+- Simple, easy to replicate, proven back test with historical price data
+
+Cons:
+- this approach "comparison by multiples" is only suitable for the comparable companies. For example, companies in the same sector
+- all criteria are treated equally.
