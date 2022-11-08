@@ -2,7 +2,7 @@
 id: pjud206af01es3xy9x7iqxi
 title: Tools to research Vietnam stock market
 desc: Tools to research Vietnam stock market for retail investor
-updated: 1667615611310
+updated: 1667874063380
 created: 1667341011449
 tags: topic.investment
 ---
@@ -33,8 +33,11 @@ tags: topic.investment
     - In-depth Financial Database in Vietnam
     - pricing starts at VND 9,000,000/month. 14-day free trial
 
-[SSI | Fast Connect API](https://www.ssi.com.vn/khach-hang-ca-nhan/fast-connect-api)
-- Data for Vietnam market only
+[SSI](https://www.ssi.com.vn/)
+- [SSI | iBoard](https://iboard.ssi.com.vn/)
+    - stock analysis platform for Vietnam market only
+- [SSI | Fast Connect API](https://www.ssi.com.vn/khach-hang-ca-nhan/fast-connect-api)
+    - Data for Vietnam market only
 
 [VietStock | DataFeed](https://dichvu.vietstock.vn/du-lieu-tai-chinh/datafeed---du-lieu-tai-chinh-tich-hop-chuyen-nghiep)
 - Data for Vietnam market only
@@ -63,7 +66,7 @@ tags: topic.investment
 [SSI](https://www.ssi.com.vn/)
 - [pricing](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san)
     - giao dịch có Môi giới tư vấn: 0.25%
-    - Khách hàng chủ động giao dịch: 0.15%	
+    - Khách hàng chủ động giao dịch: 0.15%
 
 [VnDirect](https://www.vndirect.com.vn/)
 - [pricing](https://www.vndirect.com.vn/bieu-phi-tai-khoan-da/)

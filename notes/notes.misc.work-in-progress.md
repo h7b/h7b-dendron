@@ -2,7 +2,7 @@
 id: CLQFQ3xnUewgLeulpqtSX
 title: Work in Progress
 desc: ''
-updated: 1667799233455
+updated: 1667874079103
 created: 1643760497810
 ---
 # List of work in progress
@@ -18,5 +18,3 @@ created: 1643760497810
 [[notes.daily.2022-09-19.credit-card-vn]]
 
 [[notes.daily.2022-10-24.evaluate-bank-stocks-vn]]
-
-[[notes.daily.2022-11-07.little-book-that-still-beats-the-market.practice]]
