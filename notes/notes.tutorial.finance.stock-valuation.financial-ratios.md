@@ -2,7 +2,7 @@
 id: xbg2551wuxeamybbeyu7ru2
 title: Financial Ratios
 desc: ''
-updated: 1647899872175
+updated: 1668041037671
 created: 1647654845505
 ---
 # Financial Ratios

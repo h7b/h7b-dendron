@@ -1,7 +1,7 @@
 ---
 id: wnktt7izfke1r3wh2n9limv
 title: Practice
-desc: ''
+desc: 'Practice - The Little Book That Still Beats the Market'
 updated: 1667873293337
 created: 1667799002934
 ---

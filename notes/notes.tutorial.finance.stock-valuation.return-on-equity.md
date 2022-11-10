@@ -2,7 +2,7 @@
 id: m1r6xtp7duxehbiz410t24a
 title: Return on Equity
 desc: ''
-updated: 1647137579481
+updated: 1668045688351
 created: 1647136761079
 ---
 # Return on Equity (ROE)
@@ -29,9 +29,15 @@ A good rule of thumb is to target an ROE that is equal to or just above the aver
 ## Limitations of Return on Equity
 
 ### Inconsistent Profits
+
 Imagine that a company, LossCo, has been unprofitable for several years. Each year’s losses are recorded on the balance sheet in the equity portion as a “retained loss.” These losses are a negative value and reduce shareholders' equity.
 
 Now, assume that LossCo has had a windfall in the most recent year and has returned to profitability. The denominator in the ROE calculation is now very small after many years of losses, which makes its ROE misleadingly high.
 
 ### Excess Debt
+
 If a company has been borrowing aggressively, it can increase ROE because equity is equal to assets minus debt. The more debt a company has, the lower equity can fall. A common scenario is when a company borrows large amounts of debt to buy back its own stock.
+
+## Related
+
+- [[notes.daily.2022-11-07.roe]]
