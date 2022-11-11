@@ -2,7 +2,7 @@
 id: 23m8vzunboz2oo70zgqnca6
 title: The Little Book That Still Beats the Market
 desc: 'The Little Book That Still Beats the Market'
-updated: 1667873678336
+updated: 1668136733935
 created: 1667797625666
 tags:
 - topic.investment
@@ -18,7 +18,7 @@ tags:
 
 ## Notes
 
-From [the summary video by The Swedish Investor](https://www.youtube.com/watch?v=fzig7KJFuNU). Length: 14min
+From [the summary video by The Swedish Investor](https://www.youtube.com/watch?v=fzig7KJFuNU). Length: 14min.
 
 [08:17](https://youtu.be/fzig7KJFuNU?t=497): ![08:17](https://ik.imagekit.io/casa/h7b-dendron/the_little_book_that_beat_time_497_oq9Q8U_ks.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667798456569){max-width: 300px, display: block, margin: 0 auto}
 
