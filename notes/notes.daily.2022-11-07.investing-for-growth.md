@@ -2,7 +2,7 @@
 id: 0jzffhrms5ggewym2jdqx24
 title: Investing for Growth
 desc: 'Investing for Growth'
-updated: 1668139082433
+updated: 1668210870883
 created: 1668138474422
 tags:
 - cat.read
@@ -28,6 +28,8 @@ From [the summary video by The Swedish Investor](https://www.youtube.com/watch?v
 
 ![buy-at-discount](https://ik.imagekit.io/casa/h7b-dendron/investing_for_growth__time_645_IVjVBMsJ8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668138419793){max-width: 300px, display: block, margin: 0 auto}
 
-[12:49](https://youtu.be/16OTs9Tql7Y?t=769): avoid getting mesmerized by a paint-job (PE ratio), by investigating the FCF yield ![fcf-yield-better-than-pe](https://ik.imagekit.io/casa/h7b-dendron/investing_for_growth__time_769_TeP7VbWwd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668138420078){max-width: 300px, display: block, margin: 0 auto}
+[12:49](https://youtu.be/16OTs9Tql7Y?t=769): avoid getting mesmerized by a paint-job which is PE ratio in this context, by investigating the FCF yield 
+
+![fcf-yield-better-than-pe](https://ik.imagekit.io/casa/h7b-dendron/investing_for_growth__time_769_TeP7VbWwd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668138420078){max-width: 300px, display: block, margin: 0 auto}
 
 Investing strategies should be examined over a full market cycle

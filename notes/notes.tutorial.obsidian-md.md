@@ -2,7 +2,7 @@
 id: tQP1ujPMEgGv6hMZ2lf8z
 title: Obsidian
 desc: ''
-updated: 1660834513525
+updated: 1668211957008
 created: 1633862309359
 ---
 # Obsidian - Tips and Experiences
@@ -21,11 +21,11 @@ According to their [Terms of Service](https://obsidian.md/terms), the legal busi
 
 ## Typical workflows
 
-![[notes.tutorial.obsidian-md.tips-obs.workflow#typical-workflow-of-obsidian-users,1]]
+- [[notes.tutorial.obsidian-md.tips-obs.workflow]]
 
 ## Plugins
 
-![[notes.tutorial.obsidian-md.plugins#plugins,1]]
+- [[notes.tutorial.obsidian-md.plugins]]
 
 ## Related resources 
 
