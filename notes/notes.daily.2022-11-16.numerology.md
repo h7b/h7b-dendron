@@ -2,13 +2,13 @@
 id: ni348re7p3a0ewozekz22t7
 title: Numerology
 desc: 'Numerology - Thần số học'
-updated: 1668887195041
+updated: 1668888509788
 created: 1668884424186
 tags: cat.read
 ---
 # Numerology - Thần số học
 
-Mình viết notes này vì có người quen chìm đắm trong bộ môn huyền học này. Nhất thời lúc tranh luận ko nghĩ ra luận điểm để phản biện. Nay tìm đọc sơ lược nội dung và ghi lại vài ý tưởng cho lần thảo luận kế tiếp nếu có.
+Mình viết note để tìm ý tưởng phản biện với người chìm đắm trong bộ môn huyền học này. Tìm đọc sơ lược nội dung và ghi lại vài đầu mục cho lần thảo luận kế tiếp.
 
 ## Notes
 
@@ -26,7 +26,7 @@ Có tâm mà chưa đủ tầm thì rất dễ có thiếu sót hoặc nghiêm t
 
 cuốn sách này có nền tảng dựa trên nghiên cứu của Pythagoras do người chuyên về số học, bà Hettie Templeton lập ra. Ông Phillips gặp được bà và viết sách. Còn bà học từ sách nào thì cũng ko biết.
 
-Về numerology thì có nhiều trường phái. numerology Pythagorean method là theo trường phái ông Pythagoras. Các khái niệm về ruling number, soul number… đúng là đến từ Pythagoras nhưng cách tính số hay diễn giải ý nghĩa của nó là không hoàn toàn giống nữa. Hơn nữa việc tính toán theo ngày sinh hiện nay như trong sách đề cập thì không thể nói là do Pythagoras nghĩ ra được. Vì khi Pythagoras tồn tại (thế kỷ thứ 6 Trước Công Nguyên) thì đức chúa Jesus chưa ra đời. [^2] Mà Chúa ra đời thì mới có cách tính ngày sinh như hiện nay.
+Về numerology thì có nhiều trường phái. Numerology Pythagorean method là theo trường phái ông Pythagoras. Các khái niệm về ruling number, soul number… đúng là đến từ Pythagoras nhưng cách tính số hay diễn giải ý nghĩa của nó là không hoàn toàn giống nữa. Hơn nữa việc tính toán theo ngày sinh hiện nay như trong sách đề cập thì không thể nói là do Pythagoras nghĩ ra được. Vì khi Pythagoras tồn tại (thế kỷ thứ 6 Trước Công Nguyên) thì đức chúa Jesus chưa ra đời. [^2] Mà Chúa ra đời thì mới có cách tính ngày sinh như hiện nay.
 
 [^2]: [Wikipedia | Pythagoras](https://en.wikipedia.org/wiki/Pythagoras)
 
