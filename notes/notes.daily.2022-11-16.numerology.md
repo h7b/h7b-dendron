@@ -2,7 +2,7 @@
 id: ni348re7p3a0ewozekz22t7
 title: Numerology
 desc: 'Numerology - Thần số học'
-updated: 1668888509788
+updated: 1668888771171
 created: 1668884424186
 tags: cat.read
 ---
@@ -35,6 +35,8 @@ Về phần mũi tên, trong sách ông Phillips cũng nói rõ là mũi tên l�
 Cuốn sách này là một trò dễ thực hành và khá vui. Đây có thể được xem là một trong những trò vui để biết thêm về tính cách của bản thân (self-discovery), giúp cho con người hiểu được bản thân mình hơn.
 
 Mình chỉ ra flaws để cho những người quá cuồng tín, có dự định can thiệp quá mức vào ngày sinh của con cái hoặc quá lo lắng, thì nên dừng lại. Những nhà tuyển dụng, đừng chỉ dựa vào ngày sinh mà bỏ qua các candidates chẳng may có ngày sinh không đẹp lắm theo phương pháp ông Phillips.
+
+NB: [click here](https://app.box.com/s/wjlmgdl5curimdmfjmn6fa4nh044m3sh) to read the scanned pdf
 
 ### Hiểu cho đúng về "thần số học"!?
 
