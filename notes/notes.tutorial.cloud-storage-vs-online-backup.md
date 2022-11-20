@@ -2,7 +2,7 @@
 id: RSCijRCuIR1xl0R3TWCg5
 title: Cloud Storage Vs Online Backup
 desc: ''
-updated: 1658427596050
+updated: 1668953519984
 created: 1641946099458
 ---
 # Cloud Storage vs Online Backup: What’s The Difference
@@ -60,7 +60,7 @@ CloudMounter has a free version, as well as a free trial for the paid version.
 [Pricing](https://cloudmounter.net/cloud-mounter-purchase.html): 
 - Lifetime Personal License (1 Mac) is USD 45
 
-Please don't use the [Download provided by MacLife](https://maclife.vn/cloudmounter-mount-du-lieu-tren-cac-dich-vu-cloud-tren-finder.html)
+NB: [version provided by MacLife](https://maclife.vn/cloudmounter-mount-du-lieu-tren-cac-dich-vu-cloud-tren-finder.html)
 
 ### Mountain Duck
 
@@ -71,7 +71,7 @@ Please don't use the [Download provided by MacLife](https://maclife.vn/cloudmoun
 - The license is valid for one specific major version. For future major versions, we provide upgrade discounts between 40% and 100% depending on the date of purchase
 - License for 1 user is USD 39
 
-Please don't use the [Download provided by MacLife](https://maclife.vn/mountain-duck-ung-dung-ket-noi-ftp-tren-mac.html)
+NB: [version provided by MacLife](https://maclife.vn/mountain-duck-ung-dung-ket-noi-ftp-tren-mac.html)
 
 ### ExpanDrive
 
@@ -80,8 +80,17 @@ Please don't use the [Download provided by MacLife](https://maclife.vn/mountain-
 [Pricing](https://www.expandrive.com/desktop/buy/):
 - Lifetime Personal License (1 user) is USD 50
 - Yearly subscription for future updates: USD 24.95/year
+- Lifetime one-time payment for future updates: USD 75
 
-Please don't use the [Download provided by MacLife](https://maclife.vn/expandrive-quan-ly-du-lieu-tren-cac-dich-vu-cloud.html)
+NB: [version provided by MacLife](https://maclife.vn/expandrive-quan-ly-du-lieu-tren-cac-dich-vu-cloud.html)
+
+### RaiDrive
+
+[RaiDrive](https://www.raidrive.com/) lets you mount server and cloud storage as a disk in Finder on macOS and the File Explorer on Windows.
+
+[Pricing](https://www.raidrive.com/plans):
+- Free plan available with ads
+- monthly subscription: USD 2/month with 7-day free trial
 
 ## Related resources
 
@@ -101,3 +110,4 @@ Please don't use the [Download provided by MacLife](https://maclife.vn/expandriv
 - [User feedback from MacLife community](https://www.facebook.com/groups/maclife.vn/permalink/989220715097859/)
     - testimonial from a user who use CloudMounter to store movies in Google Drive, then watch on macbook via [IINA](https://iina.io/) -- an open source media player for macOS
 - [Cloudwards | CloudMounter vs ExpanDrive](https://www.cloudwards.net/cloudmounter-vs-expandrive/)
+- [herrherrmann | Migrating 1 terabyte of files from OneDrive to Nextcloud](https://herrherrmann.net/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/)
