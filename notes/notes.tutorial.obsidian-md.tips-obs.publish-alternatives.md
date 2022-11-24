@@ -2,7 +2,7 @@
 id: aIzdxkgBr2LmKOsw
 title: Publish Alternatives
 desc: Alternative methods to publish an Obsidian vault
-updated: 1662950919282
+updated: 1669307589488
 created: 1628033267974
 ---
 ## Alternative methods to publish an Obsidian vault
@@ -12,12 +12,15 @@ Obsidian is great but finding a way to publish the Obsidian vault without purcha
 - [Markbase](https://github.com/markbaseteam/obsidian-markbase)
     - ![[notes.tutorial.obsidian-md.plugins.markbase#markbase-for-obsidian,1:#*]]
     - the current most easy to set up and intuitive to use alternative of `Obsidian Publish`
+- [Obsidian Digital Garden](https://github.com/oleeskild/obsidian-digital-garden)
+    - ![[notes.tutorial.obsidian-md.plugins.digital-garden#obsidian-digital-garden,1:#*]]
+- [Flowershow](https://flowershow.app/)
+    - [Discussion](https://forum.obsidian.md/t/flowershow-a-free-open-source-tool-for-publishing-your-obsidian-vaults/41966) in Obsidian Forum
+    - 2022-11-24 update: self host via Netlify, does not have official plugin to publish in Obsidian yet
 - [Obsidian QuickShare](https://github.com/mcndt/obsidian-quickshare)
     - ![[notes.tutorial.obsidian-md.plugins.obsidian-quickshare#obsidian-quickshare,1]]
 - [obsidian-mkdocs-publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
     - ![[notes.tutorial.obsidian-md.plugins.github-publisher#github-publisher,1:#*]]
-- [Obsidian Digital Garden](https://github.com/oleeskild/obsidian-digital-garden)
-    - ![[notes.tutorial.obsidian-md.plugins.digital-garden#obsidian-digital-garden,1:#*]]
 - [obsidian-zola](https://github.com/ppeetteerrs/obsidian-zola)
     - ![[notes.tutorial.obsidian-md.plugins.obsidian-zola#obsidian-zola,1:#*]]
 - [MindStone](https://github.com/TuanManhCao/digital-garden)

@@ -2,7 +2,7 @@
 id: 02zhjwxkhifp7uwblryejwk
 title: Obsidian Digital Garden
 desc: ''
-updated: 1658595941469
+updated: 1669307496171
 created: 1652342318439
 ---
 # Obsidian Digital Garden
@@ -14,3 +14,4 @@ created: 1652342318439
     - [demo page](https://notes.ole.dev/set-up-your-digital-garden/), which is also the tutorial from plugin's owner
     - the current easiest free alternative of `Obsidian Publish`, simple, no navigation side bar
     - has a publishing modal called `Publication Center` to make it easier to understand what files were published, which has changed, been deleted and are yet to be published
+    - 2022-11-24 update, now has left side navigation bar
