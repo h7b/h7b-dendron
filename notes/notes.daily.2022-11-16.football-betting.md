@@ -2,13 +2,13 @@
 id: ae0pgvtgot730674d7beeq1
 title: Football Betting
 desc: 'Football Betting - How to Read Odds?'
-updated: 1669312224487
+updated: 1669368426572
 created: 1669307883650
 tags: cat.read
 ---
 # Football Betting - How to Read Odds?
 
-ref: [wikihow](https://www.wikihow.com/Read-Odds), [les transferts](https://www.les-transferts.com/paris-sportifs/comment-parier/pari-1n2.html), [oddspedia](https://oddspedia.com/betting/markets/asian-handicap)
+ref: [wikihow](https://www.wikihow.com/Read-Odds), [les transferts](https://www.les-transferts.com/paris-sportifs/comment-parier/pari-1n2.html), [oddspedia](https://oddspedia.com/betting/markets/asian-handicap), [tylekeo247](https://tylekeo247.com/cach-xem-keo-bong-da/)
 
 If you bet on sporting events, you must be able to read odds and understand what they mean.
 
@@ -48,7 +48,7 @@ Le taux de retour aux joueurs (TRJ) correspond à la proportion d'argent que red
 - En France, la loi - l'[ARJEL (aka Autorité de régulation des jeux en ligne)](https://anj.fr/) - impose aux bookmakers de ne pas redistribuer plus de `85%` des sommes engagées par leurs joueurs. Les motivations avancées par le législateur sont la lutte contre l'addiction et le blanchiment d'argent. Côté joueur français, cela veut tout simplement dire que l’on bénéficie d’un TRJ plus faible en France que dans les autres pays, et que l’on gagne moins d’argent aux paris sportifs. [^1]
 - Dans les faits, les bookmarkers ne doivent pas dépasser ce taux de 85% en moyenne, sur 6 mois. Cela signifie que vous pourrez trouver des rencontres/des paris où le TRJ est supérieur à ce taux de 85%, mais aussi d’autres possibilités de paris où le TRJ est bien inférieur à 85%. [^2]
 - Pour calculer le taux de retour aux joueurs d'un pari 1N2, il suffit de lui appliquer la formule suivante :
-$\frac{a}{\frac{1}{cote_A}+\frac{1}{cote_B}+\frac{1}{cote_C}}*100$
+$\frac{1}{\frac{1}{cote_A}+\frac{1}{cote_B}+\frac{1}{cote_C}}*100$
 - Exemple: À l'occasion de la rencontre opposant Leicester à Manchester en FA Cup, le bookmaker propose des cotes de 3,15 pour une victoire à domicile, 3,40 pour un match nul et enfin 2,20 pour une victoire à l'extérieur.
     - 1 / [(1 / 3,15) + (1 / 3,40) + (1 / 2,20)] x 100 = 93,8%
     - Comme souvent pour un pari 1N2, le TRJ est donc ici supérieur à 85 %.
@@ -59,11 +59,11 @@ $\frac{a}{\frac{1}{cote_A}+\frac{1}{cote_B}+\frac{1}{cote_C}}*100$
 
 ## Asian handicap style
 
-It is a type of spread betting that eliminates the possibility of a draw. A handicap means giving more weight to something in favour of one team.
+A handicap means giving more weight to something in favour of one team.
 
 In handicap betting, you will only see two handicaps. The weaker team is given the plus symbol while the stronger team has the minus symbol.
 
-This form of betting helps compensate for the difference between the two teams by giving the stronger team a one-goal deficit.
+This form of betting helps compensate for the difference between the two teams by giving the stronger team a x-goal deficit.
 
 Some typical type of asian handicap betting
 - Handicap Half Lines (0.5 / 1.5)
@@ -72,3 +72,19 @@ Some typical type of asian handicap betting
 - Handicap Quarter Lines (0.25 / 0.75)
     - Quarter lines have a value that ends with a `.25` or `.75`
     - If you bet on `0.25` it means that you will win if the team you bet on wins. If the team loses, you lose the bet and in case the match ends in a draw you get half of the stake.
+
+### Vietnamese terminology
+
+Kèo Châu Á (kèo Handicap, kèo chấp) là kèo cược dựa vào số bàn thắng để phân định thắng thua trong một ván cược.
+
+Vd:
+
+![example](https://tylekeo247.com/wp-content/uploads/2020/02/cach-xem-keo-bong-da-chau-a.png){max-width: 300px, display: block, margin: 0 auto}
+
+- Trong kèo Châu Á, tên đội chấp (đội kèo trên) thường được in màu đỏ trên bảng tỷ lệ kèo
+- Đội sân nhà sẽ được ghi trước, trường hợp trên đang đá sân nhà của Real Madrid
+- Real Madrid chấp 1 1/4 trái (hay Real Madrid chấp 1.25 trái)
+- Nếu đi Real Madrid và thắng kèo (cách biệt 2 bàn thắng) thì ăn 0.97 (đánh 100 điểm ăn 97 điểm)
+- Nếu đi Real Madrid và Real Madrid thắng cách biệt chỉ 1 bàn thì thua 1/2 tiền (đánh 100 điểm thua 50 điểm)
+- Nếu đi Real Sociedad và thắng kèo thì ăn 0.95 (đánh 100 điểm ăn 95 điểm)
+- Nếu đi Real Sociedad và Real Sociedad bị thua cách biệt chỉ 1 bàn thì ăn 1/2 tiền (đánh 100 điểm ăn 47.5).
