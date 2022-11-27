@@ -2,7 +2,7 @@
 id: uqi5q8ynnmi2r6j50seuref
 title: Usage
 desc: ''
-updated: 1653344902247
+updated: 1669576648677
 created: 1653344776533
 ---
 # Usage
@@ -51,6 +51,7 @@ with the string `South` in the middle replaced by cell `B1`. Hence the modified 
 ```
 
 ## QUERY function with case insensitive comparison
+
 ref: [Learn Google Spreadsheets](https://youtu.be/JPrhBUhxlPY?t=755)
 
 Alternate the `select` statement by `LOWER` function, to interpret the strings as `lowercase` letter. The `UPPER` function would have the same effect.
@@ -65,6 +66,7 @@ An interesting fact, in the query above,
 These two `LOWER` are different entities with similar syntax. 
 
 ## Filtering With Dates In The QUERY Function
+
 ref: [BenCollins](https://www.benlcollins.com/spreadsheets/query-dates/), [Learn Google Spreadsheets](https://www.youtube.com/watch?v=Fbdu5jvjBYg)
 
 The problem occurs because dates in Google Sheets are actually stored as serial numbers, but the Query function requires a date as a string literal in the format `yyyy-mm-dd`, otherwise it can’t perform the comparison filter.
@@ -90,6 +92,18 @@ The `TEXT(A1,"yyyy-mm-dd")` function converts the date in cell `A1` to the requi
 Which lead to the query
 ```javascript
 "select C, B where B > date '"&TEXT(A1,"yyyy-mm-dd")&"'"
+```
+
+## Filtering With DateTime In The QUERY Function
+
+ref: [infoinspired](https://infoinspired.com/google-docs/spreadsheet/datetime-in-query-in-google-sheets/)
+
+Similar as previous trick, but this time we replace `date` by `datetime` (or `timestamp`), and change the text formatting to `yyyy-mm-dd HH:mm:ss`.
+
+Example: 
+
+```javascript
+=QUERY(Data!$A$1:$H$136,"select C, B where B > datetime '"&TEXT(A1,"yyyy-mm-dd HH:mm:ss")&"'",1)
 ```
 
 ## Add a total row to a Query Function table
