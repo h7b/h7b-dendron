@@ -2,12 +2,12 @@
 id: 0c44flimx5xp91rydysf4f6
 title: Create a Betting Spreadsheet
 desc: 'Create a Betting Spreadsheet'
-updated: 1669579786240
+updated: 1669812382356
 created: 1669576718969
 ---
 # Create a Betting Spreadsheet
 
-After having learned [[how to read odds|notes.daily.2022-11-16.football-betting]], I want to practice the experience of betting. Hence, I organized a betting event for World Cup 2022. In order to manage this event, I use Google Sheets. This note summarized this fun experiment.
+After having learned [[how to read odds|notes.daily.2022-11-16.football-betting]], I want to practice the experience of betting. Hence, I organized a betting event for World Cup 2022. I use Google Sheets to manage this event. This note summarized this enjoyable experience.
 
 ## How did I organize the spreadsheet?
 
@@ -20,7 +20,7 @@ I consulted these 2 tutorials:
 Automate the spreadsheet with these Google Sheets addon
 - [SyncWith | Any API](https://workspace.google.com/marketplace/app/syncwith_any_api/449644239211)
     - I used this addon for the experiment
-- [ Amigo: Data Exports and Reports](https://workspace.google.com/marketplace/app/amigo_data_exports_and_reports/274781802717)
+- [Amigo: Data Exports and Reports](https://workspace.google.com/marketplace/app/amigo_data_exports_and_reports/274781802717)
 - [LogicSheet](https://logicsheet.co/)
 - [API Connector by Mixed Analytics](https://workspace.google.com/marketplace/app/api_connector/95804724197)
     - pros: has custom function [ImportAPI](https://mixedanalytics.com/knowledge-base/importapi-custom-sheets-function/)
@@ -47,12 +47,13 @@ I used the [[notes.tutorial.google-sheets-excel.function.query]] to automate som
 
 The trick includes:
 - filter data with datetime format
-- filter data which contains a specific text string
+- filter data which contain a specific string
+- use nested query to avoid creating a helper-column
 
 ## What fun did I learn with the betting experience?
 
 The rate of return (~50%) from the [[Asian handicap betting style|notes.daily.2022-11-16.football-betting#asian-handicap-style]] are quite low compared to the rate (~85%) obtained with [[European style|notes.daily.2022-11-16.football-betting#european-style]].
 
-Sport betting in Vietnam is still illegal, and it is a lucrative business. I hope that Vietnam can learn the rules from the developed countries (eg. US, Europe), and open an official betting market in the near future.
+Sport betting is illegal in Vietnam, the only way to promote the presence of a betting exchange is the ads banner on many pirated content websites (movie, manga, novel).
 
-Since sport betting is illegal in Vn, the only way to promote the presence of a betting exchange is the ads banner on many pirated content websites (movie, manga, novel).
+Sport betting in Vietnam is a lucrative business but not legal (yet). I expect that Vietnam can learn the practice from the developed countries (eg. US, Europe), and open an official betting market in the near future.

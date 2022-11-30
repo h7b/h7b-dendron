@@ -1,13 +1,16 @@
 ---
 id: uqi5q8ynnmi2r6j50seuref
 title: Usage
-desc: ''
-updated: 1669576648677
+desc: 'Usage of QUERY function'
+updated: 1669811952676
 created: 1653344776533
 ---
 # Usage
 
+Tips that I learned in daily usage of QUERY function.
+
 ## QUERY function with Variables, Referencing value in a cell
+
 ref: [Learn Google Spreadsheets](https://www.youtube.com/watch?v=JPrhBUhxlPY)
 
 Duplicate [this spreadsheet file](https://docs.google.com/spreadsheets/d/10QXfX2OqIbHJNnylAuTL6-MJ0EfNADG7e75ZKq-j_F4/) to practice
@@ -199,7 +202,25 @@ example:
 ```
 
 ## Use TEXTJOIN to create dynamic Query statement
+
 ref: [Learn Google Spreadsheets](https://youtu.be/cH__zeKlo7Q?t=798)
 
 By integrating [TEXTJOIN](https://www.sheetaki.com/how-to-use-textjoin-function-in-google-sheets/) function, you can create a dynamic Query statement based on user inputs.
 ![dynamic-query-example](https://ik.imagekit.io/casa/h7b-dendron/Screenshot_2022-02-08_214228_KAe5rRHro.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644353011231){max-width: 300px, display: block, margin: 0 auto}
+
+## How to use nested queries
+
+ref: [infoinspired](https://infoinspired.com/google-docs/spreadsheet/google-sheets-nested-query/), [stackoverflow](https://stackoverflow.com/questions/50271913/google-sheet-query-where-clause-to-result-from-another-query)
+
+In a nested QUERY formula in Google Sheets, a Query is written inside another Query.
+
+Use [[notes.tutorial.google-sheets-excel.function.textjoin]] to concatenate the string output of the subquery, then use it as the condition string in main query.
+- example:
+    ```javascript
+    =query(I3:J,"Select I where J matches '"&TEXTJOIN("|",true,query(F3:G,"Select F where G = 'Vendor A' or G = 'Vendor C'"))&"'")
+    ```
+
+Similarly, I can also use string concatenation `&` to use the output of subquery as the condition string in the main query.
+- example:
+    ```javascript
+    =query(Assignments!A1:R1001,"select A where G like '"&query(Individual!A2:AL25,"select N, Q, O where AL = 'Christian Slater'")&"'")
