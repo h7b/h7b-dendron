@@ -2,7 +2,7 @@
 id: fcv82y1cyt0yxceasp1olx5
 title: Full Calendar
 desc: ''
-updated: 1668210986508
+updated: 1670362272906
 created: 1667795788870
 ---
 # Full Calendar
@@ -15,6 +15,10 @@ created: 1667795788870
     - alternatives: [Fantasy Calendars](https://github.com/fantasycalendar/obsidian-fantasy-calendar)
 - Read [documentation](https://davish.github.io/obsidian-full-calendar/)
 - Demo ![calendar](https://raw.githubusercontent.com/davish/obsidian-full-calendar/main/docs/assets/sample-calendar.png){max-width: 300px, display: block, margin: 0 auto}
+- Update
+    - [Release 0.9.0](https://github.com/davish/obsidian-full-calendar/releases/tag/0.9.0)
+        - the events can be written in Daily Notes ![daily-note](https://davish.github.io/obsidian-full-calendar/assets/dailynote.gif){max-width: 300px, display: block, margin: 0 auto}
+        - [Read here](https://davish.github.io/obsidian-full-calendar/calendars/dailynote/) for the document of this notable feature
 
 [^1]: https://davish.github.io/obsidian-full-calendar/calendars/local/
 [^2]: https://davish.github.io/obsidian-full-calendar/calendars/ics/

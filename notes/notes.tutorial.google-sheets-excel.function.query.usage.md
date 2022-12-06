@@ -2,7 +2,7 @@
 id: uqi5q8ynnmi2r6j50seuref
 title: Usage
 desc: 'Usage of QUERY function'
-updated: 1669811952676
+updated: 1670367288210
 created: 1653344776533
 ---
 # Usage
@@ -224,3 +224,31 @@ Similarly, I can also use string concatenation `&` to use the output of subquery
 - example:
     ```javascript
     =query(Assignments!A1:R1001,"select A where G like '"&query(Individual!A2:AL25,"select N, Q, O where AL = 'Christian Slater'")&"'")
+
+## Select a Range of Multiple Columns in QUERY
+
+ref: [Learn Google Spreadsheets](https://www.youtube.com/watch?v=HPBXYhS9PRA)
+
+Normally the query formula use the alphabets to indicate the selected column,
+
+```javascript
+=QUERY(data!A1:G100, "SELECT A, B, C", 1)
+```
+
+By putting the data range into an array format (surrounded by the curly brackets `{}`), then we can use `Col1` to indicate the required column.
+
+```javascript
+=QUERY({data!A1:G100}, "SELECT Col1, Col2, Col3", 1)
+```
+
+Developing from this logic, we can use the [SEQUENCE](https://support.google.com/docs/answer/9368244?hl=en) function to generate a string like `SELECT Col1, Col2, Col3` without the needs of typing each column repeatedly.
+
+```javascript
+=ArrayFormula("SELECT "&JOIN(", ", "Col"&SEQUENCE(1,3)))
+```
+
+Then replacing the "select" statement in the query by the arrayforumla.
+
+```javascript
+=QUERY({data!A1:G100}, ArrayFormula("SELECT "&JOIN(", ", "Col"&SEQUENCE(1,3))), 1)
+```
