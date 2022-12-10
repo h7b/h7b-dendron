@@ -2,7 +2,7 @@
 id: rga3z63rms3dwve55kjsjo5
 title: Custom Formatting Numbers
 desc: 'Custom formatting of numbers, dates, and currencies'
-updated: 1670541987944
+updated: 1670628239098
 created: 1670541276450
 ---
 # Custom formatting of numbers, dates, and currencies
@@ -16,6 +16,12 @@ When creating a custom format, note that the formatting can consist of up to 4 p
 If you add thousand separators but don’t specify a format after the comma (e.g. 0,) then the hundreds will be chopped off the number.
 - you can indicate the `thousands` with a `k` by applying the custom format `0.0,"k"`
 - or you can use only `M` to indicate `millions` with the custom format `0.0,,"M"`
+
+You can also combine the notation, like this example
+- `[<1000000]0.0," k"[$ ₫]; [>1000000]0.0,," M"[$ ₫]; 0.0,," M"[$ ₫]`
+    - if number is <1M, then its format will be `1.2 k ₫`
+    - if number is >1M, then its format will be `1.2 M ₫`
+    - all other case, the format will be `1.2 M ₫`.
 
 ## Related
 

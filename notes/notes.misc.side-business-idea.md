@@ -2,7 +2,7 @@
 id: xIHUqgJilv3BmnvbvwlhF
 title: Side Business Idea
 desc: ''
-updated: 1667341476034
+updated: 1670630365640
 created: 1643854567901
 tags: topic.investment
 ---
@@ -195,3 +195,14 @@ Is there an equivalent entity of [Regulated Investment Company (RIC)](https://ww
 
 [polygon](https://polygon.io/)
 - Different [Pricing](https://polygon.io/pricing) for stocks, currencies and options. Has free plan
+
+### Algotrading
+
+[Blankly](https://blankly.finance/)
+- Build and deploy programmatic trading algorithm
+
+[QuantConnect](https://www.quantconnect.com/)
+- open-source quantitative research, unified API for research, backtesting, and live trading
+
+[Tradologics](https://tradologics.com/)
+- cloud platform and software-as-a-service designed specifically for programmatic trading

@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Create Trading Spreadsheet
 desc: 'Create a Trading Spreadsheet'
-updated: 1670542515540
+updated: 1670629150324
 created: 1669812452443
 tags:
 - cat.tut
@@ -19,7 +19,7 @@ DONE
 - View recap of the portfolio with the automated sheet `recap_sum-by-ticker`
 - View list of executed trades, sorted by ticker in the automated sheet `recap_sorted-by-ticker`
 
-To do
+TODO
 - Create an automated sheet to calculate the current value of the portfolio, with P/L
 
 ## Thinking
@@ -41,4 +41,4 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
 
 2022-12-09 update: 
 - TIL: I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`
-- TIL: Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`
+- TIL: Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`, the `thousands` with a `k`.
