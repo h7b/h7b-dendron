@@ -2,12 +2,25 @@
 id: kw7sfqa98htb8n1aezrzfnu
 title: Screen Recorder Tools
 desc: 'Screen Recorder Tools'
-updated: 1670454305239
+updated: 1670784331111
 created: 1670447926135
 ---
 # Screen Recorder Tools
 
 Today I want to record some steps of my coding practice. Hence, this note listed some tools that I have searched for.
+
+## ShareX
+
+[ShareX](https://getsharex.com/) is a screen capture/recording, file sharing and productivity tool.
+
+Pros:
+- Free and open source
+- Configurable batch of tasks
+- Annotation
+- OCR image
+
+Cons:
+- Windows only
 
 ## Screenrec
 
