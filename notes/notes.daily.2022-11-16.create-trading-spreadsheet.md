@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Create Trading Spreadsheet
 desc: 'Create a Trading Spreadsheet'
-updated: 1670629150324
+updated: 1670953395129
 created: 1669812452443
 tags:
 - cat.tut
@@ -18,13 +18,11 @@ DONE
 - Input manually each trade into `order_book` sheet
 - View recap of the portfolio with the automated sheet `recap_sum-by-ticker`
 - View list of executed trades, sorted by ticker in the automated sheet `recap_sorted-by-ticker`
-
-TODO
 - Create an automated sheet to calculate the current value of the portfolio, with P/L
 
 ## Thinking
 
-I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From that research, I learned that there is no free API data feed for hobbyist to play with the historical data of Vietnam stock market. So I have to write python script to crawl historical data from [investing.com](https://www.investing.com/) then import to Google Sheets.
+I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From that research, I learned that there is no free API data feed for hobbyist to play with the historical data of Vietnam stock market. So I intend to crawl historical data from [investing.com](https://www.investing.com/) then import to Google Sheets.
 
 - Use [investiny](https://github.com/alvarobartt/investiny) python package to crawl data
 - Read tutorials
@@ -39,6 +37,7 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
 
 [Click here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my work-in-progress spreadsheet, with sample data.
 
-2022-12-09 update: 
-- TIL: I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`
-- TIL: Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`, the `thousands` with a `k`.
+2022-12-09 update: TIL:
+- I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`. For this reason, the plan to practice python for web scraping is procrastinated again
+- IMPORTXML seems to be refreshed automatically every day, which is good enough for my simple trading sheet 
+- Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`, the `thousands` with a `k`.

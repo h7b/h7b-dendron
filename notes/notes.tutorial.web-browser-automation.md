@@ -2,7 +2,7 @@
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
 desc: 'Web Browser Automation'
-updated: 1665698173802
+updated: 1670951915841
 created: 1653787126743
 ---
 # Web browser automation tools
@@ -123,3 +123,4 @@ created: 1653787126743
 - [Batch Downloading With Python](https://thesoloadmin.com/batch-downloading-with-python/)
 - [enable clicking on the "show more" button on medium blog site via selenium](https://shantoroy.com/webscrapping/click-button-show-more-on-medium-dot-com-via-selenium/)
 - [Dataquest [YouTube] | Web Scraping Beginner Tutorial: BeautifulSoup, Playwright, And Python](https://www.youtube.com/watch?v=SJ7xnhSLwi0)
+- [realpython | Python Web Scraping Learning Path](https://realpython.com/learning-paths/python-web-scraping/)
