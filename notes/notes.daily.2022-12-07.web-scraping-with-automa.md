@@ -2,13 +2,13 @@
 id: 4aotslw3br0wz51gtts37oz
 title: Web Scraping with Automa
 desc: 'Web Scraping with Automa'
-updated: 1670974256901
+updated: 1671146341784
 created: 1670953457793
 tags: cat.tut
 ---
 # Web Scraping with Automa
 
-Originated from the interest to compare the performance of [[notes.daily.2022-09-19.investment-fund-vn]], I started to research how to crawl historical NAV data of multiple investment funds domiciled in Vietnam. It leads to the path of learning on [[notes.tutorial.web-browser-automation]]. This note was my experience playing browser automation with [Automa](https://www.automa.site/).
+Originated from the interest of the performance of [[notes.daily.2022-09-19.investment-fund-vn]], I started to research how to crawl historical NAV data of multiple investment funds domiciled in Vietnam. It leads to the path of learning on [[notes.tutorial.web-browser-automation]]. This note covers my experience playing browser automation with [Automa](https://www.automa.site/).
 
 ## What is Automa?
 
@@ -50,4 +50,12 @@ This is the manual workflow that I want to automate.
 ### dcbc v7:
 
 - in the previous version, my workflow can download only 10 files within the 1st page. Now I want to retrieve all published daily reports. At this moment, the [website of fund DCBC](https://dragoncapital.com.vn/en/investor-relations/announcement/?report_type=bao-cao-nav&fund_code=DCBC) has 24 pages of daily NAV reports, dated from 2022-01-03 to 2022-12-12. This means the [Loop Elements](https://docs.automa.site/blocks/loop-elements.html) need to be iterated ~240 times (10 files x 24 pages), which can be achieved using the feature "Load more elements" in [Loop Elements](https://docs.automa.site/blocks/loop-elements.html)
+- Retrieving all 240 files' url of year 2022 has a runtime 16m23s
 - [Click here](https://app.box.com/s/7xz8wkw3t0djc7wvijwn0drk539x9exc) to download the `.json` file of Automa workflow.
+
+### dcbc v8
+- Instead of looping the elements and then opening the daily nav page in new tab to retrieve the download url as in v7. My friend suggests trying to retrieve all the URLs first and then loop through these URLs.
+- I expected that the runtime of this version should be much shorter than v7. Surprisingly, the runtime of v8 is 23m29s
+- [Click here](https://app.box.com/s/mcekp1p3ey4wtse57rsdre26mn1n1urx) to download the `.json` file of Automa workflow.
+
+![automa-dcbc-v8](https://ik.imagekit.io/casa/h7b-dendron/Screenshot_2022-12-16_001603_EZHdQFXQM.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671146216258){max-width: 300px, display: block, margin: 0 auto}
