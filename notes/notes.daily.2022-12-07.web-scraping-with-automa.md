@@ -2,7 +2,7 @@
 id: 4aotslw3br0wz51gtts37oz
 title: Web Scraping with Automa
 desc: 'Web Scraping with Automa'
-updated: 1671146341784
+updated: 1671152284016
 created: 1670953457793
 tags: cat.tut
 ---
@@ -55,7 +55,7 @@ This is the manual workflow that I want to automate.
 
 ### dcbc v8
 - Instead of looping the elements and then opening the daily nav page in new tab to retrieve the download url as in v7. My friend suggests trying to retrieve all the URLs first and then loop through these URLs.
-- I expected that the runtime of this version should be much shorter than v7. Surprisingly, the runtime of v8 is 23m29s
+- I expected that the runtime of this version should be much shorter than v7. Surprisingly, the runtime of v8 is worse, at 23m29s
 - [Click here](https://app.box.com/s/mcekp1p3ey4wtse57rsdre26mn1n1urx) to download the `.json` file of Automa workflow.
 
 ![automa-dcbc-v8](https://ik.imagekit.io/casa/h7b-dendron/Screenshot_2022-12-16_001603_EZHdQFXQM.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671146216258){max-width: 300px, display: block, margin: 0 auto}
