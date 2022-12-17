@@ -2,7 +2,7 @@
 id: cgpdk2bsfim0hbtdrft3che
 title: Betterment
 desc: ''
-updated: 1661177798893
+updated: 1671232927087
 created: 1649199078028
 tags: topic.investment
 ---
@@ -20,4 +20,4 @@ My current experiment with robo-advisor Betterment.
 
 ## Current holdings
 
-![[notes.daily.2022-05-06#notes-2022-05-06,1]]
+![[notes.daily.2022-05-06]]

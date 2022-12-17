@@ -2,7 +2,7 @@
 id: 0c44flimx5xp91rydysf4f6
 title: Create a Betting Spreadsheet
 desc: 'Create a Betting Spreadsheet'
-updated: 1669853188847
+updated: 1671231525691
 created: 1669576718969
 ---
 # Create a Betting Spreadsheet
@@ -98,3 +98,8 @@ The rate of return (~50%) from the [[Asian handicap betting style|notes.daily.20
 Sport betting is illegal in Vietnam, the only way to promote the presence of a betting broker exchange is the ads banner on many pirated content websites (movie, manga, novel).
 
 Sport betting in Vietnam is a lucrative business but not legal (yet). I expect that Vietnam can learn the practice from the developed countries (eg. US, Europe), and open an official betting market in the near future.
+
+## Related
+
+- [Google Books | Sports Betting: Law and Policy](https://books.google.fr/books/about/Sports_Betting_Law_and_Policy.html?id=vBOUBDuEtj8C&redir_esc=y)
+- [Google Books | The Logic of Sports Betting](https://books.google.fr/books/about/The_Logic_of_Sports_Betting.html?id=y_c_xQEACAAJ)

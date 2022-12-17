@@ -2,7 +2,7 @@
 id: WXoYpLmbGZWi9gVX
 title: How to Collect Market Data (stocks/crypto)
 desc: How to Collect Market Data (stocks/crypto)
-updated: 1661178007675
+updated: 1671230975687
 created: 1626513463054
 tags:
   - topic.investment
@@ -12,11 +12,9 @@ tags:
 
 Ref: [Towards Data Science](https://towardsdatascience.com/best-5-free-stock-market-apis-in-2019-ad91dddec984), [Algotrading101](https://algotrading101.com/learn/yfinance-guide/), [awesome-quant | Data Sources](https://github.com/wilsonfreitas/awesome-quant#data-sources)
 
-## Paid data sources
+## Data sources
 
 ![[notes.misc.side-business-idea#data-api-provider,1]]
-
-## Free open source community package:
 
 - manually download historical data from <https://www.investing.com/> or use [[notes.tutorial.python.packages.investpy]]
 - [[notes.tutorial.python.packages.pandas-datareader]]
@@ -26,7 +24,7 @@ Ref: [Towards Data Science](https://towardsdatascience.com/best-5-free-stock-mar
 - [TradeKit](https://github.com/hackingthemarkets/tradekit)
     - a collection of open source server components and Python libraries for building your own financial applications, data analysis tools, and trading bots
 - [[notes.tutorial.python.packages.quantstats]]
-- [[notes.tutorial.python.packages.vnquant]] for Vietnam stock market
+- [[notes.daily.2022-10-24.vn-stock-market-research]] for Vietnam stock market
 
 ## Related Resources
 

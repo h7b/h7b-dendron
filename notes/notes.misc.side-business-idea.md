@@ -2,7 +2,7 @@
 id: xIHUqgJilv3BmnvbvwlhF
 title: Side Business Idea
 desc: ''
-updated: 1670630365640
+updated: 1671233839659
 created: 1643854567901
 tags: topic.investment
 ---
@@ -81,23 +81,6 @@ Is there an equivalent entity of [Regulated Investment Company (RIC)](https://ww
 [TradeStation](https://www.tradestation.com/)
 - trading platform for stock, etf, derivatives, crypto
 
-[Composer](https://www.composer.trade/)
-- a no code platform for creating and investing with rules-based trading strategies. It's basically algo-trading without Python or Excel. They have dozens of [pre-made investing templates](https://app.composer.trade/discover). But you can also build your own strategy
-- Composer removes the subjectivity of buying breakouts and then having to make decisions during the heat of the moment. I’m all about rules-based investing
-- With Composer you can create, backtest and invest in your own quant strategy - no code, spreadsheets or Terminal required
-
-[Streak](https://streak.world/)
-- no code platform for algo trade
-- [pricing](https://streak.world/pricing) starts USD 20/month for algo trading. Free for manual trading
-
-[Quantreex](https://www.quantreex.com/)
-- Create advanced automated trading strategies without coding
-- [pricing](https://www.quantreex.com/plans) starts at USD 89/month. Free for demo trading account
-
-[StratGen](https://www.stratgen.io/)
-- [pricing](https://www.stratgen.io/pricing) starts at USD 50/month. Free demo only
-- Build automated algorithmic trading strategies with no coding required
-
 [Quantower](https://www.quantower.com/)
 - Analysis and trading
 - multi-asset coverage: forex, cfd, crypto, digital assets, stocks, options
@@ -148,13 +131,17 @@ Is there an equivalent entity of [Regulated Investment Company (RIC)](https://ww
 - GitHub [repo](https://github.com/OpenBB-finance/OpenBBTerminal)
 - related news: [VentureBeat](https://venturebeat.com/2022/03/30/openbb-wants-to-be-an-open-source-challenger-to-bloomberg-terminal/)
 
+[Quiver Quantitative](https://www.quiverquant.com/)
+- stock investment research based on alternative data
+- example: [Do members of some Congressional committees have better trading performance than others?](https://www.quiverquant.com/blog/051922)
+
 [koyfin](https://www.koyfin.com/)
 - financial data and analytics platform for researching stocks and understanding market trends
 - [pricing](https://www.koyfin.com/pricing/) starts at USD 25/month, with a Free tier available
 
 [Stock Unlock](https://stockunlock.com/)
 - investment education and analysis platform
-- pricing starts at USD 7/month, with 7-day free trial without credit card requirement
+- [pricing](https://stockunlock.com/#pricing-section) starts at USD 7/month, with 14-day free trial without credit card requirement
 
 [Simply Wall St](https://simplywall.st/)
 - investment stock analysis platform
@@ -177,6 +164,13 @@ Is there an equivalent entity of [Regulated Investment Company (RIC)](https://ww
 
 [Qualtrim](https://qualtrim.com/)
 - Portfolio Tracker
+
+[Gorilla Terminal](https://gorillaterminal.com/)
+- research terminal similar to [OpenBB](https://openbb.co/) or [TIKR Terminal](https://tikr.com/)
+- [Pricing](https://gorillaterminal.com/pricing) starts at USD 15/month
+
+[AlphaScreener](https://www.alphascreener.com/)
+- all-in-one stock screener and backtesting tool for the DIY investors
 
 ### Data API provider
 
@@ -206,3 +200,24 @@ Is there an equivalent entity of [Regulated Investment Company (RIC)](https://ww
 
 [Tradologics](https://tradologics.com/)
 - cloud platform and software-as-a-service designed specifically for programmatic trading
+
+[Mida](https://www.mida.org/)
+- [Documentation](https://www.mida.org/documentation/)
+- Typescript based
+
+[Composer](https://www.composer.trade/)
+- a no code platform for creating and investing with rules-based trading strategies. It's basically algo-trading without Python or Excel. They have dozens of [pre-made investing templates](https://app.composer.trade/discover). But you can also build your own strategy
+- Composer removes the subjectivity of buying breakouts and then having to make decisions during the heat of the moment. I’m all about rules-based investing
+- With Composer you can create, backtest and invest in your own quant strategy - no code, spreadsheets or Terminal required
+
+[Streak](https://streak.world/)
+- no code platform for algo trade
+- [pricing](https://streak.world/pricing) starts USD 20/month for algo trading. Free for manual trading
+
+[Quantreex](https://www.quantreex.com/)
+- Create advanced automated trading strategies without coding
+- [pricing](https://www.quantreex.com/plans) starts at USD 89/month. Free for demo trading account
+
+[StratGen](https://www.stratgen.io/)
+- [pricing](https://www.stratgen.io/pricing) starts at USD 50/month. Free demo only
+- Build automated algorithmic trading strategies with no coding required

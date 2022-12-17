@@ -2,7 +2,7 @@
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
 desc: 'Web Browser Automation'
-updated: 1670951915841
+updated: 1671217215340
 created: 1653787126743
 ---
 # Web browser automation tools
@@ -103,6 +103,10 @@ created: 1653787126743
 ### [Price2Spy](https://www.price2spy.com/en/)
 - Scraping tools for e-commerce (pricing bot)
 - [Pricing](https://www.price2spy.com/en/pricing/basic.html) starts at USD 24/month
+
+### [Bright Data](https://brightdata.com/)
+- complicated pricing page
+- [Demo video](https://www.youtube.com/watch?v=DKjXYEj9uEY)
 
 ## Related resources
 

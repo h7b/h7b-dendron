@@ -2,13 +2,21 @@
 id: pjud206af01es3xy9x7iqxi
 title: Tools to research Vietnam stock market
 desc: 'Tools to research Vietnam stock market for retail investor'
-updated: 1669813085382
+updated: 1671231170157
 created: 1667341011449
-tags: topic.investment
+tags: 
+- topic.investment
+- cat.tut
 ---
 # Tools to research Vietnam stock market for retail investor
 
 ## Market research
+
+vnquant
+- ![[notes.tutorial.python.packages.vnquant]]
+
+vnstock
+- ![[notes.tutorial.python.packages.vnstock]]
 
 [Simplize](https://simplize.vn/)
 - stock analysis platform for Vietnam market only

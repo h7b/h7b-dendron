@@ -1,14 +1,15 @@
 ---
 id: r3925ifilsti58022929u3t
 title: Investpy
-desc: ''
-updated: 1654299778645
+desc: 'Investpy'
+updated: 1671231099465
 created: 1654297491068
 ---
-# [Investpy](https://github.com/alvarobartt/investpy)
+# Investpy
 
-- Investpy is a Python package to retrieve financial and cryptocurrencies related data from [Investing.com](https://www.investing.com/)
+- [Investpy](https://github.com/alvarobartt/investpy) is a Python package to retrieve financial and cryptocurrencies related data from [Investing.com](https://www.investing.com/)
 - [Documentation](https://investpy.readthedocs.io/index.html)
+- Status: replaced by [investiny](https://github.com/alvarobartt/investiny)
 
 ## Usage
 

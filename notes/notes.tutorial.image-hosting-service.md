@@ -2,7 +2,7 @@
 id: Iwqrmz3QRqEmIS1ALcXp7
 title: Image Hosting Service
 desc: ''
-updated: 1652741255433
+updated: 1671233300723
 created: 1637436371459
 ---
 # Image hosting service provider 
@@ -16,6 +16,9 @@ How to upload images to cloud and embed in markdown files?
 [imgur](https://imgur.com/)
 - [Imgur plugin for Obsidian](https://github.com/gavvvr/obsidian-imgur-plugin)
 - Upload images to [imgur](https://imgur.com/), with some [limits](https://help.imgur.com/hc/en-us/articles/115000083326) in file size and number of uploads per hour. Currently, imgur does not limit the total storage.
+- Imgur deletes un-viewed images after 6 months [^1]
+
+[^1]: https://forum.obsidian.md/t/compress-images-when-pasted-into-obsidian/11982/10
 
 [Cloudinary](https://cloudinary.com/)
 - [Cloudinary plugin for Obsidian](https://github.com/jordanhandy/obsidian-cloudinary-uploader)
