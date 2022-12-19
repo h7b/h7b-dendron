@@ -1,8 +1,7 @@
 ---
 id: 1e9n4fbrvrrq97d4a0eqymo
 title: Vnquant
-title: Vnquant
-desc: ''
+desc: 'Vnquant'
 updated: 1671208386876
 created: 1654296739860
 ---
