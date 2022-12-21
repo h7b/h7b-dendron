@@ -1,8 +1,8 @@
 ---
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
-desc: 'Web Browser Automation'
-updated: 1671217215340
+desc: 'Tools to automate browser'
+updated: 1671583487499
 created: 1653787126743
 ---
 # Web browser automation tools
@@ -32,6 +32,10 @@ created: 1653787126743
 ### [Headless Recorder](https://github.com/checkly/headless-recorder)
 - extension for Chromium only
 - open-source extension to record browser interaction and generating Puppeteer & Playwright scripts
+
+### [AutoHotkey](https://www.autohotkey.com/)
+- AutoHotkey is a free, open-source scripting language for Windows that allows users to easily create small to complex scripts for all kinds of tasks such as: form fillers, auto-clicking, macros, etc.
+- AutoHotkey gives you the freedom to automate any desktop task.
 
 ## Commercial tools
 

@@ -1,18 +1,20 @@
 ---
 id: XoCpnJlyY5sdGQf6DKPCO
 title: Alfred and its Alternative
-desc: ''
-updated: 1651163078034
+desc: 'Spotlight alternatives'
+updated: 1671583225463
 created: 1637238297902
 ---
 # Alfred and its Alternative
 
-[Alfred](https://www.alfredapp.com/) is a quick launcher for macOS, with the capability to automate [workflows](https://www.alfredapp.com/workflows/) via its Powerpack.
+[Alfred](https://www.alfredapp.com/) is an alternative of [Spotlight](https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac), a quick launcher for macOS, with the capability to automate [workflows](https://www.alfredapp.com/workflows/) via its Powerpack.
 
 A curated list of alternatives:
 - [Raycast](https://www.raycast.com/)
     - support: macOS
     - [pricing](https://www.raycast.com/pricing) starts at USD 10/user/month. Free for personal use
+- [Fluent Search](https://fluentsearch.net/)
+    - support: win 10/11
 - [Cerebro](https://cerebroapp.com/)
     - support: macOS, win
 - [Ueli](https://ueli.app/#/)
