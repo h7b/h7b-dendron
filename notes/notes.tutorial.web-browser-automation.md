@@ -2,12 +2,16 @@
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
 desc: 'Tools to automate browser'
-updated: 1671583487499
+updated: 1671758141888
 created: 1653787126743
 ---
 # Web browser automation tools
 
 ## Open source Tools
+
+### [Automa](https://www.automa.site/)
+- Automa is a browser extension for browser automation. From auto-fill forms, doing a repetitive task, taking a screenshot, to scraping data of the website
+- Workflow is executed using the local browser
 
 ### [Scrapy](https://scrapy.org/)
 ![[notes.tutorial.python.packages.scrapy#scrapy,1:#*]]
@@ -20,9 +24,6 @@ created: 1653787126743
 
 ### [Selenium](https://www.selenium.dev/documentation/overview/)
 ![[notes.tutorial.web-browser-automation.selenium#selenium,1:#*]]
-
-### [Automa](https://www.automa.site/)
-- Automa is a browser extension for browser automation. From auto-fill forms, doing a repetitive task, taking a screenshot, to scraping data of the website
 
 ### [PageProbe](https://addons.mozilla.org/en-US/firefox/addon/pageprobe/)
 - extension for Firefox only
@@ -111,6 +112,16 @@ created: 1653787126743
 ### [Bright Data](https://brightdata.com/)
 - complicated pricing page
 - [Demo video](https://www.youtube.com/watch?v=DKjXYEj9uEY)
+
+### [Simplescraper](https://simplescraper.io/)
+- need to install extension on Chrome
+- no code style, point and click to select element
+- [pricing](https://simplescraper.io/#pricing) starts at USD 35/month. Free plan available
+
+### [Automatio](https://automatio.co/)
+- need to install extension on Chrome
+- the scraper bot runs in the cloud not your local browser
+- pricing page is buried inside its web app
 
 ## Related resources
 

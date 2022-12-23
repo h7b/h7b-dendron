@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Create Trading Spreadsheet
 desc: 'Create a Trading Spreadsheet'
-updated: 1670953395129
+updated: 1671757180643
 created: 1669812452443
 tags:
 - cat.tut
@@ -15,10 +15,9 @@ I want to create a spreadsheet to monitor the performance of trading stocks in V
 ## Project status
 
 DONE
-- Input manually each trade into `order_book` sheet
-- View recap of the portfolio with the automated sheet `recap_sum-by-ticker`
-- View list of executed trades, sorted by ticker in the automated sheet `recap_sorted-by-ticker`
-- Create an automated sheet to calculate the current value of the portfolio, with P/L
+- Input manually each trade into `orderBook` sheet
+- View recap of the portfolio with the automated sheet `pnl`, with the current value of the portfolio, realized/unrealized P/L 
+- View list of executed trades, sorted by ticker in the automated sheet `orderBook_sortedByTicker`
 
 ## Thinking
 
@@ -37,7 +36,16 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
 
 [Click here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my work-in-progress spreadsheet, with sample data.
 
-2022-12-09 update: TIL:
+2022-12-09 update: TIL
 - I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`. For this reason, the plan to practice python for web scraping is procrastinated again
 - IMPORTXML seems to be refreshed automatically every day, which is good enough for my simple trading sheet 
 - Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`, the `thousands` with a `k`.
+
+2022-12-23 update: TIL
+- need to refactor formula in `pnl` sheet since `orderBook` now has 3 types of transaction (buy, sell, stock dividend)
+- add a new column for `income tax on selling securities`. Learn the calculation at [[notes.reading.tax-investors-vn]]
+- Calculate the column `rate of return (unrealized) (weighted by cost of purchasing)`
+    - use [[notes.tutorial.google-sheets-excel.function.sumproduct]] combined with [ABS](https://support.google.com/docs/answer/3093459?hl=en) formula to get the sum of absolute value of a mixture of positive and negative numbers
+    - `SUMPRODUCT(ABS($E$2:$E))`
+    - in [[notes.tutorial.google-sheets-excel.function.sumproduct]] formula, when `array2` is omitted as above, the formula will calculate the sum of the products of the 2 arrays: `array1` and `{1,1,1,...}` with same length as `array1`.
+    - Read more about [How To Get Absolute Value In Google Sheets](https://www.alphr.com/absolute-value-google-sheets/)
