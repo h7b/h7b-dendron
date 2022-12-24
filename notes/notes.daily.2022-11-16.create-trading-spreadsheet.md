@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Create Trading Spreadsheet
 desc: 'Create a Trading Spreadsheet'
-updated: 1671757180643
+updated: 1671848736943
 created: 1669812452443
 tags:
 - cat.tut
@@ -19,7 +19,10 @@ DONE
 - View recap of the portfolio with the automated sheet `pnl`, with the current value of the portfolio, realized/unrealized P/L 
 - View list of executed trades, sorted by ticker in the automated sheet `orderBook_sortedByTicker`
 
-## Thinking
+TODO
+- Compute cost basis of stocks with FIFO method
+
+## Thoughts
 
 I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From that research, I learned that there is no free API data feed for hobbyist to play with the historical data of Vietnam stock market. So I intend to crawl historical data from [investing.com](https://www.investing.com/) then import to Google Sheets.
 
@@ -49,3 +52,7 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
     - `SUMPRODUCT(ABS($E$2:$E))`
     - in [[notes.tutorial.google-sheets-excel.function.sumproduct]] formula, when `array2` is omitted as above, the formula will calculate the sum of the products of the 2 arrays: `array1` and `{1,1,1,...}` with same length as `array1`.
     - Read more about [How To Get Absolute Value In Google Sheets](https://www.alphr.com/absolute-value-google-sheets/)
+
+2022-12-24 update:
+- refactor the formula to calculate `Realized Gain/Loss`, applying the accounting FIFO (first in, first out). It means that the shares I bought earliest will be the shares I sell first. Read more at [[here|notes.daily.2022-11-16.create-trading-spreadsheet.fifo-stock-portfolio]]
+- add a [[dedicated note|notes.daily.2022-11-16.create-trading-spreadsheet.manage-stock-transactions-with-sheets]] explaning how did I record transaction into `orderBook`
