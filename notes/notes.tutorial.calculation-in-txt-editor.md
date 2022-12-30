@@ -2,7 +2,7 @@
 id: CroxQVfNqCIcpUBNCgLaW
 title: Calculation in Text Editor
 desc: Calculation in Text Editor
-updated: 1667793899078
+updated: 1672354641261
 created: 1635893931967
 ---
 # Implement inline calculations in text editor
@@ -59,6 +59,7 @@ created: 1635893931967
     - web only
 - [dedo](https://dedo.io/)
     - web only
+    - not be able to share via url. Must download a `.dedo` file then share.
 - [Notepad Calculator](https://notepadcalculator.com/)
     - web only
 - [reactivepad](https://reactivepad.com/)
@@ -80,3 +81,12 @@ created: 1635893931967
 - [Calca](https://calca.io/)
     - desktop and mobile version. All requires one-time license
     - has been stopped being developed probably since 5 or 6 years ago.
+- [Calcutext](https://calcutext.com/)
+    - similar to [Dedo](https://dedo.io/)
+- [ReplPad](https://replpad.com/)
+    - similar to [Dedo](https://dedo.io/)
+- [Numpad](https://numpad.io/)
+    - similar to [Numbr](https://numbr.dev/)
+- [SMath](https://en.smath.com/view/SMathStudio/summary)
+    - desktop app. can do symbolic math
+    - [pricing](https://en.smath.com/view/SMathStudio/pricing) starts at USD 4/month. Free for personal use.

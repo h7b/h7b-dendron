@@ -2,18 +2,18 @@
 id: h4sjs3xjkwd94yspx1zewmp
 title: 'Cost basis of stocks with FIFO method'
 desc: 'Compute cost basis of stocks with FIFO method in Google Sheets'
-updated: 1671849766147
+updated: 1672360091521
 created: 1671847951740
 ---
 # Compute cost basis of stocks with FIFO method in Google Sheets
 
 ref: [allstacksdeveloper](https://www.allstacksdeveloper.com/2022/09/fifo-stock-portfolio-google-sheets.html)
 
-Inspired by [this post](https://www.allstacksdeveloper.com/2022/09/fifo-stock-portfolio-google-sheets.html).
-
 ## Situation
 
-After selling a portion of current holdings in a stock, the cost basis for remaining shares of that stock in my portfolio is not simply the sum of all transactions. Hence, I try to implement a formula to calculate the `Realized Gain/Loss`, applying the accounting FIFO (first in, first out).
+After selling a portion of current holdings in a stock, the cost basis for remaining shares of that stock in my portfolio is not simply the sum of all transactions. Hence, I learn the implementation of a formula to calculate the `Realized Gain/Loss`, applying the FIFO (first in, first out) accounting method.
+
+Read more about the custom formula at [[here|notes.daily.2022-11-16.create-trading-spreadsheet.fifo-stock-portfolio.script]].
 
 ## Related
 

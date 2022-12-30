@@ -2,7 +2,7 @@
 id: 5n5rd1uc1zcnjhmkidppdpe
 title: Web Browser Automation
 desc: 'Tools to automate browser'
-updated: 1671758141888
+updated: 1672352702881
 created: 1653787126743
 ---
 # Web browser automation tools
@@ -39,6 +39,12 @@ created: 1653787126743
 - AutoHotkey gives you the freedom to automate any desktop task.
 
 ## Commercial tools
+
+### [Microsoft Power Automate](https://powerautomate.microsoft.com/en-us/)
+- [Pricing](https://powerautomate.microsoft.com/en-us/pricing/) starts at USD 15/month. If you are a Windows 10/11 user, you have access to personal desktop flows in Power Automate for desktop for free. [^1]
+- This tool does not only automate web browser but also other process automation.
+
+[^1]: https://powerautomate.microsoft.com/en-us/robotic-process-automation/
 
 ### [Rocketride](https://www.rocketride.io/)
 - [Pricing](https://www.rocketride.io/#pricing) starts at USD 9/month. Free for 500 local runs, 30 cloud runs
