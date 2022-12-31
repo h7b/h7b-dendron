@@ -2,7 +2,7 @@
 id: l79o0xfy7ck1sog82b8uz3s
 title: JavaScript for Beginners
 desc: 'JavaScript for Beginners'
-updated: 1672017449876
+updated: 1672444231535
 created: 1672015579049
 ---
 # JavaScript for Beginners
@@ -29,7 +29,7 @@ ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUM
 
 [01:46](https://youtu.be/cENsx0cbSwc?t=106): 3 different ways to create an object ![create-an-object](https://ik.imagekit.io/casa/h7b-dendron/javascript_for_beginners__time_113_4dPsW-HG2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672014956327){max-width: 300px, display: block, margin: 0 auto}
 
-[03:40](https://youtu.be/cENsx0cbSwc?t=220): a method is a function associated with an object, or put differently, a method is a property of an object that is a function ![method](https://ik.imagekit.io/casa/h7b-dendron/javascript_for_beginners__time_237_QFR2u1Nlb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672014956269){max-width: 300px, display: block, margin: 0 auto}
+[03:40](https://youtu.be/cENsx0cbSwc?t=220): a [method](https://developer.mozilla.org/en-US/docs/Glossary/Method) is a function associated with an object, or put differently, a method is a property of an object that is a function ![method](https://ik.imagekit.io/casa/h7b-dendron/javascript_for_beginners__time_237_QFR2u1Nlb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672014956269){max-width: 300px, display: block, margin: 0 auto}
 
 [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
