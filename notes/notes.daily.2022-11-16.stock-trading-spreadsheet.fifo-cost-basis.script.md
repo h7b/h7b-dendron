@@ -1,8 +1,8 @@
 ---
 id: 4kl38k7cwfg78sk9ea8bw8t
-title: Script
+title: Script from others
 desc: ''
-updated: 1672360894561
+updated: 1672544654623
 created: 1671913183587
 ---
 # Custom script
@@ -464,3 +464,10 @@ function calculateRealizedGain() {
   }
 }
 ```
+
+## Related
+
+- [stackoverflow | Creating a function to calculate realized gains of stock using FIFO method based on transactional history](https://stackoverflow.com/questions/68962874/creating-a-function-to-calculate-realized-gains-of-stock-using-fifo-method-based)
+- [stackoverflow | Calculate Avg Price, Realized gain & Unrealized gain via UDF using FIFO method](https://stackoverflow.com/questions/68351891/calculate-avg-price-realized-gain-unrealized-gain-via-udf-using-fifo-method)
+- [stackoverflow | FIFO Capital Gains Calculation Formula](https://stackoverflow.com/questions/67899452/fifo-capital-gains-calculation-formula)
+- [stackoverflow | Calculate Profit/Capital Gains on Sold Inventory/Shares](https://stackoverflow.com/questions/67930020/calculate-profit-capital-gains-on-sold-inventory-shares)

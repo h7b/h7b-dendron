@@ -1,14 +1,14 @@
 ---
 id: 75dd1mcxayd7teu781pjfne
-title: Create Trading Spreadsheet
-desc: 'Create a Trading Spreadsheet'
-updated: 1671848736943
+title: Manage Stock Trading With Google Sheets
+desc: Manage Stock Trading With Google Sheets
+updated: 1672545020841
 created: 1669812452443
 tags:
-- cat.tut
-- topic.investment
+  - cat.tut
+  - topic.investment
 ---
-# Create a Trading Spreadsheet
+# Manage Stock Trading With Google Sheets
 
 I want to create a spreadsheet to monitor the performance of trading stocks in Vietnam market.
 
@@ -18,8 +18,6 @@ DONE
 - Input manually each trade into `orderBook` sheet
 - View recap of the portfolio with the automated sheet `pnl`, with the current value of the portfolio, realized/unrealized P/L 
 - View list of executed trades, sorted by ticker in the automated sheet `orderBook_sortedByTicker`
-
-TODO
 - Compute cost basis of stocks with FIFO method
 
 ## Thoughts
@@ -54,5 +52,5 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
     - Read more about [How To Get Absolute Value In Google Sheets](https://www.alphr.com/absolute-value-google-sheets/)
 
 2022-12-24 update:
-- refactor the formula to calculate `Realized Gain/Loss`, applying the accounting FIFO (first in, first out). It means that the shares I bought earliest will be the shares I sell first. Read more at [[here|notes.daily.2022-11-16.create-trading-spreadsheet.fifo-stock-portfolio]]
-- add a [[dedicated note|notes.daily.2022-11-16.create-trading-spreadsheet.manage-stock-transactions-with-sheets]] explaning how did I record transaction into `orderBook`
+- refactor the formula to calculate `Realized Gain/Loss`, applying the accounting FIFO (first in, first out). It means that the shares I bought earliest will be the shares I sell first. Read more at [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.fifo-cost-basis]]
+- add a [[dedicated note|notes.daily.2022-11-16.stock-trading-spreadsheet.data-structure]] explaining how did I record transaction into `orderBook`.

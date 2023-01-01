@@ -2,10 +2,12 @@
 id: l79o0xfy7ck1sog82b8uz3s
 title: JavaScript for Beginners
 desc: 'JavaScript for Beginners'
-updated: 1672444231535
+updated: 1672532153674
 created: 1672015579049
 ---
 # JavaScript for Beginners
+
+## Note from saperis' clip
 
 ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUMHlfFYXpMNqfQ9sJsxp)
 
@@ -31,6 +33,8 @@ ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUM
 
 [03:40](https://youtu.be/cENsx0cbSwc?t=220): a [method](https://developer.mozilla.org/en-US/docs/Glossary/Method) is a function associated with an object, or put differently, a method is a property of an object that is a function ![method](https://ik.imagekit.io/casa/h7b-dendron/javascript_for_beginners__time_237_QFR2u1Nlb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672014956269){max-width: 300px, display: block, margin: 0 auto}
 
+## Unsorted notes
+
 [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
 The [pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) method has similar behavior to `shift()`, but applied to the last element in an array.
@@ -39,5 +43,34 @@ The [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/G
 
 [Object-oriented programming (OOP)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming) is about modeling a system as a collection of objects, where each object represents some particular aspect of the system. Objects contain both functions (or methods) and data. An object provides a public interface to other code that wants to use it but maintains its own private, internal state; other parts of the system don't have to care about what is going on inside the object.
 
-The value of [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword depends on in which context it appears: function, class, or global.
+The value of ["this"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword depends on in which context it appears: function, class, or global.
 
+## Var, Let, and Const – What's the Difference?
+
+ref: [freecodecamp](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+
+### Var
+
+Before the advent of ES6, `var` declarations ruled.
+
+`Scope` essentially means where these variables are available for use. `var` declarations are globally scoped or function/locally scoped.
+- The scope is global when a `var` variable is declared outside a function. This means that any variable that is declared with `var` outside a function block is available for use in the whole window.
+- `var` is function scoped when it is declared within a function. This means that it is available and can be accessed only within that function.
+
+`var` variables can be re-declared and updated
+
+Problem with var: (read in article)
+
+### Let
+
+`let` is block scoped. A block is a chunk of code bounded by curly braces `{}`.
+
+`let` can be updated but not re-declared.
+
+### Const
+
+Variables declared with the `const` maintain constant values.
+
+`const` declarations are block scoped
+
+`const` cannot be updated or re-declared
