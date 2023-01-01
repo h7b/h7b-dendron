@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Manage Stock Trading With Google Sheets
 desc: Manage Stock Trading With Google Sheets
-updated: 1672545020841
+updated: 1672608213181
 created: 1669812452443
 tags:
   - cat.tut
@@ -35,7 +35,7 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
     - [Youtube | Google Colab Tutorial - Google Sheets, Read & Write Data](https://www.youtube.com/watch?v=cN7W2EPM-dw)
     - [Youtube | Google Colab Tutorial - Fuzzy Match Lookup with Google Sheets Data Using Python Fuzzy Pandas](https://www.youtube.com/watch?v=M3JYGiM_Xm8)
 
-[Click here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my work-in-progress spreadsheet, with sample data.
+[Click here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my spreadsheet, with sample data and user-defined functions included.
 
 2022-12-09 update: TIL
 - I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`. For this reason, the plan to practice python for web scraping is procrastinated again

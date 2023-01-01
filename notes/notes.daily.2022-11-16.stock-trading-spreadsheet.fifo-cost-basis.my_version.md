@@ -2,35 +2,32 @@
 id: tesj8d1zr6wuvk20bbdhi41
 title: My version
 desc: ''
-updated: 1672544623321
+updated: 1672609073104
 created: 1672460883406
 ---
 # My version
 
 After having researched on several [[solutions from others|notes.daily.2022-11-16.stock-trading-spreadsheet.fifo-cost-basis.script]], here is my attempt.
 
+[Click here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my spreadsheet, with sample data and user-defined functions included.
+
 ## Thoughts
 
-Use the function `getTransactionsByTicker(stockTicker)` to retrieve all the transactions of a specific stock. From these extracted transactions, calculate the realized gain/loss of this stock by calling the custom formula `realizedGainByTicker(stockTicker)`. Then return the result using these two User-defined formula (UDF) `REALIZEDGAINBYTICKER()` and `COSTOFUNSOLD()`
+Use the function `getTransactionsByTicker(stockTicker)` to retrieve all the transactions of a specific stock. From these extracted transactions, calculate the realized gain/loss of this stock by calling the custom formula `fifoCalc(stockTicker)`. Then return the result by calling these two User-defined formula (UDF) `REALIZEDGAINBYTICKER()` and `COSTOFUNSOLD()` from within the sheet `pnl`.
 
 Logic:
 - Retrieve all transactions of a stock, and sort them by date
-- if a transaction has `type` as `buy` or `stock dividend`, then `push()` its `price` (unit price per share in this transaction) to the `buyQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
-- if a transaction has `type` as `sell`,
-    - `shift()` one element out of the array `buyQueue` and take this element into sum as `costOfGoodsSold`
-    - `push()` its `price` (unit price per share in this transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
+- if the `type` of a transaction is `buy` OR `stock dividend`, then adds the `unitPrice` (unit price per share in this transaction) to the end of the array `buyQueue` multiple times, using the [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method. The number of time here is defined by the `quantity` of this transaction
+- if the `type` of a transaction is `sell`,
+    - removes one element (a previously registered `unitPrice` in the `buy` OR `stock dividend` transaction) out of the array `buyQueue` and take this element into `sum` as `costOfGoodsSold`, using the [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method
+    - adds the `unitPrice` (unit price per share in this `sell` transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
 - `revenue` from selling this specific stock is the sum of all elements in the `sellQueue` array
-- realized gain is the difference between `revenue` and `costOfGoodsSold`
-- cost of the unsold shares is the sum of all remaining elements in the `buyQueue` array
-
-DONE:
-- how about the unrealized gain/loss?
-- did i take into account of tax and trading fee?
-- how to treat the type `stock dividend` and `cash dividend`?
+- `realizedGain` is the difference between `revenue` and `costOfGoodsSold`
+- cost of the unsold shares is the sum of all remaining elements in the `buyQueue` array.
 
 ## User-defined function
 
-Here is my version of the User-defined function (UDF), embedded in the spreadsheet, written in google apps script.
+Here is my version of the User-defined function (UDF), included in [this sample spreadsheet](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing).
 
 <script src="https://gist.github.com/h7b/4fc057be0fff4a5db9fd207c7d156560.js"></script>
 
@@ -45,7 +42,7 @@ transactions.sort(function(a, b) {
 });
 ```
 
-A by chatGPT:
+Answer by chatGPT:
 
 The `sort` method is a built-in method of the `Array` object in JavaScript that sorts the elements of an array in place and returns the sorted array. The sort method can take an optional comparison function as an argument.
 
@@ -67,7 +64,7 @@ If you call the `sort` method inside the `for` loop, it will sort the transactio
   // Adding up all of the elements in the `sellQueue` array and returning the sum
   const revenue = sellQueue.reduce((sum, price) => sum + price, 0);
 ```
-A by chatGPT:
+Answer by chatGPT:
 
 In this JavaScript code, `revenue` is a constant variable that is being assigned the result of calling the `reduce()` function on the `sellQueue` array.
 
@@ -129,10 +126,10 @@ function onEdit(e) {
 ```
 
 Situation: 
-- without this script, the result of custom formula do not re-evaluated on change of the value of any cell in sheet `orderBook`
+- without this script, the result of custom formula do not re-evaluated on the modification of any cell in sheet `orderBook`
 
 Reason:
-- Google Sheets doesn't re-run the script as long as the script parameters are similar, it uses cached results from the previous runs.
+- Google Sheets doesn't re-run the script as long as the script's parameters are similar, it uses cached results from the previous runs.
     - Google Sheets considers that all your custom functions depend only on their parameters values directly to return their result (you can optionally depend on other static data)
     - Given this prerequisite they can evaluate your functions only when a parameter changes.
     - Example: 
@@ -147,7 +144,7 @@ Solution:
 
 ref: [google](https://developers.google.com/apps-script/guides/sheets/functions)
 
-Create Custom Functions in Google Sheets.
+How to create custom functions in Google Sheets?
 
 You can use Google Apps Script to write custom functions — say, to convert meters to miles or fetch live content from the Internet — then use them in Google Sheets just like a built-in function.
 
@@ -185,14 +182,14 @@ switch (type) {
 ```
 
 Logic:
-- if a transaction has `type` as `buy` or `stock dividend`, `push()` its `price` (unit price per share in this transaction) to the `buyQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
+- if a transaction has `type` as `buy` or `stock dividend`, [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) its `price` (unit price per share in this transaction) to the `buyQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
 - if a transaction has `type` as `sell`,
-    - `shift()` one element out of the array `buyQueue` and take this element into sum as `costOfGoodsSold`
-    - `push()` its `price` (unit price per share in this transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
+    - [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) one element out of the array `buyQueue` and take this element into sum as `costOfGoodsSold`
+    - [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) its `price` (unit price per share in this transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
 
 Explain
 - In `switch` statement, if there is no `break` below a `case` clause, execution will continue to the next `case` clause regardless if that `case` meets the criteria. This behavior is called "fall-through" [^4]
-- The following is an example of a single operation sequential `case` statement, where four different values (Cow, Giraffe, Dog, Pig) perform exactly the same. [^4]
+- The following is an example of a single operation sequential `case` statement, where four different values (Cow, Giraffe, Dog, Pig) perform exactly the same.
 
 [^4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
