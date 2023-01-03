@@ -2,7 +2,7 @@
 id: ile00yfqcmxr58ulfpf7spd
 title: IMPORTXML
 desc: 'IMPORTXML'
-updated: 1670784442619
+updated: 1672715411598
 created: 1670540474957
 ---
 # IMPORTXML
@@ -15,6 +15,12 @@ created: 1670540474957
     - `IMPORTXML(url, xpath_query)`
     - `url` - The URL of the page to examine, including protocol (e.g. `http://`)
     - `xpath_query` - The XPath query to run on the structured data
+- Notes:
+    - `IMPORTXML` function automatically check for updates **every hour** while the **document is open**, even if the formula and sheet don’t change [^1]
+    - If you delete and re-add cells or overwrite the cells with the same formula, it triggers a refresh of the function
+    - If you open and refresh the document, it won’t trigger a refresh on the function
+
+[^1]: https://support.google.com/docs/answer/12188454?hl=en
 
 ## Related
 

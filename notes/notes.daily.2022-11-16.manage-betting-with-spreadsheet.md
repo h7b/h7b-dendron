@@ -1,11 +1,11 @@
 ---
 id: 0c44flimx5xp91rydysf4f6
-title: Create a Betting Spreadsheet
-desc: 'Create a Betting Spreadsheet'
-updated: 1671231525691
+title: Manage Betting with Spreadsheet
+desc: 'Manage Betting Event with Spreadsheet'
+updated: 1672712072704
 created: 1669576718969
 ---
-# Create a Betting Spreadsheet
+# Manage Betting Event with Spreadsheet
 
 After having learned [[how to read odds|notes.daily.2022-11-16.football-betting]], I want to have the experience of betting. Hence, I organized a betting event for World Cup 2022. I use Google Sheets to manage this experiment. This note summarized this enjoyable experience.
 
@@ -97,7 +97,9 @@ The rate of return (~50%) from the [[Asian handicap betting style|notes.daily.20
 
 Sport betting is illegal in Vietnam, the only way to promote the presence of a betting broker exchange is the ads banner on many pirated content websites (movie, manga, novel).
 
-Sport betting in Vietnam is a lucrative business but not legal (yet). I expect that Vietnam can learn the practice from the developed countries (eg. US, Europe), and open an official betting market in the near future.
+Sport betting in Vietnam is a lucrative business but not legal (yet). What are the lessons that Vietnam can learn from the practice of developed countries (eg. US, Europe) with open official betting/gambling market?
+
+Further, in this WC22 event, my friend won with a net profit of 4 games. His strategy is always choosing the team which has higher chance to win (based on the betting odds). Hence, I'm curious to [[backtest this simple strategy|notes.daily.2023-01-03.backtest-betting-strategy]].
 
 ## Related
 

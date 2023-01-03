@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Manage Stock Trading With Google Sheets
 desc: Manage Stock Trading With Google Sheets
-updated: 1672608213181
+updated: 1672715639615
 created: 1669812452443
 tags:
   - cat.tut
@@ -22,7 +22,7 @@ DONE
 
 ## Thoughts
 
-I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From that research, I learned that there is no free API data feed for hobbyist to play with the historical data of Vietnam stock market. So I intend to crawl historical data from [investing.com](https://www.investing.com/) then import to Google Sheets.
+From the article of [[notes.daily.2022-10-24.vn-stock-market-research]], I learned that there is no free API data feed for hobbyist to play with the end-of-day historical price data of Vietnam' securities. So I intend to crawl data from [investing.com](https://www.investing.com/) then import into Google Sheets.
 
 - Use [investiny](https://github.com/alvarobartt/investiny) python package to crawl data
 - Read tutorials
@@ -39,8 +39,10 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
 
 2022-12-09 update: TIL
 - I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`. For this reason, the plan to practice python for web scraping is procrastinated again
-- IMPORTXML seems to be refreshed automatically every day, which is good enough for my simple trading sheet 
+- `IMPORTXML` refreshed automatically only if the document is opened, which is good enough for current usage [^1]
 - Apply [[notes.tutorial.google-sheets-excel.tips.custom-formatting-numbers]] to indicate the `millions` by `M`, the `thousands` with a `k`.
+
+[^1]: https://support.google.com/docs/answer/12188454?hl=en
 
 2022-12-23 update: TIL
 - need to refactor formula in `pnl` sheet since `orderBook` now has 3 types of transaction (buy, sell, stock dividend)
@@ -54,3 +56,9 @@ I have written about [[notes.daily.2022-10-24.vn-stock-market-research]]. From t
 2022-12-24 update:
 - refactor the formula to calculate `Realized Gain/Loss`, applying the accounting FIFO (first in, first out). It means that the shares I bought earliest will be the shares I sell first. Read more at [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.fifo-cost-basis]]
 - add a [[dedicated note|notes.daily.2022-11-16.stock-trading-spreadsheet.data-structure]] explaining how did I record transaction into `orderBook`.
+
+2023-01-03 update: 
+- Add [[custom script|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history]] 
+    - to automatically record a daily history of values in `pnl` sheet
+    - to force refreshing `IMPORTXML` function in `tmp_currentPrice` sheet, while the document is not opened
+- Reason: watch the daily performance of my portfolio, to learn when I missed the chance to realize the profit.
