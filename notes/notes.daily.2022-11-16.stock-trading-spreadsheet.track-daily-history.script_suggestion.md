@@ -2,7 +2,7 @@
 id: wiokgdttlj7kgcw687rwwna
 title: Script from others
 desc: ''
-updated: 1672718356149
+updated: 1672795409381
 created: 1672718255723
 ---
 # Script from others
@@ -56,20 +56,17 @@ You can set a trigger to refresh every day
 
 ## Capture daily history of values
 
-Q: 
-- How to automatically record a daily history of values of a spreadsheet using apps script? 
-- What if I want to catch the values at the end of day only, but not `onEdit` event?
-- instead of taking all columns, now i want to track only column A, D, F. What will u modify from the previous code?
+Q: How to automatically record a daily history of values of a spreadsheet using apps script? What if I want to catch the values at the end of day only, but not `onEdit` event?
 
-chatgpt suggestion
+Answer by chatGPT:
 
 ```javascript
 function recordValues() {
   // Get the sheet that you want to record the values of
   const sheet = SpreadsheetApp.getActiveSheet();
 
-  // Get the values of column A, D, and F
-  const values = sheet.getRange("A:A,D:D,F:F").getValues();
+  // Get the values of the sheet
+  const values = sheet.getValues();
 
   // Create a new sheet for the daily history
   const historySheet = SpreadsheetApp.create("History");
@@ -79,14 +76,4 @@ function recordValues() {
 }
 ```
 
-suggestion by searching google
-
-```javascript
-// Record history from a cell and append to next available row
-function recordValue() {
-   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Example sheet - automatically updating");
-    var date = new Date();
-    var value =sheet.getRange("B1").getValue();
-    sheet.appendRow([date, value]);
-}
-```
+This code will create a new sheet for the daily history every time the function is run, and append the values of the sheet that you specified to the history sheet. The values will be appended as a new row in the history sheet, along with the current date.
