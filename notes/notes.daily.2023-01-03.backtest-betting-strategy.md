@@ -2,8 +2,9 @@
 id: 3r6vxf0s2jj3a4ptztjkbg5
 title: Backtest Betting Strategy
 desc: ''
-updated: 1672712398398
+updated: 1672888860894
 created: 1672712024971
+tags: cat.tut
 ---
 # Backtest Betting Strategy
 

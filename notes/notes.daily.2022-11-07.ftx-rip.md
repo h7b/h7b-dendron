@@ -2,11 +2,11 @@
 id: mydvgc7fbp8yoqshfl3onke
 title: The collapse of FTX
 desc: 'The collapse of FTX'
-updated: 1668044535881
+updated: 1672882834280
 created: 1668043719526
 tags:
 - topic.cryptoasset
-- cat.news
+- cat.read
 ---
 # The collapse of FTX
 
