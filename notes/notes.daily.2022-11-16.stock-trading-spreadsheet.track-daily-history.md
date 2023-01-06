@@ -2,12 +2,10 @@
 id: lk09ao2x5czatp8qkti4bjk
 title: Track Daily History
 desc: ''
-updated: 1672718293191
+updated: 1672960543630
 created: 1672712963809
 ---
 # Track Daily History
-
-caveat: this approach only works for values and formulas that don't need the spreadsheet to be open. For example, if your values are calculated using the GoogleFinance() function then the above approach will not work. The problem is that GoogleFinance() only executes when the spreadsheet is open.
 
 ## Situation
 
@@ -16,7 +14,9 @@ caveat: this approach only works for values and formulas that don't need the spr
     - to force refreshing `IMPORTXML` function in `tmp_currentPrice` sheet, while the document is not opened
 - Reason: watch the daily performance of my portfolio, to learn when I missed the chance to realize the profit.
 
-## Script
+## Custom script
+
+Read [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.script_suggestion]] to learn how did I think when finding suggestion, and [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.my_version]] to remind what did I learn from writing my own version.
 
 ## Related
 

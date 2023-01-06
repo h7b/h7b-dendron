@@ -2,14 +2,21 @@
 id: hxh6epiehlg41xuuhwuf1m8
 title: Data structure
 desc: Data structure 
-updated: 1672544065538
+updated: 1672971931430
 created: 1671847041209
 ---
 # How did I organize the data structure of transactions in spreadsheet?
 
 Inspired by [this post](https://www.allstacksdeveloper.com/2020/04/manage-stock-transactions-with-google-sheets.html).
 
-## Define the structure of a transaction
+The spreadsheet consists of 5 sheets:
+- orderBook
+- pnl
+- pnl_daily
+- tmp_currentPrice
+- helpler
+
+## orderBook - define the structure of a transaction
 
 The transactions are registered in a sheet called `orderBook`.
 
@@ -38,3 +45,19 @@ Fields of record:
 - **Income tax on selling securities**: 
     - tax responsibilities paid to Authority
     - applicable only for *sell* transaction type
+
+## pnl - recap gain and loss from trading
+
+Sheet `pnl` holds the metrics to evaluate the current snapshot of my trading activity's performance.
+
+## pnl_daily - historical values of pnl
+
+Sheet `pnl_daily` captures the historical values of `pnl`. It serves the purpose of understanding the trading. I'm curious to learn whether I missed the opportunity to sell a security at good price or not.  
+
+## tmp_currentPrice - end-of-day price data
+
+Sheet `tmp_currentPrice` is a temporary helping table that holds the end-of-day price data of every stock which I have ever possessed.
+
+## helper - temporary helping table
+
+Sheet `helper` is a temporary helping table that holds the extra parameters. They are being used in calculation steps within the two main sheets `orderBook` and `pnl`.
