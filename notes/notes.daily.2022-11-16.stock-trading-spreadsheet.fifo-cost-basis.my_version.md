@@ -2,7 +2,7 @@
 id: tesj8d1zr6wuvk20bbdhi41
 title: My version
 desc: ''
-updated: 1672609073104
+updated: 1672997603831
 created: 1672460883406
 ---
 # My version
@@ -13,23 +13,21 @@ After having researched on several [[solutions from others|notes.daily.2022-11-1
 
 ## Thoughts
 
-Use the function `getTransactionsByTicker(stockTicker)` to retrieve all the transactions of a specific stock. From these extracted transactions, calculate the realized gain/loss of this stock by calling the custom formula `fifoCalc(stockTicker)`. Then return the result by calling these two User-defined formula (UDF) `REALIZEDGAINBYTICKER()` and `COSTOFUNSOLD()` from within the sheet `pnl`.
-
 Logic:
-- Retrieve all transactions of a stock, and sort them by date
-- if the `type` of a transaction is `buy` OR `stock dividend`, then adds the `unitPrice` (unit price per share in this transaction) to the end of the array `buyQueue` multiple times, using the [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method. The number of time here is defined by the `quantity` of this transaction
-- if the `type` of a transaction is `sell`,
-    - removes one element (a previously registered `unitPrice` in the `buy` OR `stock dividend` transaction) out of the array `buyQueue` and take this element into `sum` as `costOfGoodsSold`, using the [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method
-    - adds the `unitPrice` (unit price per share in this `sell` transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
-- `revenue` from selling this specific stock is the sum of all elements in the `sellQueue` array
-- `realizedGain` is the difference between `revenue` and `costOfGoodsSold`
-- cost of the unsold shares is the sum of all remaining elements in the `buyQueue` array.
+- Retrieve all transactions of a stock, and sort them by date, using the function `getTransactionsByTicker(stockTicker)`.
+- From these extracted transactions, calculate the realized gain/loss of this specific stock by calling the custom formula `fifoCalc(stockTicker)`
+    - if the `type` of a transaction is `buy` OR `stock dividend`, then adds the `unitPrice` (unit price per share in this transaction) to the end of the array `buyQueue` multiple times, using the [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method. The number of time here is defined by the `quantity` of this transaction
+    - if the `type` is `sell`,
+        - removes one element (a previously registered `unitPrice` in the `buy` OR `stock dividend` transaction) out of the array `buyQueue` and take this element into `sum` as `costOfGoodsSold`, using the [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method
+        - adds the `unitPrice` (unit price per share in this `sell` transaction) to the `sellQueue` multiple times. The number of time here is defined by the `quantity` of this transaction
+    - `revenue` from selling this specific stock is the sum of all elements in the `sellQueue` array
+    - `realizedGain` is the difference between `revenue` and `costOfGoodsSold`
+    - cost of the unsold shares is the sum of all remaining elements in the `buyQueue` array.
+- Then return the result by calling these two User-defined formula (UDF) `REALIZEDGAINBYTICKER()` and `COSTOFUNSOLD()` from within the sheet `pnl`.
 
 ## User-defined function
 
-Here is my version of the User-defined function (UDF), included in [this sample spreadsheet](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing).
-
-<script src="https://gist.github.com/h7b/4fc057be0fff4a5db9fd207c7d156560.js"></script>
+Here is the [gist](https://gist.github.com/h7b/4fc057be0fff4a5db9fd207c7d156560) containing the code of the User-defined functions (UDF), which are also included in [this sample spreadsheet](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing).
 
 ## Explanation
 

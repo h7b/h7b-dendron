@@ -1,21 +1,21 @@
 ---
 id: 75dd1mcxayd7teu781pjfne
-title: Manage Stock Trading With Google Sheets
-desc: Manage Stock Trading With Google Sheets
-updated: 1672972225330
+title: Measure Stock Trading Performance With Google Sheets
+desc: Measure Stock Trading Performance With Google Sheets
+updated: 1672996289708
 created: 1669812452443
 tags:
   - cat.tut
   - topic.investment
 ---
-# Manage Stock Trading With Google Sheets
+# Measure Stock Trading Performance With Google Sheets
 
 I want to create a spreadsheet to monitor the performance of trading stocks in Vietnam market.
 
 ## Deliverables
 
-- Click [here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my sample spreadsheet, with sample data and user-defined functions included.
-- Or you can also consult the code of user-defined functions at this [gist](https://gist.github.com/h7b/4fc057be0fff4a5db9fd207c7d156560).
+- Click [here](https://docs.google.com/spreadsheets/d/1CMeBjHsBpL8_txMd6hhwQkfvEhAknmi-rNLycZaXszc/edit?usp=sharing) to access my sample spreadsheet, with sample data and user-defined functions included. The custom functions only work with the data structure presented in the sample spreadsheet.
+- Or you can also review separately the code of user-defined functions at this [gist](https://gist.github.com/h7b/4fc057be0fff4a5db9fd207c7d156560).
 
 ## Project status
 
@@ -28,18 +28,7 @@ DONE
 
 ## Thoughts
 
-From the article of [[notes.daily.2022-10-24.vn-stock-market-research]], I learned that there is no free API data feed for hobbyist to play with the end-of-day historical price data of Vietnam' securities. So I intend to crawl data from [investing.com](https://www.investing.com/) then import into Google Sheets.
-
-- Use [investiny](https://github.com/alvarobartt/investiny) python package to crawl data
-- Read tutorials
-    - [Youtube | How to Use Google Sheets With Python](https://www.youtube.com/watch?v=bu5wXjz2KvU)
-    - [Youtube | Google Sheets and Python - Tutorial](https://www.youtube.com/watch?v=T1vqS1NL89E)
-    - [coupler | How to Connect Python to Google Sheets](https://blog.coupler.io/python-to-google-sheets/)
-    - [Lucas Nunes Fernandes | How to locally run Python on Google Sheets](https://betterprogramming.pub/how-to-enable-pythons-access-to-google-sheets-e4264cdb545b)
-    - [Youtube | Google Sheets Database with Python Web Scraping](https://www.youtube.com/watch?v=ct0xvw_Z0tU)
-    - [Youtube | Google Sheets - Python API, Read & Write Data](https://www.youtube.com/watch?v=4ssigWmExak)
-    - [Youtube | Google Colab Tutorial - Google Sheets, Read & Write Data](https://www.youtube.com/watch?v=cN7W2EPM-dw)
-    - [Youtube | Google Colab Tutorial - Fuzzy Match Lookup with Google Sheets Data Using Python Fuzzy Pandas](https://www.youtube.com/watch?v=M3JYGiM_Xm8)
+From the article of [[notes.daily.2022-10-24.vn-stock-market-research]], I learned that there is no free API data feed for hobbyist to play with the end-of-day historical price data of Vietnam' securities. So I intend to crawl data from [investing.com](https://www.investing.com/) using [investiny](https://github.com/alvarobartt/investiny) package then import into Google Sheets.
 
 2022-12-09 update: TIL
 - I can simply use the [[notes.tutorial.google-sheets-excel.function.importxml]] formula to import the historical data from [investing.com](https://www.investing.com/) into Google Sheets. [Click here](https://blog.coupler.io/googlefinance-function-advanced-tutorial/) to read the tutorial written by `coupler.io`. For this reason, the plan to practice python for web scraping is procrastinated again
@@ -69,3 +58,15 @@ From the article of [[notes.daily.2022-10-24.vn-stock-market-research]], I learn
 
 2023-01-06 update:
 - Refactor the formula to calculate the [[average cost per share|notes.daily.2022-11-16.stock-trading-spreadsheet.average-cost-per-share]]
+
+## Related
+
+- Read tutorials
+    - [Youtube | How to Use Google Sheets With Python](https://www.youtube.com/watch?v=bu5wXjz2KvU)
+    - [Youtube | Google Sheets and Python - Tutorial](https://www.youtube.com/watch?v=T1vqS1NL89E)
+    - [coupler | How to Connect Python to Google Sheets](https://blog.coupler.io/python-to-google-sheets/)
+    - [Lucas Nunes Fernandes | How to locally run Python on Google Sheets](https://betterprogramming.pub/how-to-enable-pythons-access-to-google-sheets-e4264cdb545b)
+    - [Youtube | Google Sheets Database with Python Web Scraping](https://www.youtube.com/watch?v=ct0xvw_Z0tU)
+    - [Youtube | Google Sheets - Python API, Read & Write Data](https://www.youtube.com/watch?v=4ssigWmExak)
+    - [Youtube | Google Colab Tutorial - Google Sheets, Read & Write Data](https://www.youtube.com/watch?v=cN7W2EPM-dw)
+    - [Youtube | Google Colab Tutorial - Fuzzy Match Lookup with Google Sheets Data Using Python Fuzzy Pandas](https://www.youtube.com/watch?v=M3JYGiM_Xm8)

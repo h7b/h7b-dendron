@@ -2,7 +2,7 @@
 id: nda315paq8tasysm04ak5l1
 title: Average Cost per Share
 desc: 'Average Cost per Share'
-updated: 1672972335742
+updated: 1672998402227
 created: 1672960881078
 ---
 # How to calculate Average Cost per Share?
@@ -16,11 +16,11 @@ Initially, it was calculated as the quotient of the cost of purchasing a specifi
 $$average\ cost\ per\ share = \frac{cost\ of\ purchasing}{total\ shares\ bought}$$
 
 Possible enhancement from this `version 0`:
-- if a share is already sold, its price should not be taken into consideration in the calculation of the weighted average.
+- if a share is already sold, the calculation of the weighted average should not take the price of sold shares into consideration.
 
 ## Version 0.1
 
-In this version, I replaced the division using extra columns, by applying the [AVERAGE.WEIGHTED function](https://support.google.com/docs/answer/9084098?hl=en).
+In this version, I replaced the division which requires extra helper columns, by using the [AVERAGE.WEIGHTED function](https://support.google.com/docs/answer/9084098?hl=en).
 
 The formula:
 ```javascript
@@ -37,9 +37,10 @@ where
 
 ## Version 1
 
-In this version, I replaced the `AVERAGE.WEIGHTED function` by a custom user-defined function to compute the weighted average cost per share remaining only. It means that when a share is already sold, its unit price will not be taken into consideration of the weighted average cost.
+In this version, I replaced the `AVERAGE.WEIGHTED function` by a custom user-defined function to compute the weighted average cost per share unsold. It means that when a share is already sold, its unit price will not be taken into consideration.
 
 ```javascript
+...
 // Calculate the total cost of the unsold shares, then the weighted average cost of unsold
 let totalCostOfUnsold = 0;
 let avgCostOfUnsold = 0;
@@ -60,4 +61,5 @@ switch (true) {
     // Do nothing
     break;
 }
+...
 ```

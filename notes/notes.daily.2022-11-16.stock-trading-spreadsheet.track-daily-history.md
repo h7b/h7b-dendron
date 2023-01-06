@@ -2,7 +2,7 @@
 id: lk09ao2x5czatp8qkti4bjk
 title: Track Daily History
 desc: ''
-updated: 1672960543630
+updated: 1672998168349
 created: 1672712963809
 ---
 # Track Daily History
@@ -16,7 +16,7 @@ created: 1672712963809
 
 ## Custom script
 
-Read [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.script_suggestion]] to learn how did I think when finding suggestion, and [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.my_version]] to remind what did I learn from writing my own version.
+Read [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.script_suggestion]] to learn my thinking process when finding suggestion, and [[here|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.my_version]] to remind what did I learn from writing my own version.
 
 ## Related
 

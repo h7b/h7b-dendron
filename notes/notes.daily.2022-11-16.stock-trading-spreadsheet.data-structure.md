@@ -1,8 +1,8 @@
 ---
 id: hxh6epiehlg41xuuhwuf1m8
 title: Data structure
-desc: Data structure 
-updated: 1672971931430
+desc: 'How did I organize the data structure of transactions in spreadsheet'
+updated: 1672998118397
 created: 1671847041209
 ---
 # How did I organize the data structure of transactions in spreadsheet?
@@ -14,7 +14,7 @@ The spreadsheet consists of 5 sheets:
 - pnl
 - pnl_daily
 - tmp_currentPrice
-- helpler
+- helper
 
 ## orderBook - define the structure of a transaction
 
@@ -48,16 +48,16 @@ Fields of record:
 
 ## pnl - recap gain and loss from trading
 
-Sheet `pnl` holds the metrics to evaluate the current snapshot of my trading activity's performance.
+Sheet `pnl` holds the metrics which evaluate the current snapshot of the trading activity's performance.
 
 ## pnl_daily - historical values of pnl
 
-Sheet `pnl_daily` captures the historical values of `pnl`. It serves the purpose of understanding the trading. I'm curious to learn whether I missed the opportunity to sell a security at good price or not.  
+Sheet `pnl_daily` captures the historical values of `pnl`. It serves the purpose of understanding the trading's historical performance. I'm curious to learn whether I missed the opportunity to sell a security at good price or not.  
 
 ## tmp_currentPrice - end-of-day price data
 
-Sheet `tmp_currentPrice` is a temporary helping table that holds the end-of-day price data of every stock which I have ever possessed.
+Sheet `tmp_currentPrice` is a temporary helping table. It holds the end-of-day price data of every stock which I have ever traded.
 
 ## helper - temporary helping table
 
-Sheet `helper` is a temporary helping table that holds the extra parameters. They are being used in calculation steps within the two main sheets `orderBook` and `pnl`.
+Sheet `helper` is a temporary helping table that holds the extra parameters. They are being used in multiple calculation steps within the two main sheets `orderBook` and `pnl`.
