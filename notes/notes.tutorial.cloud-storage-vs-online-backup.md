@@ -2,8 +2,9 @@
 id: RSCijRCuIR1xl0R3TWCg5
 title: Cloud Storage Vs Online Backup
 desc: ''
-updated: 1668953519984
+updated: 1673316153549
 created: 1641946099458
+tags: cat.read
 ---
 # Cloud Storage vs Online Backup: What’s The Difference
 
@@ -70,6 +71,13 @@ NB: [version provided by MacLife](https://maclife.vn/cloudmounter-mount-du-lieu-
 - Mountain Duck is licensed on a per-seat basis. You have to buy a license for everyone who wants to use the software. One license can be used on any number of computers as long as it is the same user accessing the software
 - The license is valid for one specific major version. For future major versions, we provide upgrade discounts between 40% and 100% depending on the date of purchase
 - License for 1 user is USD 39
+
+Features:
+- Open and revert previous versions of files [^1] ![version](https://cdn.mountainduck.io/images/contextmenu_versions_windows.png){max-width: 300px, display: block, margin: 0 auto}
+- Interoperable with [Cryptomator](https://cryptomator.org/) [^2]
+
+[^1]: https://docs.cyberduck.io/mountainduck/versions/
+[^2]: https://cyberduck.io/cryptomator/
 
 NB: [version provided by MacLife](https://maclife.vn/mountain-duck-ung-dung-ket-noi-ftp-tren-mac.html)
 
