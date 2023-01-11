@@ -1,9 +1,10 @@
 ---
 id: DgpESplxOc3FCyUunecEw
 title: Mkdocs Publish Obsidian
-desc: ''
-updated: 1650143238579
+desc: 'Use mkdocs to publish an Obsidian vault'
+updated: 1673402645978
 created: 1639879650950
+tags: cat.tut
 ---
 # Use MkDocs to publish my Obsidian vault
 
@@ -12,14 +13,14 @@ created: 1639879650950
 Workflow: 
 - Write notes in Obsidian
 - Prepare files to publish with [MkDocs](https://www.mkdocs.org/)
-- Deploy in GitHub Pages or any static site hosting (like [Render](https://render.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/))
-- or use [Obsidian To Mkdocs | Obs2mk](https://github.com/Mara-Li/mkdocs_obsidian_publish) python script to publish obsidian's note with mkdocs
+- Deploy in GitHub Pages or any static site hosting (like [Render](https://render.com/), [Netlify](https://www.netlify.com/))
+- or use [Github Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) plugin to send the notes stored in Obsidian to a GitHub repo, then publish this repo with mkdocs
     
 Discussion of workflow in Obsidian forum
 - [My Obsidian & Mkdocs workflow](https://forum.obsidian.md/t/my-obsidian-mkdocs-workflow/24424)
 - [Obsidian Mkdocs : A free Publish Alternative WorkFlow](https://forum.obsidian.md/t/obsidian-mkdocs-a-free-publish-alternative-workflow/29540)
 
-Showcase: [Tarek Shehata](https://tarekshehata.github.io/alkashi/Math/Basic%20Shapes/Circle/), [Mara-Li](https://mara-li.github.io/mkdocs_obsidian_template/)
+Showcase: [Tarek Shehata](https://tarekshehata.github.io/alkashi/Math/Basic%20Shapes/Circle/), [Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/)
 
 Thoughts:
 - My 2nd favorite if I need to publish my Obsidian vault
@@ -45,7 +46,7 @@ Showcase:
 - [Steve Martinelli | 5 Features I Like About Material for MkDocs](https://www.stevemar.net/five-things-about-mkdocs/)
 
 Tools:
-- Current 2nd best option: [Mkdocs Obsidian template | GitHub](https://github.com/Mara-Li/mkdocs_obsidian_template)
+- [Mkdocs Obsidian template | GitHub](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template)
 - [A Material Design theme for MkDocs | GitHub](https://github.com/squidfunk/mkdocs-material)
 - [obsidian-export | GitHub](https://github.com/zoni/obsidian-export), CLI program and a Rust library to export an Obsidian vault to regular Markdown
 - [mkdocs-static-i18n | GitHub](https://github.com/ultrabug/mkdocs-static-i18n)
