@@ -2,7 +2,7 @@
 id: 8scrji4wa1nwmrz4a0vosim
 title: Publish vault with Obsidian Github Publisher
 desc: 'Publish vault with Obsidian Github Publisher'
-updated: 1673413237586
+updated: 1673493924165
 created: 1673404028262
 tags: cat.tut
 ---
@@ -21,15 +21,33 @@ tags: cat.tut
         - set "Folder behavior" to `Obsidian Path`. I want to replicate the folder structure of Obsidian vault to the published site [^3]
         - set "Default folder" to `docs/notes`
 3. Close and reopen Obsidian to assure that the changes are executed. Because I also encounter the same error as this user's [issue](https://github.com/ObsidianPublisher/obsidian-github-publisher/discussions/63#discussioncomment-4599564)
-4. Configure the file `mkdocs.yml` in the repo `trade-bt-mkdocs`
+4. Connect my Netlify account to the repo `trade-bt-mkdocs` and deploy via Netlify
+    - Retrieve the URL of deployed site in `Domain settings` within Netlify
+    - Read the [tutorial in details](https://obsidian-publisher.netlify.app/getting%20started/publishing/) to learn how to deploy
+5. Configure the file `mkdocs.yml` in the repo `trade-bt-mkdocs`
+    - change the `site_url` into the valid Netlify link from previous step
     - add the [Navigation footer](https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#navigation) to include links to the previous and next page of the current page
-5. Connect my Netlify account to the repo `trade-bt-mkdocs` and deploy via Netlify. Read the [tutorial in details](https://obsidian-publisher.netlify.app/getting%20started/publishing/) to learn how to deploy
+    - change the [colors](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
+    - change the [fonts](https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/)
+    - change the [logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
+    - (optional) set up the [navigation tree](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/). I didn't do this step. Because i don't want to change manually the items in the navigation tree whenever I change the file structure
+    - add a [git repository](https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/)
 6. Since I deploy via Netlify, I have to modify the `requirements.txt` as discussed at [here](https://github.com/ObsidianPublisher/obsidian-github-publisher/discussions/63#discussioncomment-4608415)
     - Change: `obsidiantools==0.10.0` -> `obsidiantools==0.8.1`. Reason: Netlify only support python 3.8
+7. Enable the `Comments` section for specific page only, instead of all page like in [the template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template/)
+    - in GitHub repo, path `trade-bt-mkdocs/overrides/`, duplicate the `main.html` as `page_comments.html`. After that, in the note (page) where I want to enable the comments, I will add the key `template: page_comments.html` in its frontmatter. [^4]
+    - Read [here](https://squidfunk.github.io/mkdocs-material/reference/?h=template#setting-the-page-template) to understand why the key `template: custom.html` works
+    - In this [section](https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme), the author explain how to extend the `mkdocs-material` using the `custom_dir` setting, what's the meaning of folder `overrides`, `partials`
+8. (Optional) Disable the workflow `Building Mkdocs Page` in GitHub Actions [^5], since I deploy solely via Netlify. This only helps the repo status clean. It does not affect on the success of build process.
+9. Create a custom front page
+    - Follow this [issue](https://github.com/squidfunk/mkdocs-material/issues/1996) and replicate a `home.html` with examples from [up42-py](https://github.com/up42/up42-py/blob/master/docs/theme_override_home/home.html), [le-ref-architecture-doc](https://github.com/binbashar/le-ref-architecture-doc/blob/master/material/overrides/home.html), [mkdocs-material](https://github.com/squidfunk/mkdocs-material/blob/master/src/.overrides/home.html)
+
 
 [^1]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 [^2]: https://dg-docs.ole.dev/advanced/fine-grained-access-token/
 [^3]: https://obsidian-publisher.netlify.app/obsidian/#upload-configuration
+[^4]: https://github.com/ObsidianPublisher/obsidian-github-publisher/discussions/70#discussioncomment-4656676
+[^5]: https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow
 
 ## How to write notes and then publish?
 
@@ -44,3 +62,6 @@ tags: cat.tut
 - [[notes.tutorial.mkdocs-publish-obsidian]]
 - [Obsidian Mkdocs Publisher : A free publish alternative](https://forum.obsidian.md/t/obsidian-mkdocs-publisher-a-free-publish-alternative/29540)
     - in this thread in Obsidian forum, the plugin owner explain her changelog
+- [Deploy MkDocs with Material or Material Insiders theme to Netlify](https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-netlify/)
+- [Deploy MkDocs with Material or Material Insiders theme to Cloudflare Pages](https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-cloudflare/)
+- [Cloudflare Docs | Deploy an Mkdocs site](https://developers.cloudflare.com/pages/framework-guides/deploy-an-mkdocs-site/)
