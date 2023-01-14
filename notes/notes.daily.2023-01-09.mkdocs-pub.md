@@ -2,7 +2,7 @@
 id: 8scrji4wa1nwmrz4a0vosim
 title: Publish with Obsidian Github Publisher
 desc: 'Publish vault with Obsidian Github Publisher and mkdocs'
-updated: 1673580057483
+updated: 1673652597936
 created: 1673404028262
 tags: cat.tut
 ---
@@ -14,7 +14,7 @@ In a beautiful day, I have interest to publish a trading journal using [mkdocs](
 
 ### with Netlify
 
-1. Click [here](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template/generate) to create a new repository from [this template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template/) [^1]. This new repo will be called `trade-bt-mkdocs`
+1. Create a new repository from [this template](https://github.com/ObsidianPublisher/publisher-template-netlify) [^1]. This new repo will be called `trade-bt-mkdocs`
 2. Connect my Netlify account to the repo `trade-bt-mkdocs` and deploy via Netlify
     - Retrieve the URL of deployed site in `Domain settings` within Netlify
     - Read the [tutorial in details](https://obsidian-publisher.netlify.app/getting%20started/publishing/) to learn how to deploy
@@ -38,10 +38,11 @@ In a beautiful day, I have interest to publish a trading journal using [mkdocs](
     - change the [logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
     - (optional) set up the [navigation tree](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/). I didn't do this step. Because i don't want to change manually the items in the navigation tree whenever I change the file structure
     - add a [git repository](https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/)
-7. Enable the `Comments` section for specific page only, instead of all page like in [the template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template/)
-    - in GitHub repo, path `trade-bt-mkdocs/overrides/`, duplicate the `main.html` as `page_comments.html`. After that, in the note (page) where I want to enable the comments, I will add the key `template: page_comments.html` in its frontmatter. [^4]
+7. Enable the `Comments` section for specific page only
+    - Update 20230114, according this [reply of plugin developer](https://github.com/ObsidianPublisher/obsidian-github-publisher/discussions/70#discussioncomment-4678758), she has recently updated the template. Please follow her [updated tutorial](https://obsidian-publisher.netlify.app/setup/customization/#comments) to learn how to enable the `Comments` section for specific page only
     - Read [here](https://squidfunk.github.io/mkdocs-material/reference/?h=template#setting-the-page-template) to understand why the key `template: custom.html` works
     - In this [section](https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme), the author explain how to extend the `mkdocs-material` using the `custom_dir` setting, what's the meaning of folder `overrides`, `partials`
+    - (obsolete, update 20230114) in GitHub repo, path `trade-bt-mkdocs/overrides/`, duplicate the `main.html` as `page_comments.html`. After that, in the note (page) where I want to enable the comments, I will add the key `template: page_comments.html` in its frontmatter. [^4]
 8. (Optional) Disable the workflow `Building Mkdocs Page` in GitHub Actions [^5], since I deploy solely via Netlify. This only helps the repo status clean. It does not affect on the success of build process.
 9. Create a custom front page
     - Follow this [issue](https://github.com/squidfunk/mkdocs-material/issues/1996) and replicate a `home.html` with examples from [up42-py](https://github.com/up42/up42-py/blob/master/docs/theme_override_home/home.html), [le-ref-architecture-doc](https://github.com/binbashar/le-ref-architecture-doc/blob/master/material/overrides/home.html), [mkdocs-material](https://github.com/squidfunk/mkdocs-material/blob/master/src/.overrides/home.html)
