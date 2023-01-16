@@ -2,7 +2,7 @@
 id: 75dd1mcxayd7teu781pjfne
 title: Measure Stock Trading Performance With Google Sheets
 desc: Measure Stock Trading Performance With Google Sheets
-updated: 1672996289708
+updated: 1673872917613
 created: 1669812452443
 tags:
   - cat.tut
@@ -58,6 +58,10 @@ From the article of [[notes.daily.2022-10-24.vn-stock-market-research]], I learn
 
 2023-01-06 update:
 - Refactor the formula to calculate the [[average cost per share|notes.daily.2022-11-16.stock-trading-spreadsheet.average-cost-per-share]]
+
+2023-01-16 update:
+- Refactor the [[custom script|notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history]] to automatically record a daily history of values in `pnl` sheet
+- Reason: enhance the performance of the batch operations.
 
 ## Related
 

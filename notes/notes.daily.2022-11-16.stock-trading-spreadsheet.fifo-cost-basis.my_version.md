@@ -2,7 +2,7 @@
 id: tesj8d1zr6wuvk20bbdhi41
 title: My version
 desc: ''
-updated: 1672997603831
+updated: 1673867644014
 created: 1672460883406
 ---
 # My version
@@ -155,7 +155,7 @@ Guidelines for custom functions
 
 [^1]: https://developers.google.com/apps-script/guides/sheets/functions#naming
 [^2]: https://developers.google.com/apps-script/guides/sheets/functions#return_values
-[^3]: https://developers.google.com/apps-script/guides/sheets/functions#autocomplete
+[^3]: [spreadsheet.dev | Enable autocomplete for custom functions in Google Sheets using JSDoc](https://spreadsheet.dev/enable-autocomplete-for-custom-functions-in-google-sheets-using-jsdoc)
 
 ### Explain 6
 

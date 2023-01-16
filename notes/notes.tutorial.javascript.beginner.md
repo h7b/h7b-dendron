@@ -2,12 +2,12 @@
 id: l79o0xfy7ck1sog82b8uz3s
 title: JavaScript for Beginners
 desc: 'JavaScript for Beginners'
-updated: 1672532153674
+updated: 1673879000781
 created: 1672015579049
 ---
 # JavaScript for Beginners
 
-## Note from saperis' clip
+## Note 1
 
 ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUMHlfFYXpMNqfQ9sJsxp)
 
@@ -33,6 +33,14 @@ ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUM
 
 [03:40](https://youtu.be/cENsx0cbSwc?t=220): a [method](https://developer.mozilla.org/en-US/docs/Glossary/Method) is a function associated with an object, or put differently, a method is a property of an object that is a function ![method](https://ik.imagekit.io/casa/h7b-dendron/javascript_for_beginners__time_237_QFR2u1Nlb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672014956269){max-width: 300px, display: block, margin: 0 auto}
 
+## Note 2
+
+ref: [Learn Google Sheets & Excel Spreadsheets](https://www.youtube.com/watch?v=FuHuqhrx_rY)
+
+Notes from [JavaScript 2 Dimensional Arrays, Reading & Writing Array To and From Ranges - Part 2 - Apps Script](https://www.youtube.com/watch?v=FuHuqhrx_rY)
+
+shift(), pop(), push(), unshift()
+
 ## Unsorted notes
 
 [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method removes the first element from an array and returns that removed element. This method changes the length of the array.
@@ -40,6 +48,8 @@ ref: [saperis](https://www.youtube.com/watch?v=x3xZXJmb05U&list=PLNwCcck1-mNgYUM
 The [pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) method has similar behavior to `shift()`, but applied to the last element in an array.
 
 The [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method adds one or more elements to the end of an array and returns the new length of the array.
+
+The [unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) has similar behavior to `push()`, but applied to the beginning of the array.
 
 [Object-oriented programming (OOP)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming) is about modeling a system as a collection of objects, where each object represents some particular aspect of the system. Objects contain both functions (or methods) and data. An object provides a public interface to other code that wants to use it but maintains its own private, internal state; other parts of the system don't have to care about what is going on inside the object.
 

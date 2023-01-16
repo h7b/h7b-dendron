@@ -2,7 +2,7 @@
 id: zyrVip3Nt6gOLMI30uar5
 title: Mail Merge and Create PDF
 desc: ''
-updated: 1653346484821
+updated: 1673867470548
 created: 1639351577521
 ---
 # Reiterate the workflow I used in Google Sheets
@@ -13,30 +13,17 @@ At the end of month, I have a list of customers. I want to extract the stats of 
 
 ## Related resources
 
-[Google Apps Script | Create a mail merge with Gmail & Google Sheets](https://developers.google.com/apps-script/samples/automations/mail-merge)
-
-[Learn Google Spreadsheets | Google Forms to PDF & Email while storing data in Google Sheets](https://www.youtube.com/watch?v=EpZGvKIHmR8)
-
-[Learn Google Spreadsheets | PDFs from Spreadsheet Data and Google Docs Template - Google Sheets](https://www.youtube.com/watch?v=r9uU_KwGgzQ)
-
-[Learn Google Spreadsheets | Google Sheets Mail Merge - Email - No Addons - Tutorial](https://www.youtube.com/watch?v=h2z13YE3kJg)
-
-[Learn Google Spreadsheets | Mail Merge Google Sheets to Google Docs - No Addons - Apps Script Tutorial](https://www.youtube.com/watch?v=QNPPEB64QbI)
-
-[Learn Google Spreadsheets | Google Sheets - Email HTML Tables & Schedule Apps Scripts](https://www.youtube.com/watch?v=fx6quWRC4l0)
-
-[Spreadsheet Dev | email a Google Sheet as a PDF attachment](https://spreadsheet.dev/automatically-email-google-sheet-as-pdf-attachment)
-
-[hkilter | Simple Google Apps Script to export a single sheet to PDF and email it to a contact list](https://gist.github.com/hkilter/b0bf77cc31c1cbd47f141a218e9ce3f8)
-
-[xFanatical | How To Print Google Sheet To PDF Using Apps Script](https://xfanatical.com/blog/print-google-sheet-as-pdf-using-apps-script/)
-
-[labnol | Convert and Email Google Spreadsheets as PDF Files](https://www.labnol.org/code/19869-email-google-spreadsheets-pdf)
-
-[NumeriBlog | Google Apps Script et Google Sheets : créer, stocker, récupérer le lien d’un PDF depuis une feuille de calcul en un clic](https://thierryvanoffe.com/google-apps-script-google-sheets-creer-stocker-recuperer-le-lien-dun-pdf-depuis-une-feuille-de-calcul-en-un-clic/)
-
-[Form Publisher Blog | Create PDF documents Using Google Apps Script](https://form-publisher.com/blog/create-pdf-documents-using-google-apps-script/)
-
-[How to GApps | Google Spreadsheet Script to create and email a PDF on Form Submission](https://howtogapps.com/google-spreadsheet-script-to-create-and-email-a-pdf-on-form-submission/)
-
-[Automagic | How to Automate Invoice Creation with Google Sheets, Docs and Forms](https://www.youtube.com/watch?v=HkQdZzISn5s)
+- [Google Apps Script | Create a mail merge with Gmail & Google Sheets](https://developers.google.com/apps-script/samples/automations/mail-merge)
+- [Learn Google Spreadsheets | Google Forms to PDF & Email while storing data in Google Sheets](https://www.youtube.com/watch?v=EpZGvKIHmR8)
+- [Learn Google Spreadsheets | PDFs from Spreadsheet Data and Google Docs Template - Google Sheets](https://www.youtube.com/watch?v=r9uU_KwGgzQ)
+- [Learn Google Spreadsheets | Google Sheets Mail Merge - Email - No Addons - Tutorial](https://www.youtube.com/watch?v=h2z13YE3kJg)
+- [Learn Google Spreadsheets | Mail Merge Google Sheets to Google Docs - No Addons - Apps Script Tutorial](https://www.youtube.com/watch?v=QNPPEB64QbI)
+- [Learn Google Spreadsheets | Google Sheets - Email HTML Tables & Schedule Apps Scripts](https://www.youtube.com/watch?v=fx6quWRC4l0)
+- [Spreadsheet Dev | email a Google Sheet as a PDF attachment](https://spreadsheet.dev/automatically-email-google-sheet-as-pdf-attachment)
+- [hkilter | Simple Google Apps Script to export a single sheet to PDF and email it to a contact list](https://gist.github.com/hkilter/b0bf77cc31c1cbd47f141a218e9ce3f8)
+- [xFanatical | How To Print Google Sheet To PDF Using Apps Script](https://xfanatical.com/blog/print-google-sheet-as-pdf-using-apps-script/)
+- [labnol | Convert and Email Google Spreadsheets as PDF Files](https://www.labnol.org/code/19869-email-google-spreadsheets-pdf)
+- [NumeriBlog | Google Apps Script et Google Sheets : créer, stocker, récupérer le lien d’un PDF depuis une feuille de calcul en un clic](https://thierryvanoffe.com/google-apps-script-google-sheets-creer-stocker-recuperer-le-lien-dun-pdf-depuis-une-feuille-de-calcul-en-un-clic/)
+- [Form Publisher Blog | Create PDF documents Using Google Apps Script](https://form-publisher.com/blog/create-pdf-documents-using-google-apps-script/)
+- [How to GApps | Google Spreadsheet Script to create and email a PDF on Form Submission](https://howtogapps.com/google-spreadsheet-script-to-create-and-email-a-pdf-on-form-submission/)
+- [Automagic | How to Automate Invoice Creation with Google Sheets, Docs and Forms](https://www.youtube.com/watch?v=HkQdZzISn5s)

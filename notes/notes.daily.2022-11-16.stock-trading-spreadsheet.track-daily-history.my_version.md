@@ -2,7 +2,7 @@
 id: 04geuklafavqf0wsj77mxrn
 title: My version
 desc: ''
-updated: 1672804731428
+updated: 1673884571334
 created: 1672718315847
 ---
 # My version
@@ -129,5 +129,36 @@ function recordValues() {
   for (let i=0; i<filteredValuesA.length; i++) {
     destSheet.appendRow([triggerDate, filteredValuesA[i][0], filteredValuesHK[i][0], filteredValuesHK[i][1], filteredValuesHK[i][2], filteredValuesHK[i][3], filteredValuesM[i][0]]);
   }
+}
+```
+
+### Version 3
+
+Instead of writing a single row of data to the spreadsheet as in v2, now I replace [appendRow()](https://developers.google.com/apps-script/reference/spreadsheet/sheet#appendrowrowcontents) method with a custom function to write the data in batch at once.
+
+Learned from [this tutorial by spreadsheet.dev](https://spreadsheet.dev/write-multiple-rows-to-google-sheets-using-apps-script).
+
+The idea is to access the range in the spreadsheet where the data needs to be written and write the data to that range at once.
+
+```javascript
+function recordValues() {
+  ...
+  // Create an array to hold the value of triggered date
+  const currentDate = Utilities.formatDate(new Date(), "GMT", "yyyy-MM-dd");
+  const lenDate = filteredValuesA.length;
+  let valuesDate = [];
+  for (let i = 0; i < lenDate; i++) {
+    valuesDate.push([currentDate]);
+  }
+
+  // Append the values to the history sheet
+  // Write the 1st column which is Date
+  destSheet.getRange(lastRow + 1,1,filteredValuesA.length, 1).setValues(valuesDate);
+  // Write the 2nd column which is Ticker
+  destSheet.getRange(lastRow + 1,2,filteredValuesA.length, filteredValuesA[0].length).setValues(filteredValuesA);
+  // Write the next four columns, which are H to K
+  destSheet.getRange(lastRow + 1,3,filteredValuesA.length, filteredValuesHK[0].length).setValues(filteredValuesHK);
+  // Write the last column, which is M
+  destSheet.getRange(lastRow + 1,7,filteredValuesA.length, filteredValuesM[0].length).setValues(filteredValuesM);
 }
 ```
