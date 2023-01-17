@@ -2,7 +2,7 @@
 id: no5qlp4pwotcrz5weaavkkz
 title: Triggers in Google Sheets
 desc: 'Triggers in Google Sheets'
-updated: 1673880613609
+updated: 1673934314904
 created: 1673879371252
 ---
 # Triggers in Google Sheets
@@ -66,7 +66,7 @@ There are two kinds of Spreadsheet triggers: Simple triggers and Installable tri
 
 ## How to create a trigger?
 
-A `simple trigger` can only be created using code whereas an `installable trigger` can be created using code or via a UI.
+A `simple trigger` can only be created programmatically with the [Script service](https://developers.google.com/apps-script/reference/script), whereas an `installable trigger` can be created manually via a [UI page](https://script.google.com/) or programmatically using Apps Script.
 - via UI. Example: ![trigger-ui](https://www.googleapis.com/download/storage/v1/b/spreadsheetdev-content/o/spreadsheetdev%2F11b0mv6Z8Tw2Kk10tNZF3kRbMW6u66CzD84jtczsVo88%2F9157.png?generation=1587262969972447&alt=media){max-width: 300px, display: block, margin: 0 auto}
 - using code. Example:
     ```javascript
@@ -77,6 +77,34 @@ A `simple trigger` can only be created using code whereas an `installable trigge
         .create(); // Create it!
     }
     ```
+
+## How to modify/delete a trigger?
+
+ref: [google](https://developers.google.com/apps-script/guides/triggers/installable#managing_triggers_programmatically)
+
+Simple triggers like `onOpen()` can't be deactivated manually from this [UI page](https://script.google.com/); instead, you must edit the appropriate script and remove or rename the `onOpen()` function.
+
+An existing installable trigger can be modified programmatically by deleting it and create a new one, OR deactivated manually via the [UI page](https://script.google.com/).
+
+An example of code to delete a trigger via ID
+```javascript
+/**
+ * Deletes a trigger.
+ * @param {string} triggerId The Trigger ID.
+ * @see https://developers.google.com/apps-script/guides/triggers/installable
+ */
+function deleteTrigger(triggerId) {
+  // Loop over all triggers.
+  const allTriggers = ScriptApp.getProjectTriggers();
+  for (let index = 0; index < allTriggers.length; index++) {
+    // If the current trigger is the correct one, delete it.
+    if (allTriggers[index].getUniqueId() === triggerId) {
+      ScriptApp.deleteTrigger(allTriggers[index]);
+      break;
+    }
+  }
+}
+```
 
 ## Related
 

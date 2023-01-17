@@ -2,7 +2,7 @@
 id: 04geuklafavqf0wsj77mxrn
 title: My version
 desc: ''
-updated: 1673884571334
+updated: 1673937408315
 created: 1672718315847
 ---
 # My version
@@ -160,5 +160,50 @@ function recordValues() {
   destSheet.getRange(lastRow + 1,3,filteredValuesA.length, filteredValuesHK[0].length).setValues(filteredValuesHK);
   // Write the last column, which is M
   destSheet.getRange(lastRow + 1,7,filteredValuesA.length, filteredValuesM[0].length).setValues(filteredValuesM);
+}
+```
+
+### Version 4
+
+Replace the configuration of installable trigger from UI to Apps Script. Create a time-based trigger using Apps Script that will run the function `recordValues()` at a certain time on a recurring schedule. This trigger is managed programmatically with the [Script service](https://developers.google.com/apps-script/reference/script).
+
+By default, the time you specify will be indexed to the timezone of the script. You can override this default by specifying the timezone using the [inTimezone()](https://developers.google.com/apps-script/reference/script/clock-trigger-builder#intimezonetimezone) method
+
+Learned from [this tutorial by spreadsheet.dev](https://spreadsheet.dev/create-triggers-programmatically-using-apps-script), and [stackoverflow](https://stackoverflow.com/questions/19223823/google-script-trigger-weekdays-only)
+
+```javascript
+/**
+ * Creates two time-driven triggers tied to the spreadsheet with the given ID
+ * @see https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers
+ */
+function createTimeDrivenTriggers() {
+  let weekDays = [
+    ScriptApp.WeekDay.MONDAY,
+    ScriptApp.WeekDay.TUESDAY,
+    ScriptApp.WeekDay.WEDNESDAY,
+    ScriptApp.WeekDay.THURSDAY,
+    ScriptApp.WeekDay.FRIDAY
+    ];
+
+  for (var i=0; i<weekDays.length; i++) {
+    // Trigger refreshImportXml() function every weekday at 17:00 timezone Saigon.
+    ScriptApp.newTrigger('refreshImportXml')
+      .forSpreadsheet('put_your_spreadsheet_id_here')
+      .timeBased()
+      .onWeekDay(weekDays[i])
+      .atHour(17)
+      .everyDays(1)
+      .inTimezone('Asia/Saigon')
+      .create();
+    // Trigger recordValues() function every weekday at 19:00 timezone Saigon.
+    ScriptApp.newTrigger('recordValues')
+      .forSpreadsheet('put_your_spreadsheet_id_here')
+      .timeBased()
+      .onWeekDay(weekDays[i])
+      .atHour(19)
+      .everyDays(1)
+      .inTimezone('Asia/Saigon')
+      .create();
+  }
 }
 ```
