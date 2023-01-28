@@ -2,7 +2,7 @@
 id: 8scrji4wa1nwmrz4a0vosim
 title: Publish with Obsidian Github Publisher
 desc: 'Publish vault with Obsidian Github Publisher and mkdocs'
-updated: 1673652597936
+updated: 1674924229704
 created: 1673404028262
 tags: cat.tut
 ---
@@ -71,6 +71,17 @@ In a beautiful day, I have interest to publish a trading journal using [mkdocs](
     - command `Github Publisher: Share active file` to send only this active note
     - or command `Github Publisher: Upload all shared note` to send all the notes with the key `dg-publish: true`
 
+## Notes
+
+### Working folder of a mkdocs repository
+
+Each Markdown file inside the folder `docs` will be rendered as a page of the site. The index page is located at `docs\index.md`. Sub-folders are used as the path to a group of related posts.
+
+If a post is named other than `index.md`, the filename will be used as the directory path of the generated page. Here is how MkDocs generates URLs for Markdown posts:
+- folder `docs` becomes the root of the site `www.site.com/`
+- file `docs\blog\post.md` becomes the link `www.site.com/blog/post/`
+- file `docs\blog\post\index.md` also becomes the link `www.site.com/blog/post/`
+
 ## Related
 
 - [[notes.tutorial.mkdocs-publish-obsidian]]
@@ -79,3 +90,4 @@ In a beautiful day, I have interest to publish a trading journal using [mkdocs](
 - [Deploy MkDocs with Material or Material Insiders theme to Netlify](https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-netlify/)
 - [Deploy MkDocs with Material or Material Insiders theme to Cloudflare Pages](https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-cloudflare/)
 - [Cloudflare Docs | Deploy an Mkdocs site](https://developers.cloudflare.com/pages/framework-guides/deploy-an-mkdocs-site/)
+- [A Guide to Create a Personal Site using Material for MkDocs | codeinsideout](https://www.codeinsideout.com/blog/site-setup/create-site-project/)

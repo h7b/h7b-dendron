@@ -2,7 +2,7 @@
 id: no5qlp4pwotcrz5weaavkkz
 title: Triggers in Google Sheets
 desc: 'Triggers in Google Sheets'
-updated: 1673934314904
+updated: 1673989361315
 created: 1673879371252
 ---
 # Triggers in Google Sheets
@@ -108,4 +108,5 @@ function deleteTrigger(triggerId) {
 
 ## Related
 
+- [[My experience with time-driven triggers | notes.daily.2022-11-16.stock-trading-spreadsheet.track-daily-history.my_version#version-4]]
 - [spreadsheet.dev | Create triggers programmatically using Apps Script](https://spreadsheet.dev/create-triggers-programmatically-using-apps-script)

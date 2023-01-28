@@ -2,7 +2,7 @@
 id: DgpESplxOc3FCyUunecEw
 title: Mkdocs Publish Obsidian
 desc: 'Use mkdocs to publish an Obsidian vault'
-updated: 1673402645978
+updated: 1674923281029
 created: 1639879650950
 tags: cat.tut
 ---
@@ -22,7 +22,8 @@ Discussion of workflow in Obsidian forum
 
 Showcase: [Tarek Shehata](https://tarekshehata.github.io/alkashi/Math/Basic%20Shapes/Circle/), [Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/)
 
-Thoughts:
+## Thoughts
+
 - My 2nd favorite if I need to publish my Obsidian vault
 - has dark theme, built-in navigation bar, search feature, `Next` and `Previous` UI links at the end of each doc page, support `mermaid.js` diagram using [mkdocs-mermaid2-plugin](https://github.com/fralau/mkdocs-mermaid2-plugin)
 - open source, static site generator, documents are markdown md files

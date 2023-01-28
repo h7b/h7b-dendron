@@ -2,7 +2,7 @@
 id: 04geuklafavqf0wsj77mxrn
 title: My version
 desc: ''
-updated: 1673937408315
+updated: 1673989255762
 created: 1672718315847
 ---
 # My version
@@ -171,9 +171,13 @@ By default, the time you specify will be indexed to the timezone of the script. 
 
 Learned from [this tutorial by spreadsheet.dev](https://spreadsheet.dev/create-triggers-programmatically-using-apps-script), and [stackoverflow](https://stackoverflow.com/questions/19223823/google-script-trigger-weekdays-only)
 
+Notes:
+- [onWeekDay()](https://developers.google.com/apps-script/reference/script/clock-trigger-builder#onweekdayday) only works with [everyWeeks()](https://developers.google.com/apps-script/reference/script/clock-trigger-builder#everyweeksn)
+- Since the script is [bound](https://developers.google.com/apps-script/guides/bound) to a specific Google Sheets file (it was created from that document rather than as a [standalone script](https://developers.google.com/apps-script/guides/standalone)), I don't need to use [forSpreadsheet()](https://developers.google.com/apps-script/reference/script/trigger-builder#forspreadsheetkey) to tie the script to the spreadsheet with the given ID
+
 ```javascript
 /**
- * Creates two time-driven triggers tied to the spreadsheet with the given ID
+ * Creates two time-driven triggers tied to the spreadsheet
  * @see https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers
  */
 function createTimeDrivenTriggers() {
@@ -188,20 +192,18 @@ function createTimeDrivenTriggers() {
   for (var i=0; i<weekDays.length; i++) {
     // Trigger refreshImportXml() function every weekday at 17:00 timezone Saigon.
     ScriptApp.newTrigger('refreshImportXml')
-      .forSpreadsheet('put_your_spreadsheet_id_here')
       .timeBased()
       .onWeekDay(weekDays[i])
       .atHour(17)
-      .everyDays(1)
+      .everyWeeks(1)
       .inTimezone('Asia/Saigon')
       .create();
     // Trigger recordValues() function every weekday at 19:00 timezone Saigon.
     ScriptApp.newTrigger('recordValues')
-      .forSpreadsheet('put_your_spreadsheet_id_here')
       .timeBased()
       .onWeekDay(weekDays[i])
       .atHour(19)
-      .everyDays(1)
+      .everyWeeks(1)
       .inTimezone('Asia/Saigon')
       .create();
   }
