@@ -2,7 +2,7 @@
 id: hpyaoklbudntddisk5ysr2q
 title: Cách tính và thể hiện giá trên bảng giá chứng khoán
 desc: 'Giá trần, giá sàn là gì? Cách tính và thể hiện trên bảng giá chứng khoán'
-updated: 1668637822800
+updated: 1675136882817
 created: 1668635287434
 tags:
 - cat.read
@@ -18,7 +18,7 @@ Giá trần, giá sàn là gì? Cách tính và thể hiện trên bảng chứn
 
 Giá trần, ký hiệu CE (ceiling), là mức giá cao nhất mà một mã cổ phiếu có thể tăng trong một phiên giao dịch. Nhà đầu tư sẽ không được đặt giá mua/bán vượt quá so với mức giá này.
 
-Trên bảng giá chứng khoán, giá trần được diễn tả bằng màu tím như hình dưới đây.
+Trên bảng giá chứng khoán, giá trần được diễn tả bằng màu tím.
 
 `Giá trần = Giá tham chiếu x (100% + Biên độ dao động)`
 
@@ -58,8 +58,9 @@ Biên độ dao động giá cổ phiếu trên các sàn chứng khoán là ph�
 
 ## Khác
 
-- **Giá xanh** là giá cao hơn giá tham chiếu nhưng không phải giá trần.
-- **Giá đỏ** là giá thấp hơn giá tham chiếu nhưng không phải giá sàn.
+- **Giá xanh** thể hiện giá tăng so với giá tham chiếu nhưng không đạt đến giá trần.
+- **Giá đỏ** thể hiện giá giảm so với giá tham chiếu nhưng không phải giá sàn.
+- **Giá vàng** thể hiện giá bằng giá tham chiếu
 - Tổng khối lượng khớp (**Tổng KL**) là tổng khối lượng cổ phiếu được giao dịch trong một ngày giao dịch. Cột này cho bạn biết được tính thanh khoản của cổ phiếu.
 - **Khớp lệnh** là việc bên mua chấp nhận mua mức giá bên bán đang treo bán (Không cần xếp lệnh lệnh chờ mua mà mua trực tiếp vào lệnh đang treo bán) hoặc bên bán chấp nhận bán thẳng vào mức giá mà người bên mua đang chờ mua (không cần treo bán mà để lệnh được khớp luôn).
 - Giá cao nhất (**Cao**) là giá khớp ở mốc cao nhất trong phiên (chưa chắc đã phải là giá trần).

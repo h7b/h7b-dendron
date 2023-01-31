@@ -2,7 +2,7 @@
 id: 6sdgs8tonosp3cc9bptsfyd
 title: CSS snippet in Obsidian
 desc: 'How to use CSS snippet in Obsidian'
-updated: 1673733867632
+updated: 1675133597433
 created: 1673733051762
 tags: cat.tut
 ---
@@ -30,3 +30,7 @@ Steps to install
     - Or I can use the [Snippet Downloader](https://github.com/Lisandra-dev/obsidian-snippet-downloader) plugin to manage any snippet in batch
 3. Go to `Obsidian` → `Settings` → `Appearance`, then toggle the snippet on
 4. Go to `Obsidian` → `Style Settings` → `AnuPpuccin Themes Extended` to choose the color scheme.
+
+## Related
+
+- [[notes.tutorial.obsidian-md.tips-obs]]
