@@ -2,7 +2,7 @@
 id: 8atizi2bpulrhjwbodifoqm
 title: Quy định giao dịch chứng khoán
 desc: 'Quy định giao dịch chứng khoán'
-updated: 1675137193678
+updated: 1675274443975
 created: 1675133979110
 tags:
 - cat.tut
@@ -46,7 +46,7 @@ Có hai loại khớp lệnh là khớp lệnh định kỳ và khớp lệnh li
     - Ví dụ về khớp lệnh định kỳ: (xem thêm tại [link](https://stockinsight.hsc.com.vn/khop-lenh-duoc-thuc-hien-nhu-the-nao/))
 - **Khớp lệnh liên tục** là phương thức giao dịch được thực hiện trên cơ sở so khớp tức thì các lệnh mua và lệnh bán chứng khoán ngay khi lệnh được nhập vào hệ thống giao dịch, thay vì cộng dồn và chờ đến một thời điểm nhất định. Các lệnh có mức giá tốt nhất (mua cao, bán thấp) được ưu tiên thực hiện trước. Nếu nhiều lệnh có cùng mức giá như nhau thì lệnh nào vào hệ thống trước sẽ được ưu tiên
     - Ví dụ về khớp lệnh liên tục: (xem thêm tại [link](https://stockinsight.hsc.com.vn/khop-lenh-duoc-thuc-hien-nhu-the-nao/))
--Ngoài ra còn có **Khớp lệnh thỏa thuận**: Bên mua và bên bán tự thỏa thuận với nhau về các điều kiện giao dịch, sau đó thông báo cho công ty chứng khoán ghi nhận kết quả giao dịch vào hệ thống giao dịch. Hoặc bên mua/bên bán thông qua công ty chứng khoán để tìm đối tác giao dịch thỏa thuận đối ứng.
+- Ngoài ra còn có **Khớp lệnh thỏa thuận**: Bên mua và bên bán tự thỏa thuận với nhau về các điều kiện giao dịch, sau đó thông báo cho công ty chứng khoán ghi nhận kết quả giao dịch vào hệ thống giao dịch. Hoặc bên mua/bên bán thông qua công ty chứng khoán để tìm đối tác giao dịch thỏa thuận đối ứng.
 
 ## Các loại lệnh giao dịch chứng khoán
 
@@ -63,15 +63,20 @@ ref: [tcbs](https://www.tcbs.com.vn/vi_VN/ho-tro/chi-tiet?url=cac-loai-lenh-giao
     - Là lệnh mua/bán chứng khoán tại mức giá bán thấp nhất/ giá mua cao nhất hiện có trên thị trường
     - Khi được nhập vào hệ thống giao dịch, lệnh mua MP sẽ được thực hiện ngay tại mức giá bán thấp nhất và lệnh bán MP sẽ thực hiện ngay tại mức giá mua cao nhất hiện có trên thị trường. 
     - Nếu khối lượng đặt lệnh của lệnh MP vẫn chưa được thực hiện hết, lệnh MP sẽ được xem là lệnh mua tại mức giá bán cao hơn hoặc lệnh bán tại mức giá mua thấp hơn tiếp theo hiện có trên thị trường và tiếp tục so khớp
-    - Nếu khối lượng đặt của lệnh MP vẫn còn sau khi giao dịch theo nguyên tắc trên và không thể tiếp tục khớp được nữa thì lệnh MP sẽ được chuyển thành lệnh giới hạn mua tại mức giá cao hơn một đơn vị yết giá so với giá giao dịch cuối cùng trước đó hoặc lệnh giới hạn bán tại mức giá thấp hơn một đơn vị yết giá so với giá giao dịch cuối cùng trước đó
+    - Nếu khối lượng đặt của lệnh MP vẫn còn sau khi giao dịch theo nguyên tắc trên và không thể tiếp tục khớp được nữa thì lệnh MP sẽ được chuyển thành lệnh giới hạn mua tại mức giá cao hơn một [[đơn vị yết giá|notes.daily.2023-01-30.quy-dinh-giao-dich-chung-khoan#đơn-vị-yết-giá]] so với giá giao dịch cuối cùng trước đó hoặc lệnh giới hạn bán tại mức giá thấp hơn một đơn vị yết giá so với giá giao dịch cuối cùng trước đó
 - Lệnh giao dịch tại mức giá khớp lệnh xác định giá đóng cửa (ATC)
     - Là lệnh đặt mua hoặc đặt bán chứng khoán tại mức giá đóng cửa. Lệnh ATC được ưu tiên trước lệnh giới hạn trong khi so khớp lệnh
     - Đợt khớp lệnh định kỳ xác định giá đóng cửa sẽ không xác định được giá khớp lệnh nếu chỉ có lệnh ATC trên sổ lệnh
     - Lệnh sẽ tự động tự hủy bỏ sau khi hết phiên nếu lệnh không được thực hiện hoặc không được thực hiện hết
 
-## Ngày thanh toán T+0, T+2, T+3 là gì?
+## Thời gian thanh toán? Ngày thanh toán T+0, T+2, T+3 là gì?
 
-ref: [vnexpress](https://vnexpress.net/thuat-ngu-chung-khoan-ngay-thanh-toan-t-0-t-2-t-3-la-gi-4487756.html)
+ref: [vnexpress](https://vnexpress.net/thuat-ngu-chung-khoan-ngay-thanh-toan-t-0-t-2-t-3-la-gi-4487756.html), [fpts](https://www.fpts.com.vn/ho-tro-khach-hang/giao-dich-chung-khoan-co-so/quy-dinh-giao-dich/quy-dinh-cua-hose/)
+
+| Loại giao dịch | Thời gian thanh toán |
+|---|---|
+| Cổ phiếu, chứng chỉ quỹ | T + 2 |
+| Trái phiếu | T + 1 |
 
 T là viết tắt của từ “transaction” (giao dịch), còn số theo sau thể hiện ngày mà bên bán nhận được tiền và bên mua được giao dịch chứng khoán đã mua.
 
@@ -82,6 +87,34 @@ Ngày đặt lệnh mua/bán và khớp thành công được hiểu là T+0. T�
 Cổ phiếu sẽ vào tài khoản người mua lúc 16h30 sau hai ngày từ lúc khớp lệnh, còn tiền sẽ vào tài khoản người mua cùng thời điểm. Theo cách tính trên (không tính thứ Bảy và Chủ nhật), ngày này được gọi là T+2.
 
 Tuy nhiên, khi nhận cổ phiếu hoặc nhận tiền vào ngày T+2, nhà đầu tư vẫn chưa được giao dịch mà phải chờ đến sáng hôm sau (tức là T+3).
+
+## Đơn vị giao dịch
+
+ref: [fpts](https://www.fpts.com.vn/ho-tro-khach-hang/giao-dich-chung-khoan-co-so/quy-dinh-giao-dich/quy-dinh-cua-hose/)
+
+- Đơn vị giao dịch khớp lệnh **lô chẵn**: 100 cố phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền
+    - Mỗi lệnh giao dịch **lô chẵn** không được vượt quá khối lượng tối đa là 500.000 cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền
+- Khối lượng **giao dịch thỏa thuận**: từ 20.000 cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền trở lên
+    - Không quy định đơn vị giao dịch đối với giao dịch thỏa thuận, giao dịch trái phiếu
+- Đơn vị giao dịch khớp lệnh **lô lẻ**: 1 - 99 cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền.
+    - Giao dịch chứng khoán **lô lẻ** hoàn toàn tách biệt với giao dịch chứng khoán lô chẵn, các lệnh giao dịch chứng khoán lô lẻ chỉ được khớp với nhau và không được khớp với lệnh chứng khoán lô chẵn
+
+## Đơn vị yết giá
+
+ref: [fpts](https://www.fpts.com.vn/ho-tro-khach-hang/giao-dich-chung-khoan-co-so/quy-dinh-giao-dich/quy-dinh-cua-hose/)
+
+Đối với phương thức khớp lệnh:
+
+| Mức giá | Đơn vị yết giá |
+|---|---|
+|  <10.000 đồng |  10 đồng |
+|  10.000 - 49.950 đồng |  50 đồng |
+|  ≥ 50.000 đồng |  100 đồng |
+
+Đối với chứng chỉ quỹ ETF, chứng quyền: Áp dụng đơn vị yết giá 10 đồng cho tất cả các mức giá.
+
+Không qui định đơn vị yết giá đối với giao dịch thỏa thuận trái phiếu.
+
 
 ## Related
 
